@@ -17,15 +17,15 @@ import tensorflow as tf
 
 stub(globals())
 
-file1 = 'data/s3/posticml-trpo-maml-ant200/maml1_fbs20_mbs40_flr_0.1_mlr0.01/itr_375.pkl'
-file2 = 'data/s3/posticml-trpo-maml-ant200/randenv100traj/itr_575.pkl'
-file3 = 'data/s3/posticml-trpo-maml-ant200/oracleenv100traj/itr_550.pkl'
+file1 = 'data/local/posticml-trpo-maml-antpos-200/maml1_fbs20_mbs20_flr_0.1_mlr0.01/itr_375.pkl'
+file2 = 'data/local/posticml-trpo-maml-antpos-200/randenv100traj/itr_575.pkl'
+file3 = 'data/local/posticml-trpo-maml-antpos-200/oracleenv100traj/itr_550.pkl'
 
 make_video = False  # generate results if False, run code to make video if True
 run_id = 1  # for if you want to run this script in multiple terminals (need to have different ids for each run)
 
 if not make_video:
-    test_num_goals = 40
+    test_num_goals = 5
     np.random.seed(1)
     goals = np.random.uniform(0.0, 3.0, size=(test_num_goals, ))
 else:
@@ -41,14 +41,16 @@ names = ['maml','pretrain','random', 'oracle']
 exp_names = [gen_name + name for name in names]
 
 step_sizes = [0.1, 0.2, 1.0, 0.0]
-initial_params_files = [file1, file2, None, file3]
+initial_params_files = [file1, None, file2, file3]
 
 
 all_avg_returns = []
 for step_i, initial_params_file in zip(range(len(step_sizes)), initial_params_files):
     avg_returns = []
 
-    for goal in goals:
+    for g_i, goal in enumerate(goals):
+
+        my_exp_name = 'test' + str(run_id) + '/' + names[step_i] + '/goal' + str(g_i)
 
         if initial_params_file is not None and 'oracle' in initial_params_file:
             env = normalize(AntEnvOracle())
@@ -91,14 +93,14 @@ for step_i, initial_params_file in zip(range(len(step_sizes)), initial_params_fi
             # will be used
             seed=1,
             exp_prefix='ant_test_posticml',
-            exp_name='test' + str(run_id),
-            #plot=True,
+            exp_name=my_exp_name,
+            plot=True,
         )
 
 
 
         # get return from the experiment
-        with open('data/local/ant-test-posticml/test'+str(run_id)+'/progress.csv', 'r') as f:
+        with open('data/local/ant-test-posticml/' + my_exp_name +'/progress.csv', 'r') as f:
             reader = csv.reader(f, delimiter=',')
             i = 0
             row = None

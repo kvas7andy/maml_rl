@@ -1,0 +1,74 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYBgAAAF9fYXJnc3EDKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBCmBcQV9cQYoWAYAAABrd2FyZ3NxB31xCChYDwAAAG1heF9wYXRoX2xlbmd0aHEJS8hYBAAAAHBsb3RxColYCAAAAGJhc2VsaW5lcQtoBCmBcQx9cQ0oaAd9cQ5YCAAAAGVudl9zcGVjcQ9jcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnEQKYFxEX1xEihYBAAAAF9vYmpxE2gEKYFxFH1xFShoB31xFlgLAAAAd3JhcHBlZF9lbnZxF2gEKYFxGH1xGShoB31xGlgDAAAAZW52cRtoBCmBcRx9cR0oaAd9cR5YCwAAAHByb3h5X2NsYXNzcR9jcmxsYWIuZW52cy5tdWpvY28uYW50X2Vudl9yYW5kX2dvYWxfb3JhY2xlCkFudEVudlJhbmRHb2FsT3JhY2xlCnEgWAQAAABhcmdzcSEpdWJzaB9jcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnEiaCEpdWJzaB9jc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcSNoISl1YlgKAAAAX2F0dHJfbmFtZXEkWAQAAABzcGVjcSV1YnNoH2NybGxhYi5iYXNlbGluZXMubGluZWFyX2ZlYXR1cmVfYmFzZWxpbmUKTGluZWFyRmVhdHVyZUJhc2VsaW5lCnEmaCEpdWJYBQAAAG5faXRycSdN0AdoG2gUWAkAAABzdGVwX3NpemVxKEc/hHrhR64Ue1gGAAAAcG9saWN5cSloBCmBcSp9cSsoaAd9cSwoWBMAAABoaWRkZW5fbm9ubGluZWFyaXR5cS1jdGVuc29yZmxvdy5weXRob24ub3BzLmdlbl9ubl9vcHMKcmVsdQpxLlgEAAAAbmFtZXEvaCloD2gQKYFxMH1xMShoE2gUaCRoJXViWAwAAABoaWRkZW5fc2l6ZXNxMktkS2SGcTN1aB9jc2FuZGJveC5yb2NreS50Zi5wb2xpY2llcy5taW5pbWFsX2dhdXNzX21scF9wb2xpY3kKR2F1c3NpYW5NTFBQb2xpY3kKcTRoISl1YlgIAAAAdXNlX21hbWxxNYhYCgAAAGJhdGNoX3NpemVxNk0gTnVoH2NzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnRycG8KVFJQTwpxN2ghKXViWAUAAAB0cmFpbnE4KX1xOXRxOlgIAAAAX19rd2FyZ3NxO31xPHViLg==",
+  "exp_name": "oracleenv100traj",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.rocky.tf.algos.trpo.TRPO",
+      "batch_size": 20000,
+      "max_path_length": 200,
+      "n_itr": 2000,
+      "plot": false,
+      "step_size": 0.01,
+      "use_maml": true
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.mujoco.ant_env_rand_goal_oracle.AntEnvRandGoalOracle"
+            }
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "rllab.envs.mujoco.ant_env_rand_goal_oracle.AntEnvRandGoalOracle"
+        }
+      }
+    },
+    "policy": {
+      "_name": "sandbox.rocky.tf.policies.minimal_gauss_mlp_policy.GaussianMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.mujoco.ant_env_rand_goal_oracle.AntEnvRandGoalOracle"
+            }
+          }
+        }
+      },
+      "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+      "hidden_sizes": [
+        100,
+        100
+      ],
+      "name": "policy"
+    }
+  },
+  "log_dir": "/home/akvasov/repos/maml_rl/data/local/posticml-trpo-maml-antpos-200/oracleenv100traj",
+  "log_tabular_only": false,
+  "n_parallel": 8,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 1,
+  "snapshot_gap": 25,
+  "snapshot_mode": "gap",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}

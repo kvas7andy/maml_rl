@@ -1,0 +1,62 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYBgAAAF9fYXJnc3EDKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBCmBcQV9cQYoWAsAAABwcm94eV9jbGFzc3EHY3NhbmRib3gucm9ja3kudGYuYWxnb3MudnBnClZQRwpxCFgEAAAAYXJnc3EJKVgGAAAAa3dhcmdzcQp9cQsoWAsAAABsb2FkX3BvbGljeXEMWFcAAABkYXRhL2xvY2FsL3Bvc3RpY21sLXRycG8tbWFtbC1hbnRwb3MtMjAwL21hbWwxX2ZiczIwX21iczQwX2Zscl8wLjFfbWxyMC4wMDUvaXRyXzM3NS5wa2xxDVgIAAAAYmFzZWxpbmVxDmgEKYFxD31xEChoB2NybGxhYi5iYXNlbGluZXMubGluZWFyX2ZlYXR1cmVfYmFzZWxpbmUKTGluZWFyRmVhdHVyZUJhc2VsaW5lCnERaAkpaAp9cRJYCAAAAGVudl9zcGVjcRNjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnEUKYFxFX1xFihYBAAAAF9vYmpxF2gEKYFxGH1xGShoB2NzYW5kYm94LnJvY2t5LnRmLmVudnMuYmFzZQpUZkVudgpxGmgJKWgKfXEbWAsAAAB3cmFwcGVkX2VudnEcaAQpgXEdfXEeKGgHY3JsbGFiLmVudnMubm9ybWFsaXplZF9lbnYKTm9ybWFsaXplZEVudgpxH2gJKWgKfXEgWAMAAABlbnZxIWgEKYFxIn1xIyhoB2NybGxhYi5lbnZzLm11am9jby5hbnRfZW52X3JhbmQKQW50RW52UmFuZApxJGgJKWgKfXEldWJzdWJzdWJYCgAAAF9hdHRyX25hbWVxJlgEAAAAc3BlY3EndWJzdWJYCQAAAHJlc2V0X2FyZ3EoY251bXB5LmNvcmUubXVsdGlhcnJheQpzY2FsYXIKcSljbnVtcHkKZHR5cGUKcSpYAgAAAGY4cStLAEsBh3EsUnEtKEsDWAEAAAA8cS5OTk5K/////0r/////SwB0cS9iQwj+7hPj+tz5P3EwhnExUnEyWAoAAABiYXRjaF9zaXplcTNNoA9YBgAAAHBvbGljeXE0TlgPAAAAbWF4X3BhdGhfbGVuZ3RocTVLyFgOAAAAb3B0aW1pemVyX2FyZ3NxNn1xNyhYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXE4Rz+5mZmZmZmaWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcTljdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcTpYEQAAAHRmX29wdGltaXplcl9hcmdzcTt9cTxYDQAAAGxlYXJuaW5nX3JhdGVxPUc/qZmZmZmZmnN1WAUAAABuX2l0cnE+SwRoIWgYdXViWAUAAAB0cmFpbnE/KX1xQHRxQVgIAAAAX19rd2FyZ3NxQn1xQ3ViLg==",
+  "exp_name": "test0/data-local-posticml-trpo-maml-antpos-200-maml1_fbs20_mbs40_flr_0.1_mlr0.005-itr_375/goal9",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.rocky.tf.algos.vpg.VPG",
+      "batch_size": 4000,
+      "load_policy": "data/local/posticml-trpo-maml-antpos-200/maml1_fbs20_mbs40_flr_0.1_mlr0.005/itr_375.pkl",
+      "max_path_length": 200,
+      "n_itr": 4,
+      "optimizer_args": {
+        "init_learning_rate": 0.1,
+        "tf_optimizer_args": {
+          "learning_rate": 0.05
+        },
+        "tf_optimizer_cls": {
+          "$class": "tensorflow.python.training.gradient_descent.GradientDescentOptimizer"
+        }
+      },
+      "reset_arg": 1.6164502020100708
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.mujoco.ant_env_rand.AntEnvRand"
+            }
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "rllab.envs.mujoco.ant_env_rand.AntEnvRand"
+        }
+      }
+    },
+    "policy": null
+  },
+  "log_dir": "/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test0/data-local-posticml-trpo-maml-antpos-200-maml1_fbs20_mbs40_flr_0.1_mlr0.005-itr_375/goal9",
+  "log_tabular_only": false,
+  "n_parallel": 4,
+  "params_log_file": "params.json",
+  "plot": true,
+  "resume_from": null,
+  "seed": 1,
+  "snapshot_gap": 1,
+  "snapshot_mode": "all",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}

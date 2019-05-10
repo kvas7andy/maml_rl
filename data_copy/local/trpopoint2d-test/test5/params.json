@@ -1,0 +1,69 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYBgAAAF9fYXJnc3EDKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBCmBcQV9cQYoWAsAAABwcm94eV9jbGFzc3EHY3NhbmRib3gucm9ja3kudGYuYWxnb3MudnBnClZQRwpxCFgEAAAAYXJnc3EJKVgGAAAAa3dhcmdzcQp9cQsoWAsAAABsb2FkX3BvbGljeXEMWFgAAABkYXRhL2xvY2FsL3ZwZy1tYW1sLXBvaW50MTAwL3RycG9tYW1sMV9mYnMyMF9tYnM0MF9mbHJfMC4wNW1ldGFscl8wLjAxX3N0ZXAxMS9wYXJhbXMucGtscQ1YBQAAAG5faXRycQ5LBVgPAAAAbWF4X3BhdGhfbGVuZ3RocQ9LZFgIAAAAYmFzZWxpbmVxEGgEKYFxEX1xEihoB2NybGxhYi5iYXNlbGluZXMubGluZWFyX2ZlYXR1cmVfYmFzZWxpbmUKTGluZWFyRmVhdHVyZUJhc2VsaW5lCnETaAkpaAp9cRRYCAAAAGVudl9zcGVjcRVjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnEWKYFxF31xGChYCgAAAF9hdHRyX25hbWVxGVgEAAAAc3BlY3EaWAQAAABfb2JqcRtoBCmBcRx9cR0oaAdjc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcR5oCSloCn1xH1gLAAAAd3JhcHBlZF9lbnZxIGgEKYFxIX1xIihoB2NybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcSNoCSloCn1xJFgDAAAAZW52cSVoBCmBcSZ9cScoaAdjbWFtbF9leGFtcGxlcy5wb2ludF9lbnZfcmFuZGdvYWwKUG9pbnRFbnZSYW5kR29hbApxKGgJKWgKfXEpWAQAAABnb2FscSpdcSsoY251bXB5LmNvcmUubXVsdGlhcnJheQpzY2FsYXIKcSxjbnVtcHkKZHR5cGUKcS1YAgAAAGY4cS5LAEsBh3EvUnEwKEsDWAEAAAA8cTFOTk5K/////0r/////SwB0cTJiQwj6znMcQerSv3EzhnE0UnE1aCxoMEMIlCzWeRMz2D9xNoZxN1JxOGVzdWJzdWJzdWJ1YnN1YmglaBxYCgAAAGJhdGNoX3NpemVxOU2gD1gOAAAAb3B0aW1pemVyX2FyZ3NxOn1xOyhYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXE8Rz/gAAAAAAAAWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcT1jdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcT5YEQAAAHRmX29wdGltaXplcl9hcmdzcT99cUBYDQAAAGxlYXJuaW5nX3JhdGVxQUc/0AAAAAAAAHN1WAYAAABwb2xpY3lxQk51dWJYBQAAAHRyYWlucUMpfXFEdHFFWAgAAABfX2t3YXJnc3FGfXFHdWIu",
+  "exp_name": "test5",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.rocky.tf.algos.vpg.VPG",
+      "batch_size": 4000,
+      "load_policy": "data/local/vpg-maml-point100/trpomaml1_fbs20_mbs40_flr_0.05metalr_0.01_step11/params.pkl",
+      "max_path_length": 100,
+      "n_itr": 5,
+      "optimizer_args": {
+        "init_learning_rate": 0.5,
+        "tf_optimizer_args": {
+          "learning_rate": 0.25
+        },
+        "tf_optimizer_cls": {
+          "$class": "tensorflow.python.training.gradient_descent.GradientDescentOptimizer"
+        }
+      }
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "maml_examples.point_env_randgoal.PointEnvRandGoal",
+              "goal": [
+                -0.29554775026848257,
+                0.3781174363909454
+              ]
+            }
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "maml_examples.point_env_randgoal.PointEnvRandGoal",
+          "goal": [
+            -0.29554775026848257,
+            0.3781174363909454
+          ]
+        }
+      }
+    },
+    "policy": null
+  },
+  "log_dir": "/home/akvasov/repos/maml_rl/data/local/trpopoint2d-test/test5",
+  "log_tabular_only": false,
+  "n_parallel": 4,
+  "params_log_file": "params.json",
+  "plot": true,
+  "resume_from": null,
+  "seed": 4,
+  "snapshot_gap": 1,
+  "snapshot_mode": "last",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}

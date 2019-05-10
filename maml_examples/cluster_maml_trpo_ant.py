@@ -19,8 +19,8 @@ from rllab.misc.instrument import VariantGenerator, variant
 class VG(VariantGenerator):
 
     @variant
-    def fast_lr(self):
-        return [0.1]
+    def fast_lr(self): # gradient step size for policy
+        return [0.5, 0.05] # ORIGINAL: 0.1
 
     @variant
     def meta_step_size(self):
@@ -47,6 +47,7 @@ class VG(VariantGenerator):
 # should also code up alternative KL thing
 
 variants = VG().variants()
+print('\tVariants: ', variants)
 
 max_path_length = 200
 num_grad_updates = 1
@@ -81,7 +82,7 @@ for v in variants:
         max_path_length=max_path_length,
         meta_batch_size=v['meta_batch_size'],
         num_grad_updates=num_grad_updates,
-        n_itr=800,
+        n_itr=400,
         use_maml=use_maml,
         step_size=v['meta_step_size'],
         plot=False,

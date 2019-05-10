@@ -1,0 +1,77 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAsAAABwcm94eV9jbGFzc3EJY3NhbmRib3gucm9ja3kudGYuYWxnb3MubWFtbF90cnBvCk1BTUxUUlBPCnEKWAQAAABhcmdzcQspWAYAAABrd2FyZ3NxDH1xDShYAwAAAGVudnEOaAYpgXEPfXEQKGgJY3NhbmRib3gucm9ja3kudGYuZW52cy5iYXNlClRmRW52CnERaAspaAx9cRJYCwAAAHdyYXBwZWRfZW52cRNoBimBcRR9cRUoaAljcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnEWaAspaAx9cRdoDmgGKYFxGH1xGShoCWNybGxhYi5lbnZzLm11am9jby5hbnRfZW52X3JhbmRfZ29hbApBbnRFbnZSYW5kR29hbApxGmgLKWgMfXEbdWJzdWJzdWJYBQAAAG5faXRycRxNkAFYDwAAAG1heF9wYXRoX2xlbmd0aHEdS8hYCgAAAGJhdGNoX3NpemVxHksUWAkAAABzdGVwX3NpemVxH0c/hHrhR64Ue1gQAAAAbnVtX2dyYWRfdXBkYXRlc3EgSwFYCAAAAGJhc2VsaW5lcSFoBimBcSJ9cSMoaAljcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpxJGgLKWgMfXElWAgAAABlbnZfc3BlY3EmY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQXR0cgpxJymBcSh9cSkoWAQAAABfb2JqcSpoD1gKAAAAX2F0dHJfbmFtZXErWAQAAABzcGVjcSx1YnN1YlgGAAAAcG9saWN5cS1oBimBcS59cS8oaAljc2FuZGJveC5yb2NreS50Zi5wb2xpY2llcy5tYW1sX21pbmltYWxfZ2F1c3NfbWxwX3BvbGljeQpNQU1MR2F1c3NpYW5NTFBQb2xpY3kKcTBoCyloDH1xMShYDgAAAGdyYWRfc3RlcF9zaXplcTJHP7mZmZmZmZpoJmgnKYFxM31xNChoKmgPaCtoLHViWAwAAABoaWRkZW5fc2l6ZXNxNUtkS2SGcTZYBAAAAG5hbWVxN2gtWBMAAABoaWRkZW5fbm9ubGluZWFyaXR5cThjdGVuc29yZmxvdy5weXRob24ub3BzLmdlbl9ubl9vcHMKcmVsdQpxOXV1YlgIAAAAdXNlX21hbWxxOohYDwAAAG1ldGFfYmF0Y2hfc2l6ZXE7SxRYBAAAAHBsb3RxPIl1dWJYBQAAAHRyYWlucT0pfXE+dHE/dWIu",
+  "exp_name": "maml1_fbs20_mbs20_flr_0.1_mlr0.01",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.rocky.tf.algos.maml_trpo.MAMLTRPO",
+      "batch_size": 20,
+      "max_path_length": 200,
+      "meta_batch_size": 20,
+      "n_itr": 400,
+      "num_grad_updates": 1,
+      "plot": false,
+      "step_size": 0.01,
+      "use_maml": true
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.mujoco.ant_env_rand_goal.AntEnvRandGoal"
+            }
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "rllab.envs.mujoco.ant_env_rand_goal.AntEnvRandGoal"
+        }
+      }
+    },
+    "policy": {
+      "_name": "sandbox.rocky.tf.policies.maml_minimal_gauss_mlp_policy.MAMLGaussianMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.mujoco.ant_env_rand_goal.AntEnvRandGoal"
+            }
+          }
+        }
+      },
+      "grad_step_size": 0.1,
+      "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+      "hidden_sizes": [
+        100,
+        100
+      ],
+      "name": "policy"
+    }
+  },
+  "log_dir": "/home/akvasov/repos/maml_rl/data/local/posticml-trpo-maml-antpos-200/maml1_fbs20_mbs20_flr_0.1_mlr0.01",
+  "log_tabular_only": false,
+  "n_parallel": 8,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 1,
+  "snapshot_gap": 25,
+  "snapshot_mode": "gap",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClZhcmlhbnREaWN0CnEAKYFxAShYCAAAAGV4cF9uYW1lcQJYIQAAAG1hbWwxX2ZiczIwX21iczIwX2Zscl8wLjFfbWxyMC4wMXEDWAcAAABmYXN0X2xycQRHP7mZmZmZmZpYDwAAAGZhc3RfYmF0Y2hfc2l6ZXEFSxRYDAAAAF9oaWRkZW5fa2V5c3EGXXEHWAgAAAB0YXNrX3ZhcnEISwJYDgAAAG1ldGFfc3RlcF9zaXplcQlHP4R64UeuFHtYDwAAAG1ldGFfYmF0Y2hfc2l6ZXEKSxRYBAAAAHNlZWRxC0sBdWgBYi4=",
+  "variant_log_file": "variant.json"
+}

@@ -1,0 +1,77 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAsAAABwcm94eV9jbGFzc3EJY3NhbmRib3gucm9ja3kudGYuYWxnb3MubWFtbF90cnBvCk1BTUxUUlBPCnEKWAQAAABhcmdzcQspWAYAAABrd2FyZ3NxDH1xDShYCQAAAHN0ZXBfc2l6ZXEORz90euFHrhR7WAYAAABwb2xpY3lxD2gGKYFxEH1xEShoCWNzYW5kYm94LnJvY2t5LnRmLnBvbGljaWVzLm1hbWxfbWluaW1hbF9nYXVzc19tbHBfcG9saWN5Ck1BTUxHYXVzc2lhbk1MUFBvbGljeQpxEmgLKWgMfXETKFgOAAAAZ3JhZF9zdGVwX3NpemVxFEc/uZmZmZmZmlgIAAAAZW52X3NwZWNxFWNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcRYpgXEXfXEYKFgEAAAAX29ianEZaAYpgXEafXEbKGgJY3NhbmRib3gucm9ja3kudGYuZW52cy5iYXNlClRmRW52CnEcaAspaAx9cR1YCwAAAHdyYXBwZWRfZW52cR5oBimBcR99cSAoaAljcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnEhaAspaAx9cSJYAwAAAGVudnEjaAYpgXEkfXElKGgJY3JsbGFiLmVudnMubXVqb2NvLmFudF9lbnZfcmFuZF9nb2FsCkFudEVudlJhbmRHb2FsCnEmaAspaAx9cSd1YnN1YnN1YlgKAAAAX2F0dHJfbmFtZXEoWAQAAABzcGVjcSl1YlgMAAAAaGlkZGVuX3NpemVzcSpLZEtkhnErWAQAAABuYW1lcSxoD1gTAAAAaGlkZGVuX25vbmxpbmVhcml0eXEtY3RlbnNvcmZsb3cucHl0aG9uLm9wcy5nZW5fbm5fb3BzCnJlbHUKcS51dWJYCgAAAGJhdGNoX3NpemVxL0sUWAUAAABuX2l0cnEwTZABWBAAAABudW1fZ3JhZF91cGRhdGVzcTFLAVgEAAAAcGxvdHEyiVgIAAAAYmFzZWxpbmVxM2gGKYFxNH1xNShoCWNybGxhYi5iYXNlbGluZXMubGluZWFyX2ZlYXR1cmVfYmFzZWxpbmUKTGluZWFyRmVhdHVyZUJhc2VsaW5lCnE2aAspaAx9cTdoFWgWKYFxOH1xOShoGWgaaChoKXVic3ViWA8AAABtZXRhX2JhdGNoX3NpemVxOksoWA8AAABtYXhfcGF0aF9sZW5ndGhxO0vIWAgAAAB1c2VfbWFtbHE8iGgjaBp1dWJYBQAAAHRyYWlucT0pfXE+dHE/dWIu",
+  "exp_name": "maml1_fbs20_mbs40_flr_0.1_mlr0.005",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.rocky.tf.algos.maml_trpo.MAMLTRPO",
+      "batch_size": 20,
+      "max_path_length": 200,
+      "meta_batch_size": 40,
+      "n_itr": 400,
+      "num_grad_updates": 1,
+      "plot": false,
+      "step_size": 0.005,
+      "use_maml": true
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.mujoco.ant_env_rand_goal.AntEnvRandGoal"
+            }
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "rllab.envs.mujoco.ant_env_rand_goal.AntEnvRandGoal"
+        }
+      }
+    },
+    "policy": {
+      "_name": "sandbox.rocky.tf.policies.maml_minimal_gauss_mlp_policy.MAMLGaussianMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.mujoco.ant_env_rand_goal.AntEnvRandGoal"
+            }
+          }
+        }
+      },
+      "grad_step_size": 0.1,
+      "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+      "hidden_sizes": [
+        100,
+        100
+      ],
+      "name": "policy"
+    }
+  },
+  "log_dir": "/home/akvasov/repos/maml_rl/data/local/posticml-trpo-maml-antpos-200/maml1_fbs20_mbs40_flr_0.1_mlr0.005",
+  "log_tabular_only": false,
+  "n_parallel": 8,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 1,
+  "snapshot_gap": 25,
+  "snapshot_mode": "gap",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClZhcmlhbnREaWN0CnEAKYFxAShYDwAAAGZhc3RfYmF0Y2hfc2l6ZXECSxRYBwAAAGZhc3RfbHJxA0c/uZmZmZmZmlgIAAAAZXhwX25hbWVxBFgiAAAAbWFtbDFfZmJzMjBfbWJzNDBfZmxyXzAuMV9tbHIwLjAwNXEFWAgAAAB0YXNrX3ZhcnEGSwJYBAAAAHNlZWRxB0sBWA4AAABtZXRhX3N0ZXBfc2l6ZXEIRz90euFHrhR7WA8AAABtZXRhX2JhdGNoX3NpemVxCUsoWAwAAABfaGlkZGVuX2tleXNxCl1xC3VoAWIu",
+  "variant_log_file": "variant.json"
+}

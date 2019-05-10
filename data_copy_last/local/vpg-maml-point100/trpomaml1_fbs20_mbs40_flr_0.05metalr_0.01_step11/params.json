@@ -1,0 +1,77 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYBgAAAF9fYXJnc3EDKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBCmBcQV9cQYoWAYAAABrd2FyZ3NxB31xCChYCAAAAHVzZV9tYW1scQmIWAUAAABuX2l0cnEKS2RYEAAAAG51bV9ncmFkX3VwZGF0ZXNxC0sBWAgAAABiYXNlbGluZXEMaAQpgXENfXEOKGgHfXEPWAgAAABlbnZfc3BlY3EQY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQXR0cgpxESmBcRJ9cRMoWAQAAABfb2JqcRRoBCmBcRV9cRYoaAd9cRdYCwAAAHdyYXBwZWRfZW52cRhoBCmBcRl9cRooaAd9cRtYAwAAAGVudnEcaAQpgXEdfXEeKGgHfXEfWAQAAABhcmdzcSApWAsAAABwcm94eV9jbGFzc3EhY21hbWxfZXhhbXBsZXMucG9pbnRfZW52X3JhbmRnb2FsClBvaW50RW52UmFuZEdvYWwKcSJ1YnNoICloIWNybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcSN1YnNoICloIWNzYW5kYm94LnJvY2t5LnRmLmVudnMuYmFzZQpUZkVudgpxJHViWAoAAABfYXR0cl9uYW1lcSVYBAAAAHNwZWNxJnVic2ggKWghY3JsbGFiLmJhc2VsaW5lcy5saW5lYXJfZmVhdHVyZV9iYXNlbGluZQpMaW5lYXJGZWF0dXJlQmFzZWxpbmUKcSd1YlgGAAAAcG9saWN5cShoBCmBcSl9cSooaAd9cSsoaBBoESmBcSx9cS0oaBRoFWglaCZ1YlgMAAAAaGlkZGVuX3NpemVzcS5LZEtkhnEvWA4AAABncmFkX3N0ZXBfc2l6ZXEwRz+pmZmZmZmaWBMAAABoaWRkZW5fbm9ubGluZWFyaXR5cTFjdGVuc29yZmxvdy5weXRob24ub3BzLmdlbl9ubl9vcHMKcmVsdQpxMlgEAAAAbmFtZXEzaCh1aCApaCFjc2FuZGJveC5yb2NreS50Zi5wb2xpY2llcy5tYW1sX21pbmltYWxfZ2F1c3NfbWxwX3BvbGljeQpNQU1MR2F1c3NpYW5NTFBQb2xpY3kKcTR1YmgcaBVYDwAAAG1ldGFfYmF0Y2hfc2l6ZXE1SyhYCQAAAHN0ZXBfc2l6ZXE2Rz+EeuFHrhR7WA8AAABtYXhfcGF0aF9sZW5ndGhxN0tkWAQAAABwbG90cTiJWAoAAABiYXRjaF9zaXplcTlLFHVoICloIWNzYW5kYm94LnJvY2t5LnRmLmFsZ29zLm1hbWxfdHJwbwpNQU1MVFJQTwpxOnViWAUAAAB0cmFpbnE7KX1xPHRxPVgIAAAAX19rd2FyZ3NxPn1xP3ViLg==",
+  "exp_name": "trpomaml1_fbs20_mbs40_flr_0.05metalr_0.01_step11",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.rocky.tf.algos.maml_trpo.MAMLTRPO",
+      "batch_size": 20,
+      "max_path_length": 100,
+      "meta_batch_size": 40,
+      "n_itr": 100,
+      "num_grad_updates": 1,
+      "plot": false,
+      "step_size": 0.01,
+      "use_maml": true
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "maml_examples.point_env_randgoal.PointEnvRandGoal"
+            }
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "maml_examples.point_env_randgoal.PointEnvRandGoal"
+        }
+      }
+    },
+    "policy": {
+      "_name": "sandbox.rocky.tf.policies.maml_minimal_gauss_mlp_policy.MAMLGaussianMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "maml_examples.point_env_randgoal.PointEnvRandGoal"
+            }
+          }
+        }
+      },
+      "grad_step_size": 0.05,
+      "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+      "hidden_sizes": [
+        100,
+        100
+      ],
+      "name": "policy"
+    }
+  },
+  "log_dir": "/home/akvasov/repos/maml_rl/data/local/vpg-maml-point100/trpomaml1_fbs20_mbs40_flr_0.05metalr_0.01_step11",
+  "log_tabular_only": false,
+  "n_parallel": 1,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 1,
+  "snapshot_gap": 1,
+  "snapshot_mode": "last",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}

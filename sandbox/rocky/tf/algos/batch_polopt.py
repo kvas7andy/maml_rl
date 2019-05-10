@@ -102,9 +102,14 @@ class BatchPolopt(RLAlgorithm):
 
     def process_samples(self, itr, paths):
         return self.sampler.process_samples(itr, paths)
+    #MAIN_CODE main training code
 
     def train(self):
-        with tf.Session() as sess:
+        gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.333)
+        config = tf.ConfigProto(gpu_options=gpu_options)
+        config.gpu_options.allow_growth = True
+
+        with tf.Session(config=config) as sess:
             if self.load_policy is not None:
                 import joblib
                 self.policy = joblib.load(self.load_policy)['policy']

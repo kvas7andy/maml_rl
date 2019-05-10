@@ -1,0 +1,69 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYBgAAAF9fYXJnc3EDKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBCmBcQV9cQYoWAYAAABrd2FyZ3NxB31xCChYCgAAAGJhdGNoX3NpemVxCU2gD1gGAAAAcG9saWN5cQpOWA8AAABtYXhfcGF0aF9sZW5ndGhxC0tkWAUAAABuX2l0cnEMSwFYCwAAAGxvYWRfcG9saWN5cQ1YMwAAAGRhdGEvbG9jYWwvdHJwby1tYW1sLXBvaW50MTAwL29yYWNsZWVudjIvcGFyYW1zLnBrbHEOWAMAAABlbnZxD2gEKYFxEH1xEShoB31xElgLAAAAd3JhcHBlZF9lbnZxE2gEKYFxFH1xFShoB31xFmgPaAQpgXEXfXEYKGgHfXEZWAQAAABnb2FscRpdcRsoY251bXB5LmNvcmUubXVsdGlhcnJheQpzY2FsYXIKcRxjbnVtcHkKZHR5cGUKcR1YAgAAAGY4cR5LAEsBh3EfUnEgKEsDWAEAAAA8cSFOTk5K/////0r/////SwB0cSJiQwj6znMcQerSv3EjhnEkUnElaBxoIEMIlCzWeRMz2D9xJoZxJ1JxKGVzWAsAAABwcm94eV9jbGFzc3EpY21hbWxfZXhhbXBsZXMucG9pbnRfZW52X3JhbmRnb2FsX29yYWNsZQpQb2ludEVudlJhbmRHb2FsT3JhY2xlCnEqWAQAAABhcmdzcSspdWJzaCljcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnEsaCspdWJzaCljc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcS1oKyl1YlgIAAAAYmFzZWxpbmVxLmgEKYFxL31xMChoB31xMVgIAAAAZW52X3NwZWNxMmNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcTMpgXE0fXE1KFgKAAAAX2F0dHJfbmFtZXE2WAQAAABzcGVjcTdYBAAAAF9vYmpxOGgQdWJzaCljcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpxOWgrKXViWA4AAABvcHRpbWl6ZXJfYXJnc3E6fXE7KFgSAAAAaW5pdF9sZWFybmluZ19yYXRlcTxHP+AAAAAAAABYEAAAAHRmX29wdGltaXplcl9jbHNxPWN0ZW5zb3JmbG93LnB5dGhvbi50cmFpbmluZy5ncmFkaWVudF9kZXNjZW50CkdyYWRpZW50RGVzY2VudE9wdGltaXplcgpxPlgRAAAAdGZfb3B0aW1pemVyX2FyZ3NxP31xQFgNAAAAbGVhcm5pbmdfcmF0ZXFBRz/QAAAAAAAAc3V1aCljc2FuZGJveC5yb2NreS50Zi5hbGdvcy52cGcKVlBHCnFCaCspdWJYBQAAAHRyYWlucUMpfXFEdHFFWAgAAABfX2t3YXJnc3FGfXFHdWIu",
+  "exp_name": "test_oracle",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.rocky.tf.algos.vpg.VPG",
+      "batch_size": 4000,
+      "load_policy": "data/local/trpo-maml-point100/oracleenv2/params.pkl",
+      "max_path_length": 100,
+      "n_itr": 1,
+      "optimizer_args": {
+        "init_learning_rate": 0.5,
+        "tf_optimizer_args": {
+          "learning_rate": 0.25
+        },
+        "tf_optimizer_cls": {
+          "$class": "tensorflow.python.training.gradient_descent.GradientDescentOptimizer"
+        }
+      }
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "maml_examples.point_env_randgoal_oracle.PointEnvRandGoalOracle",
+              "goal": [
+                -0.29554775026848257,
+                0.3781174363909454
+              ]
+            }
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "maml_examples.point_env_randgoal_oracle.PointEnvRandGoalOracle",
+          "goal": [
+            -0.29554775026848257,
+            0.3781174363909454
+          ]
+        }
+      }
+    },
+    "policy": null
+  },
+  "log_dir": "/home/akvasov/repos/maml_rl/data/local/trpopoint2d-test/test_oracle",
+  "log_tabular_only": false,
+  "n_parallel": 4,
+  "params_log_file": "params.json",
+  "plot": true,
+  "resume_from": null,
+  "seed": 4,
+  "snapshot_gap": 1,
+  "snapshot_mode": "last",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}

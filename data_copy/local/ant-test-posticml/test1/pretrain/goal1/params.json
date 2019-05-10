@@ -1,0 +1,82 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxOWAkAAAByZXNldF9hcmdxDWNudW1weS5jb3JlLm11bHRpYXJyYXkKc2NhbGFyCnEOY251bXB5CmR0eXBlCnEPWAIAAABmOHEQSwBLAYdxEVJxEihLA1gBAAAAPHETTk5OSv////9K/////0sAdHEUYkMIPTTMdqxJAUBxFYZxFlJxF1gIAAAAYmFzZWxpbmVxGGgGKYFxGX1xGihoCSloCn1xG1gIAAAAZW52X3NwZWNxHGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcR0pgXEefXEfKFgKAAAAX2F0dHJfbmFtZXEgWAQAAABzcGVjcSFYBAAAAF9vYmpxImgGKYFxI31xJChoCSloCn1xJVgLAAAAd3JhcHBlZF9lbnZxJmgGKYFxJ31xKChoCSloCn1xKVgDAAAAZW52cSpoBimBcSt9cSwoaAkpaAp9cS1YCwAAAHByb3h5X2NsYXNzcS5jcmxsYWIuZW52cy5tdWpvY28uYW50X2Vudl9yYW5kCkFudEVudlJhbmQKcS91YnNoLmNybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcTB1YnNoLmNzYW5kYm94LnJvY2t5LnRmLmVudnMuYmFzZQpUZkVudgpxMXVidWJzaC5jcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpxMnViWAoAAABiYXRjaF9zaXplcTNNoA9YBgAAAHBvbGljeXE0aAYpgXE1fXE2KGgJKWgKfXE3KGgcaB0pgXE4fXE5KGggaCFoImgjdWJYEwAAAGhpZGRlbl9ub25saW5lYXJpdHlxOmN0ZW5zb3JmbG93LnB5dGhvbi5vcHMuZ2VuX25uX29wcwpyZWx1CnE7WAwAAABoaWRkZW5fc2l6ZXNxPEtkS2SGcT1YBAAAAG5hbWVxPmg0dWguY3NhbmRib3gucm9ja3kudGYucG9saWNpZXMubWluaW1hbF9nYXVzc19tbHBfcG9saWN5CkdhdXNzaWFuTUxQUG9saWN5CnE/dWJoKmgjWAUAAABuX2l0cnFASwRYDgAAAG9wdGltaXplcl9hcmdzcUF9cUIoWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcUNjdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcURYEQAAAHRmX29wdGltaXplcl9hcmdzcUV9cUZYDQAAAGxlYXJuaW5nX3JhdGVxR0c/uZmZmZmZmnNYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXFIRz/JmZmZmZmadVgPAAAAbWF4X3BhdGhfbGVuZ3RocUlLyHVoLmNzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnZwZwpWUEcKcUp1YlgFAAAAdHJhaW5xSyl9cUx0cU11Yi4=",
+  "exp_name": "test1/pretrain/goal1",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.rocky.tf.algos.vpg.VPG",
+      "batch_size": 4000,
+      "load_policy": null,
+      "max_path_length": 200,
+      "n_itr": 4,
+      "optimizer_args": {
+        "init_learning_rate": 0.2,
+        "tf_optimizer_args": {
+          "learning_rate": 0.1
+        },
+        "tf_optimizer_cls": {
+          "$class": "tensorflow.python.training.gradient_descent.GradientDescentOptimizer"
+        }
+      },
+      "reset_arg": 2.1609734803264744
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.mujoco.ant_env_rand.AntEnvRand"
+            }
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "rllab.envs.mujoco.ant_env_rand.AntEnvRand"
+        }
+      }
+    },
+    "policy": {
+      "_name": "sandbox.rocky.tf.policies.minimal_gauss_mlp_policy.GaussianMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.mujoco.ant_env_rand.AntEnvRand"
+            }
+          }
+        }
+      },
+      "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+      "hidden_sizes": [
+        100,
+        100
+      ],
+      "name": "policy"
+    }
+  },
+  "log_dir": "/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/pretrain/goal1",
+  "log_tabular_only": false,
+  "n_parallel": 4,
+  "params_log_file": "params.json",
+  "plot": true,
+  "resume_from": null,
+  "seed": 1,
+  "snapshot_gap": 1,
+  "snapshot_mode": "all",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}

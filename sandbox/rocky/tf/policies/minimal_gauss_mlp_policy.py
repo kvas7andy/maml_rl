@@ -71,6 +71,9 @@ class GaussianMLPPolicy(StochasticPolicy, Serializable):
         obs_dim = env_spec.observation_space.flat_dim
         action_dim = env_spec.action_space.flat_dim
 
+        self.all_param_vals = False
+
+        print('obs_dim ', obs_dim, flush=True)
         # create network
         if mean_network is None:
             self.mean_params = mean_params = self.create_MLP(
@@ -248,6 +251,7 @@ class GaussianMLPPolicy(StochasticPolicy, Serializable):
                 l_in = input_tensor
             l_hid = l_in
             for idx in range(n_hidden):
+                print('idx', idx, flush=True)
                 l_hid = forward_dense_layer(l_hid, all_params['W'+str(idx)], all_params['b'+str(idx)],
                                             batch_norm=batch_normalization,
                                             nonlinearity=hidden_nonlinearity,

@@ -1,0 +1,2457 @@
+[32musing seed 1[0m
+2019-05-09 02:04:29.916130 HKT | Setting seed to 1
+2019-05-09 02:04:29.916130 HKT | Setting seed to 2
+2019-05-09 02:04:29.916351 HKT | Setting seed to 3
+2019-05-09 02:04:29.916667 HKT | Setting seed to 4
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 125)
+2019-05-09 02:04:34.059680 HKT | [test1/maml/goal0] Populating workers...
+2019-05-09 02:04:39.316207 HKT | [test1/maml/goal0] Populated
+2019-05-09 02:04:39.340825 HKT | [test1/maml/goal0] itr #0 | Obtaining samples...
+2019-05-09 02:04:41.519423 HKT | [test1/maml/goal0] itr #0 | Processing samples...
+2019-05-09 02:04:41.519893 HKT | [test1/maml/goal0] itr #0 | fitting baseline...
+2019-05-09 02:04:41.559128 HKT | [test1/maml/goal0] itr #0 | fitted
+2019-05-09 02:04:41.572649 HKT | [test1/maml/goal0] itr #0 | Logging diagnostics...
+2019-05-09 02:04:41.573937 HKT | [test1/maml/goal0] itr #0 | Optimizing policy...
+2019-05-09 02:04:41.574255 HKT | [test1/maml/goal0] itr #0 | optimizing policy
+2019-05-09 02:04:41.841775 HKT | [test1/maml/goal0] itr #0 | Saving snapshot...
+2019-05-09 02:04:41.847661 HKT | [test1/maml/goal0] itr #0 | Saved
+2019-05-09 02:04:41.848320 HKT | ----------------------  -------------
+2019-05-09 02:04:41.848394 HKT | TotalExecTime               2.17571
+2019-05-09 02:04:41.848454 HKT | AverageReturn             -34.3865
+2019-05-09 02:04:41.848509 HKT | ExplainedVariance           0.413163
+2019-05-09 02:04:41.848562 HKT | NumTrajs                   24
+2019-05-09 02:04:41.848615 HKT | Entropy                     9.47743
+2019-05-09 02:04:41.848666 HKT | Perplexity              13061.5
+2019-05-09 02:04:41.848718 HKT | StdReturn                  23.6565
+2019-05-09 02:04:41.848770 HKT | MaxReturn                  11.4369
+2019-05-09 02:04:41.848821 HKT | MinReturn                 -79.6756
+2019-05-09 02:04:41.848871 HKT | AverageForwardProgress      0.204597
+2019-05-09 02:04:41.848922 HKT | MaxForwardProgress          1.13609
+2019-05-09 02:04:41.848973 HKT | MinForwardProgress         -0.672755
+2019-05-09 02:04:41.849024 HKT | StdForwardProgress          0.472297
+2019-05-09 02:04:41.849075 HKT | AveragePolicyStd            0.796703
+2019-05-09 02:04:41.849125 HKT | LossBefore                  0.0136192
+2019-05-09 02:04:41.849176 HKT | LossAfter                  -0.099666
+2019-05-09 02:04:41.849227 HKT | MeanKL                      0.768835
+2019-05-09 02:04:41.849277 HKT | MaxKL                       8.02345
+2019-05-09 02:04:41.849329 HKT | Time                        2.50697
+2019-05-09 02:04:41.849380 HKT | ItrTime                     2.50697
+2019-05-09 02:04:41.849430 HKT | ----------------------  -------------
+2019-05-09 02:04:41.849600 HKT | [test1/maml/goal0] itr #1 | Obtaining samples...
+2019-05-09 02:04:43.950575 HKT | [test1/maml/goal0] itr #1 | Processing samples...
+2019-05-09 02:04:43.951055 HKT | [test1/maml/goal0] itr #1 | fitting baseline...
+2019-05-09 02:04:43.978937 HKT | [test1/maml/goal0] itr #1 | fitted
+2019-05-09 02:04:43.986457 HKT | [test1/maml/goal0] itr #1 | Logging diagnostics...
+2019-05-09 02:04:43.987847 HKT | [test1/maml/goal0] itr #1 | Optimizing policy...
+2019-05-09 02:04:43.988167 HKT | [test1/maml/goal0] itr #1 | optimizing policy
+2019-05-09 02:04:44.112741 HKT | [test1/maml/goal0] itr #1 | Saving snapshot...
+2019-05-09 02:04:44.118697 HKT | [test1/maml/goal0] itr #1 | Saved
+2019-05-09 02:04:44.119448 HKT | ----------------------  -------------
+2019-05-09 02:04:44.119544 HKT | TotalExecTime               2.09861
+2019-05-09 02:04:44.119612 HKT | AverageReturn             -43.8781
+2019-05-09 02:04:44.119678 HKT | ExplainedVariance           0.53398
+2019-05-09 02:04:44.119737 HKT | NumTrajs                   23
+2019-05-09 02:04:44.119794 HKT | Entropy                     9.48015
+2019-05-09 02:04:44.119851 HKT | Perplexity              13097.1
+2019-05-09 02:04:44.119906 HKT | StdReturn                  25.8686
+2019-05-09 02:04:44.119962 HKT | MaxReturn                   9.06786
+2019-05-09 02:04:44.120018 HKT | MinReturn                -108.16
+2019-05-09 02:04:44.120072 HKT | AverageForwardProgress      0.0329138
+2019-05-09 02:04:44.120127 HKT | MaxForwardProgress          1.09598
+2019-05-09 02:04:44.120181 HKT | MinForwardProgress         -1.23701
+2019-05-09 02:04:44.120235 HKT | StdForwardProgress          0.515272
+2019-05-09 02:04:44.120290 HKT | AveragePolicyStd            0.796875
+2019-05-09 02:04:44.120349 HKT | LossBefore                  0.0405084
+2019-05-09 02:04:44.120403 HKT | LossAfter                  -0.0138658
+2019-05-09 02:04:44.120457 HKT | MeanKL                      0.139328
+2019-05-09 02:04:44.120511 HKT | MaxKL                       1.02892
+2019-05-09 02:04:44.120564 HKT | Time                        4.77803
+2019-05-09 02:04:44.120617 HKT | ItrTime                     2.26924
+2019-05-09 02:04:44.120671 HKT | ----------------------  -------------
+2019-05-09 02:04:44.120818 HKT | [test1/maml/goal0] itr #2 | Obtaining samples...
+2019-05-09 02:04:46.205857 HKT | [test1/maml/goal0] itr #2 | Processing samples...
+2019-05-09 02:04:46.206298 HKT | [test1/maml/goal0] itr #2 | fitting baseline...
+2019-05-09 02:04:46.255727 HKT | [test1/maml/goal0] itr #2 | fitted
+2019-05-09 02:04:46.274113 HKT | [test1/maml/goal0] itr #2 | Logging diagnostics...
+2019-05-09 02:04:46.275170 HKT | [test1/maml/goal0] itr #2 | Optimizing policy...
+2019-05-09 02:04:46.275276 HKT | [test1/maml/goal0] itr #2 | optimizing policy
+2019-05-09 02:04:46.318230 HKT | [test1/maml/goal0] itr #2 | Saving snapshot...
+2019-05-09 02:04:46.327236 HKT | [test1/maml/goal0] itr #2 | Saved
+2019-05-09 02:04:46.328358 HKT | ----------------------  -------------
+2019-05-09 02:04:46.328500 HKT | TotalExecTime               2.08252
+2019-05-09 02:04:46.328703 HKT | AverageReturn             -40.3257
+2019-05-09 02:04:46.328890 HKT | ExplainedVariance           0.54284
+2019-05-09 02:04:46.329074 HKT | NumTrajs                   23
+2019-05-09 02:04:46.329253 HKT | Entropy                     9.4842
+2019-05-09 02:04:46.329431 HKT | Perplexity              13150.3
+2019-05-09 02:04:46.329606 HKT | StdReturn                  19.3878
+2019-05-09 02:04:46.329781 HKT | MaxReturn                 -15.5003
+2019-05-09 02:04:46.329955 HKT | MinReturn                 -85.239
+2019-05-09 02:04:46.330130 HKT | AverageForwardProgress      0.0956662
+2019-05-09 02:04:46.330303 HKT | MaxForwardProgress          0.581292
+2019-05-09 02:04:46.330477 HKT | MinForwardProgress         -0.799468
+2019-05-09 02:04:46.330649 HKT | StdForwardProgress          0.386541
+2019-05-09 02:04:46.330821 HKT | AveragePolicyStd            0.797354
+2019-05-09 02:04:46.330995 HKT | LossBefore                 -0.0153519
+2019-05-09 02:04:46.331176 HKT | LossAfter                  -0.0694031
+2019-05-09 02:04:46.331350 HKT | MeanKL                      0.113906
+2019-05-09 02:04:46.331524 HKT | MaxKL                       1.13961
+2019-05-09 02:04:46.331697 HKT | Time                        6.98661
+2019-05-09 02:04:46.331871 HKT | ItrTime                     2.2066
+2019-05-09 02:04:46.332042 HKT | ----------------------  -------------
+2019-05-09 02:04:46.332344 HKT | [test1/maml/goal0] itr #3 | Obtaining samples...
+2019-05-09 02:04:48.421183 HKT | [test1/maml/goal0] itr #3 | Processing samples...
+2019-05-09 02:04:48.421649 HKT | [test1/maml/goal0] itr #3 | fitting baseline...
+2019-05-09 02:04:48.468725 HKT | [test1/maml/goal0] itr #3 | fitted
+2019-05-09 02:04:48.481360 HKT | [test1/maml/goal0] itr #3 | Logging diagnostics...
+2019-05-09 02:04:48.486257 HKT | [test1/maml/goal0] itr #3 | Optimizing policy...
+2019-05-09 02:04:48.487429 HKT | [test1/maml/goal0] itr #3 | optimizing policy
+2019-05-09 02:04:48.518629 HKT | [test1/maml/goal0] itr #3 | Saving snapshot...
+2019-05-09 02:04:48.531907 HKT | [test1/maml/goal0] itr #3 | Saved
+2019-05-09 02:04:48.533165 HKT | ----------------------  -------------
+2019-05-09 02:04:48.533292 HKT | TotalExecTime               2.08428
+2019-05-09 02:04:48.533399 HKT | AverageReturn             -28.0845
+2019-05-09 02:04:48.533502 HKT | ExplainedVariance           0.500285
+2019-05-09 02:04:48.533603 HKT | NumTrajs                   23
+2019-05-09 02:04:48.533704 HKT | Entropy                     9.48267
+2019-05-09 02:04:48.533803 HKT | Perplexity              13130.1
+2019-05-09 02:04:48.533903 HKT | StdReturn                  26.1395
+2019-05-09 02:04:48.534001 HKT | MaxReturn                  19.5525
+2019-05-09 02:04:48.534100 HKT | MinReturn                 -95.1079
+2019-05-09 02:04:48.534199 HKT | AverageForwardProgress      0.341755
+2019-05-09 02:04:48.534297 HKT | MaxForwardProgress          1.29597
+2019-05-09 02:04:48.534396 HKT | MinForwardProgress         -0.990901
+2019-05-09 02:04:48.534493 HKT | StdForwardProgress          0.519199
+2019-05-09 02:04:48.534589 HKT | AveragePolicyStd            0.797214
+2019-05-09 02:04:48.534687 HKT | LossBefore                  0.0170098
+2019-05-09 02:04:48.534785 HKT | LossAfter                  -0.0246884
+2019-05-09 02:04:48.534882 HKT | MeanKL                      0.0881913
+2019-05-09 02:04:48.544672 HKT | MaxKL                       0.827228
+2019-05-09 02:04:48.544773 HKT | Time                        9.19126
+2019-05-09 02:04:48.544871 HKT | ItrTime                     2.19973
+2019-05-09 02:04:48.544970 HKT | ----------------------  -------------
+[32musing seed 3[0m
+[32musing seed 4[0m
+[32musing seed 2[0m
+[32musing seed 1[0m
+2019-05-09 02:04:50.455132 HKT | Setting seed to 2
+2019-05-09 02:04:50.455132 HKT | Setting seed to 1
+2019-05-09 02:04:50.455142 HKT | Setting seed to 3
+2019-05-09 02:04:50.455358 HKT | Setting seed to 4
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 125)
+2019-05-09 02:04:54.466155 HKT | [test1/maml/goal1] Populating workers...
+2019-05-09 02:04:59.904901 HKT | [test1/maml/goal1] Populated
+2019-05-09 02:04:59.935091 HKT | [test1/maml/goal1] itr #0 | Obtaining samples...
+2019-05-09 02:05:02.068301 HKT | [test1/maml/goal1] itr #0 | Processing samples...
+2019-05-09 02:05:02.068752 HKT | [test1/maml/goal1] itr #0 | fitting baseline...
+2019-05-09 02:05:02.099646 HKT | [test1/maml/goal1] itr #0 | fitted
+2019-05-09 02:05:02.106998 HKT | [test1/maml/goal1] itr #0 | Logging diagnostics...
+2019-05-09 02:05:02.108040 HKT | [test1/maml/goal1] itr #0 | Optimizing policy...
+2019-05-09 02:05:02.108160 HKT | [test1/maml/goal1] itr #0 | optimizing policy
+2019-05-09 02:05:02.368826 HKT | [test1/maml/goal1] itr #0 | Saving snapshot...
+2019-05-09 02:05:02.374663 HKT | [test1/maml/goal1] itr #0 | Saved
+2019-05-09 02:05:02.375368 HKT | ----------------------  -------------
+2019-05-09 02:05:02.375453 HKT | TotalExecTime               2.13057
+2019-05-09 02:05:02.375514 HKT | AverageReturn            -207.32
+2019-05-09 02:05:02.375569 HKT | ExplainedVariance           0.835664
+2019-05-09 02:05:02.375620 HKT | NumTrajs                   24
+2019-05-09 02:05:02.375669 HKT | Entropy                     9.47743
+2019-05-09 02:05:02.375718 HKT | Perplexity              13061.5
+2019-05-09 02:05:02.375766 HKT | StdReturn                  38.3568
+2019-05-09 02:05:02.375814 HKT | MaxReturn                 -87.7522
+2019-05-09 02:05:02.375861 HKT | MinReturn                -261.657
+2019-05-09 02:05:02.375909 HKT | AverageForwardProgress      0.320335
+2019-05-09 02:05:02.375957 HKT | MaxForwardProgress          2.7551
+2019-05-09 02:05:02.376004 HKT | MinForwardProgress         -0.672755
+2019-05-09 02:05:02.376052 HKT | StdForwardProgress          0.691782
+2019-05-09 02:05:02.376099 HKT | AveragePolicyStd            0.796703
+2019-05-09 02:05:02.376146 HKT | LossBefore                  0.0154494
+2019-05-09 02:05:02.376193 HKT | LossAfter                  -0.0898022
+2019-05-09 02:05:02.376241 HKT | MeanKL                      0.506864
+2019-05-09 02:05:02.376288 HKT | MaxKL                       5.69706
+2019-05-09 02:05:02.376335 HKT | Time                        2.43971
+2019-05-09 02:05:02.376382 HKT | ItrTime                     2.43971
+2019-05-09 02:05:02.376429 HKT | ----------------------  -------------
+2019-05-09 02:05:02.376623 HKT | [test1/maml/goal1] itr #1 | Obtaining samples...
+2019-05-09 02:05:04.158072 HKT | [test1/maml/goal1] itr #1 | Processing samples...
+2019-05-09 02:05:04.158578 HKT | [test1/maml/goal1] itr #1 | fitting baseline...
+2019-05-09 02:05:04.188605 HKT | [test1/maml/goal1] itr #1 | fitted
+2019-05-09 02:05:04.200368 HKT | [test1/maml/goal1] itr #1 | Logging diagnostics...
+2019-05-09 02:05:04.201559 HKT | [test1/maml/goal1] itr #1 | Optimizing policy...
+2019-05-09 02:05:04.201702 HKT | [test1/maml/goal1] itr #1 | optimizing policy
+2019-05-09 02:05:04.358465 HKT | [test1/maml/goal1] itr #1 | Saving snapshot...
+2019-05-09 02:05:04.366817 HKT | [test1/maml/goal1] itr #1 | Saved
+2019-05-09 02:05:04.367947 HKT | ----------------------  --------------
+2019-05-09 02:05:04.368046 HKT | TotalExecTime               1.77891
+2019-05-09 02:05:04.368127 HKT | AverageReturn            -222.152
+2019-05-09 02:05:04.368203 HKT | ExplainedVariance           0.92122
+2019-05-09 02:05:04.368277 HKT | NumTrajs                   23
+2019-05-09 02:05:04.368350 HKT | Entropy                     9.48052
+2019-05-09 02:05:04.368423 HKT | Perplexity              13101.9
+2019-05-09 02:05:04.368510 HKT | StdReturn                  23.0476
+2019-05-09 02:05:04.368588 HKT | MaxReturn                -162.204
+2019-05-09 02:05:04.368661 HKT | MinReturn                -254.437
+2019-05-09 02:05:04.368733 HKT | AverageForwardProgress      0.0983349
+2019-05-09 02:05:04.368805 HKT | MaxForwardProgress          1.29691
+2019-05-09 02:05:04.368877 HKT | MinForwardProgress         -0.542311
+2019-05-09 02:05:04.368949 HKT | StdForwardProgress          0.456957
+2019-05-09 02:05:04.369020 HKT | AveragePolicyStd            0.79697
+2019-05-09 02:05:04.369091 HKT | LossBefore                  0.0534716
+2019-05-09 02:05:04.369168 HKT | LossAfter                   0.00372675
+2019-05-09 02:05:04.369241 HKT | MeanKL                      0.103803
+2019-05-09 02:05:04.369312 HKT | MaxKL                       0.669511
+2019-05-09 02:05:04.369383 HKT | Time                        4.43194
+2019-05-09 02:05:04.369455 HKT | ItrTime                     1.99039
+2019-05-09 02:05:04.369525 HKT | ----------------------  --------------
+2019-05-09 02:05:04.369710 HKT | [test1/maml/goal1] itr #2 | Obtaining samples...
+2019-05-09 02:05:06.380842 HKT | [test1/maml/goal1] itr #2 | Processing samples...
+2019-05-09 02:05:06.381269 HKT | [test1/maml/goal1] itr #2 | fitting baseline...
+2019-05-09 02:05:06.414259 HKT | [test1/maml/goal1] itr #2 | fitted
+2019-05-09 02:05:06.422573 HKT | [test1/maml/goal1] itr #2 | Logging diagnostics...
+2019-05-09 02:05:06.423348 HKT | [test1/maml/goal1] itr #2 | Optimizing policy...
+2019-05-09 02:05:06.423448 HKT | [test1/maml/goal1] itr #2 | optimizing policy
+2019-05-09 02:05:06.441556 HKT | [test1/maml/goal1] itr #2 | Saving snapshot...
+2019-05-09 02:05:06.447632 HKT | [test1/maml/goal1] itr #2 | Saved
+2019-05-09 02:05:06.448312 HKT | ----------------------  -------------
+2019-05-09 02:05:06.448396 HKT | TotalExecTime               2.00833
+2019-05-09 02:05:06.448492 HKT | AverageReturn            -220.017
+2019-05-09 02:05:06.448581 HKT | ExplainedVariance           0.905788
+2019-05-09 02:05:06.448669 HKT | NumTrajs                   23
+2019-05-09 02:05:06.448756 HKT | Entropy                     9.48586
+2019-05-09 02:05:06.448841 HKT | Perplexity              13172.2
+2019-05-09 02:05:06.448925 HKT | StdReturn                  27.5318
+2019-05-09 02:05:06.449008 HKT | MaxReturn                -167.813
+2019-05-09 02:05:06.449115 HKT | MinReturn                -300.678
+2019-05-09 02:05:06.449196 HKT | AverageForwardProgress      0.139338
+2019-05-09 02:05:06.449279 HKT | MaxForwardProgress          1.20325
+2019-05-09 02:05:06.449363 HKT | MinForwardProgress         -1.46973
+2019-05-09 02:05:06.449445 HKT | StdForwardProgress          0.551628
+2019-05-09 02:05:06.449526 HKT | AveragePolicyStd            0.79748
+2019-05-09 02:05:06.449608 HKT | LossBefore                  0.0209968
+2019-05-09 02:05:06.449689 HKT | LossAfter                  -0.0430323
+2019-05-09 02:05:06.449771 HKT | MeanKL                      0.12912
+2019-05-09 02:05:06.449852 HKT | MaxKL                       0.866606
+2019-05-09 02:05:06.449933 HKT | Time                        6.51267
+2019-05-09 02:05:06.450014 HKT | ItrTime                     2.07804
+2019-05-09 02:05:06.450103 HKT | ----------------------  -------------
+2019-05-09 02:05:06.450287 HKT | [test1/maml/goal1] itr #3 | Obtaining samples...
+2019-05-09 02:05:08.464613 HKT | [test1/maml/goal1] itr #3 | Processing samples...
+2019-05-09 02:05:08.465070 HKT | [test1/maml/goal1] itr #3 | fitting baseline...
+2019-05-09 02:05:08.493844 HKT | [test1/maml/goal1] itr #3 | fitted
+2019-05-09 02:05:08.501394 HKT | [test1/maml/goal1] itr #3 | Logging diagnostics...
+2019-05-09 02:05:08.502551 HKT | [test1/maml/goal1] itr #3 | Optimizing policy...
+2019-05-09 02:05:08.502695 HKT | [test1/maml/goal1] itr #3 | optimizing policy
+2019-05-09 02:05:08.523743 HKT | [test1/maml/goal1] itr #3 | Saving snapshot...
+2019-05-09 02:05:08.532673 HKT | [test1/maml/goal1] itr #3 | Saved
+2019-05-09 02:05:08.533803 HKT | ----------------------  --------------
+2019-05-09 02:05:08.533929 HKT | TotalExecTime               2.01196
+2019-05-09 02:05:08.534030 HKT | AverageReturn            -215.484
+2019-05-09 02:05:08.534126 HKT | ExplainedVariance           0.941772
+2019-05-09 02:05:08.534220 HKT | NumTrajs                   23
+2019-05-09 02:05:08.534313 HKT | Entropy                     9.48796
+2019-05-09 02:05:08.534403 HKT | Perplexity              13199.9
+2019-05-09 02:05:08.534494 HKT | StdReturn                  20.8694
+2019-05-09 02:05:08.534584 HKT | MaxReturn                -176.583
+2019-05-09 02:05:08.534674 HKT | MinReturn                -246.49
+2019-05-09 02:05:08.534763 HKT | AverageForwardProgress      0.235426
+2019-05-09 02:05:08.534858 HKT | MaxForwardProgress          1.01551
+2019-05-09 02:05:08.534955 HKT | MinForwardProgress         -0.369298
+2019-05-09 02:05:08.535046 HKT | StdForwardProgress          0.416356
+2019-05-09 02:05:08.535135 HKT | AveragePolicyStd            0.797746
+2019-05-09 02:05:08.535224 HKT | LossBefore                  0.00487313
+2019-05-09 02:05:08.535312 HKT | LossAfter                  -0.0338231
+2019-05-09 02:05:08.535400 HKT | MeanKL                      0.0595709
+2019-05-09 02:05:08.535489 HKT | MaxKL                       0.633899
+2019-05-09 02:05:08.535577 HKT | Time                        8.59778
+2019-05-09 02:05:08.535666 HKT | ItrTime                     2.08256
+2019-05-09 02:05:08.535754 HKT | ----------------------  --------------
+[32musing seed 3[0m
+[32musing seed 4[0m
+[32musing seed 2[0m
+[32musing seed 1[0m
+[32musing seed 1[0m
+2019-05-09 02:05:10.570298 HKT | Setting seed to 1
+2019-05-09 02:05:10.570325 HKT | Setting seed to 4
+2019-05-09 02:05:10.570308 HKT | Setting seed to 3
+2019-05-09 02:05:10.570495 HKT | Setting seed to 2
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 125)
+2019-05-09 02:05:14.560788 HKT | [test1/maml/goal2] Populating workers...
+2019-05-09 02:05:19.402782 HKT | [test1/maml/goal2] Populated
+2019-05-09 02:05:19.428030 HKT | [test1/maml/goal2] itr #0 | Obtaining samples...
+2019-05-09 02:05:21.572612 HKT | [test1/maml/goal2] itr #0 | Processing samples...
+2019-05-09 02:05:21.573085 HKT | [test1/maml/goal2] itr #0 | fitting baseline...
+2019-05-09 02:05:21.601831 HKT | [test1/maml/goal2] itr #0 | fitted
+2019-05-09 02:05:21.614834 HKT | [test1/maml/goal2] itr #0 | Logging diagnostics...
+2019-05-09 02:05:21.616081 HKT | [test1/maml/goal2] itr #0 | Optimizing policy...
+2019-05-09 02:05:21.616289 HKT | [test1/maml/goal2] itr #0 | optimizing policy
+2019-05-09 02:05:21.893589 HKT | [test1/maml/goal2] itr #0 | Saving snapshot...
+2019-05-09 02:05:21.899504 HKT | [test1/maml/goal2] itr #0 | Saved
+2019-05-09 02:05:21.900156 HKT | ----------------------  -------------
+2019-05-09 02:05:21.900240 HKT | TotalExecTime               2.14164
+2019-05-09 02:05:21.900309 HKT | AverageReturn             139.648
+2019-05-09 02:05:21.900373 HKT | ExplainedVariance           0.871952
+2019-05-09 02:05:21.900434 HKT | NumTrajs                   24
+2019-05-09 02:05:21.900494 HKT | Entropy                     9.47743
+2019-05-09 02:05:21.900553 HKT | Perplexity              13061.5
+2019-05-09 02:05:21.900613 HKT | StdReturn                  21.3944
+2019-05-09 02:05:21.900672 HKT | MaxReturn                 167.379
+2019-05-09 02:05:21.900730 HKT | MinReturn                  63.5227
+2019-05-09 02:05:21.900788 HKT | AverageForwardProgress      0.272056
+2019-05-09 02:05:21.900851 HKT | MaxForwardProgress          2.7551
+2019-05-09 02:05:21.900909 HKT | MinForwardProgress         -0.672755
+2019-05-09 02:05:21.900968 HKT | StdForwardProgress          0.673353
+2019-05-09 02:05:21.901025 HKT | AveragePolicyStd            0.796703
+2019-05-09 02:05:21.901083 HKT | LossBefore                 -0.0300087
+2019-05-09 02:05:21.901141 HKT | LossAfter                  -0.142016
+2019-05-09 02:05:21.901199 HKT | MeanKL                      0.507004
+2019-05-09 02:05:21.901257 HKT | MaxKL                       3.07138
+2019-05-09 02:05:21.901314 HKT | Time                        2.47161
+2019-05-09 02:05:21.901371 HKT | ItrTime                     2.47161
+2019-05-09 02:05:21.901429 HKT | ----------------------  -------------
+2019-05-09 02:05:21.901611 HKT | [test1/maml/goal2] itr #1 | Obtaining samples...
+2019-05-09 02:05:24.066159 HKT | [test1/maml/goal2] itr #1 | Processing samples...
+2019-05-09 02:05:24.066958 HKT | [test1/maml/goal2] itr #1 | fitting baseline...
+2019-05-09 02:05:24.143966 HKT | [test1/maml/goal2] itr #1 | fitted
+2019-05-09 02:05:24.161788 HKT | [test1/maml/goal2] itr #1 | Logging diagnostics...
+2019-05-09 02:05:24.162989 HKT | [test1/maml/goal2] itr #1 | Optimizing policy...
+2019-05-09 02:05:24.163145 HKT | [test1/maml/goal2] itr #1 | optimizing policy
+2019-05-09 02:05:24.310140 HKT | [test1/maml/goal2] itr #1 | Saving snapshot...
+2019-05-09 02:05:24.315861 HKT | [test1/maml/goal2] itr #1 | Saved
+2019-05-09 02:05:24.316527 HKT | ----------------------  -------------
+2019-05-09 02:05:24.316600 HKT | TotalExecTime               2.16155
+2019-05-09 02:05:24.316659 HKT | AverageReturn             156.644
+2019-05-09 02:05:24.316713 HKT | ExplainedVariance           0.965166
+2019-05-09 02:05:24.316765 HKT | NumTrajs                   23
+2019-05-09 02:05:24.316816 HKT | Entropy                     9.47142
+2019-05-09 02:05:24.316866 HKT | Perplexity              12983.4
+2019-05-09 02:05:24.316916 HKT | StdReturn                  10.0275
+2019-05-09 02:05:24.316966 HKT | MaxReturn                 170.095
+2019-05-09 02:05:24.317017 HKT | MinReturn                 138.067
+2019-05-09 02:05:24.317066 HKT | AverageForwardProgress      0.290519
+2019-05-09 02:05:24.317116 HKT | MaxForwardProgress          0.691883
+2019-05-09 02:05:24.317166 HKT | MinForwardProgress         -0.262247
+2019-05-09 02:05:24.317216 HKT | StdForwardProgress          0.258659
+2019-05-09 02:05:24.317265 HKT | AveragePolicyStd            0.796062
+2019-05-09 02:05:24.317315 HKT | LossBefore                 -0.0406578
+2019-05-09 02:05:24.317369 HKT | LossAfter                  -0.0860567
+2019-05-09 02:05:24.317419 HKT | MeanKL                      0.0924979
+2019-05-09 02:05:24.317468 HKT | MaxKL                       0.874117
+2019-05-09 02:05:24.317517 HKT | Time                        4.88799
+2019-05-09 02:05:24.317566 HKT | ItrTime                     2.41439
+2019-05-09 02:05:24.317615 HKT | ----------------------  -------------
+2019-05-09 02:05:24.317753 HKT | [test1/maml/goal2] itr #2 | Obtaining samples...
+2019-05-09 02:05:26.474193 HKT | [test1/maml/goal2] itr #2 | Processing samples...
+2019-05-09 02:05:26.474903 HKT | [test1/maml/goal2] itr #2 | fitting baseline...
+2019-05-09 02:05:26.536861 HKT | [test1/maml/goal2] itr #2 | fitted
+2019-05-09 02:05:26.555277 HKT | [test1/maml/goal2] itr #2 | Logging diagnostics...
+2019-05-09 02:05:26.556443 HKT | [test1/maml/goal2] itr #2 | Optimizing policy...
+2019-05-09 02:05:26.556579 HKT | [test1/maml/goal2] itr #2 | optimizing policy
+2019-05-09 02:05:26.580773 HKT | [test1/maml/goal2] itr #2 | Saving snapshot...
+2019-05-09 02:05:26.591300 HKT | [test1/maml/goal2] itr #2 | Saved
+2019-05-09 02:05:26.592596 HKT | ----------------------  -------------
+2019-05-09 02:05:26.592728 HKT | TotalExecTime               2.1533
+2019-05-09 02:05:26.592848 HKT | AverageReturn             161.414
+2019-05-09 02:05:26.592963 HKT | ExplainedVariance           0.972375
+2019-05-09 02:05:26.593078 HKT | NumTrajs                   23
+2019-05-09 02:05:26.593199 HKT | Entropy                     9.46736
+2019-05-09 02:05:26.593313 HKT | Perplexity              12930.7
+2019-05-09 02:05:26.593426 HKT | StdReturn                   9.15804
+2019-05-09 02:05:26.593538 HKT | MaxReturn                 179.347
+2019-05-09 02:05:26.593650 HKT | MinReturn                 141.601
+2019-05-09 02:05:26.593761 HKT | AverageForwardProgress      0.294537
+2019-05-09 02:05:26.593872 HKT | MaxForwardProgress          1.08676
+2019-05-09 02:05:26.593984 HKT | MinForwardProgress         -0.342666
+2019-05-09 02:05:26.594096 HKT | StdForwardProgress          0.317836
+2019-05-09 02:05:26.594207 HKT | AveragePolicyStd            0.795671
+2019-05-09 02:05:26.594318 HKT | LossBefore                 -0.0752254
+2019-05-09 02:05:26.594429 HKT | LossAfter                  -0.120036
+2019-05-09 02:05:26.594540 HKT | MeanKL                      0.0989011
+2019-05-09 02:05:26.594651 HKT | MaxKL                       0.918378
+2019-05-09 02:05:26.594762 HKT | Time                        7.16349
+2019-05-09 02:05:26.594873 HKT | ItrTime                     2.27376
+2019-05-09 02:05:26.594997 HKT | ----------------------  -------------
+2019-05-09 02:05:26.595240 HKT | [test1/maml/goal2] itr #3 | Obtaining samples...
+2019-05-09 02:05:28.482958 HKT | [test1/maml/goal2] itr #3 | Processing samples...
+2019-05-09 02:05:28.483444 HKT | [test1/maml/goal2] itr #3 | fitting baseline...
+2019-05-09 02:05:28.511243 HKT | [test1/maml/goal2] itr #3 | fitted
+2019-05-09 02:05:28.549772 HKT | [test1/maml/goal2] itr #3 | Logging diagnostics...
+2019-05-09 02:05:28.551013 HKT | [test1/maml/goal2] itr #3 | Optimizing policy...
+2019-05-09 02:05:28.551152 HKT | [test1/maml/goal2] itr #3 | optimizing policy
+2019-05-09 02:05:28.580091 HKT | [test1/maml/goal2] itr #3 | Saving snapshot...
+2019-05-09 02:05:28.590838 HKT | [test1/maml/goal2] itr #3 | Saved
+2019-05-09 02:05:28.592083 HKT | ----------------------  -------------
+2019-05-09 02:05:28.592209 HKT | TotalExecTime               1.88404
+2019-05-09 02:05:28.592317 HKT | AverageReturn             163.247
+2019-05-09 02:05:28.592421 HKT | ExplainedVariance           0.970825
+2019-05-09 02:05:28.592521 HKT | NumTrajs                   23
+2019-05-09 02:05:28.592620 HKT | Entropy                     9.45984
+2019-05-09 02:05:28.592718 HKT | Perplexity              12833.8
+2019-05-09 02:05:28.592816 HKT | StdReturn                  11.1706
+2019-05-09 02:05:28.592914 HKT | MaxReturn                 181.162
+2019-05-09 02:05:28.593011 HKT | MinReturn                 128.052
+2019-05-09 02:05:28.593108 HKT | AverageForwardProgress      0.327092
+2019-05-09 02:05:28.593211 HKT | MaxForwardProgress          0.931793
+2019-05-09 02:05:28.593308 HKT | MinForwardProgress         -0.0712353
+2019-05-09 02:05:28.593404 HKT | StdForwardProgress          0.269224
+2019-05-09 02:05:28.593501 HKT | AveragePolicyStd            0.794883
+2019-05-09 02:05:28.593598 HKT | LossBefore                 -0.0472697
+2019-05-09 02:05:28.593695 HKT | LossAfter                  -0.0859164
+2019-05-09 02:05:28.593792 HKT | MeanKL                      0.0766316
+2019-05-09 02:05:28.593888 HKT | MaxKL                       0.437495
+2019-05-09 02:05:28.593984 HKT | Time                        9.16299
+2019-05-09 02:05:28.594080 HKT | ItrTime                     1.99577
+2019-05-09 02:05:28.594176 HKT | ----------------------  -------------
+[32musing seed 3[0m
+[32musing seed 1[0m
+2019-05-09 02:05:30.531114 HKT | Setting seed to 4
+2019-05-09 02:05:30.531082 HKT | Setting seed to 1
+2019-05-09 02:05:30.531085 HKT | Setting seed to 2
+2019-05-09 02:05:30.531334 HKT | Setting seed to 3
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 125)
+2019-05-09 02:05:34.570645 HKT | [test1/maml/goal3] Populating workers...
+2019-05-09 02:05:39.774378 HKT | [test1/maml/goal3] Populated
+2019-05-09 02:05:39.801375 HKT | [test1/maml/goal3] itr #0 | Obtaining samples...
+2019-05-09 02:05:42.301760 HKT | [test1/maml/goal3] itr #0 | Processing samples...
+2019-05-09 02:05:42.302222 HKT | [test1/maml/goal3] itr #0 | fitting baseline...
+2019-05-09 02:05:42.343664 HKT | [test1/maml/goal3] itr #0 | fitted
+2019-05-09 02:05:42.351107 HKT | [test1/maml/goal3] itr #0 | Logging diagnostics...
+2019-05-09 02:05:42.352164 HKT | [test1/maml/goal3] itr #0 | Optimizing policy...
+2019-05-09 02:05:42.352286 HKT | [test1/maml/goal3] itr #0 | optimizing policy
+2019-05-09 02:05:42.629601 HKT | [test1/maml/goal3] itr #0 | Saving snapshot...
+2019-05-09 02:05:42.635374 HKT | [test1/maml/goal3] itr #0 | Saved
+2019-05-09 02:05:42.636039 HKT | ----------------------  -------------
+2019-05-09 02:05:42.636118 HKT | TotalExecTime               2.49759
+2019-05-09 02:05:42.636181 HKT | AverageReturn              33.4222
+2019-05-09 02:05:42.636239 HKT | ExplainedVariance           0.458101
+2019-05-09 02:05:42.636293 HKT | NumTrajs                   24
+2019-05-09 02:05:42.636348 HKT | Entropy                     9.47743
+2019-05-09 02:05:42.636402 HKT | Perplexity              13061.5
+2019-05-09 02:05:42.636456 HKT | StdReturn                  25.4789
+2019-05-09 02:05:42.636509 HKT | MaxReturn                  99.892
+2019-05-09 02:05:42.636563 HKT | MinReturn                 -10.862
+2019-05-09 02:05:42.636617 HKT | AverageForwardProgress      0.272056
+2019-05-09 02:05:42.636671 HKT | MaxForwardProgress          2.7551
+2019-05-09 02:05:42.636723 HKT | MinForwardProgress         -0.672755
+2019-05-09 02:05:42.636775 HKT | StdForwardProgress          0.673353
+2019-05-09 02:05:42.636828 HKT | AveragePolicyStd            0.796703
+2019-05-09 02:05:42.636880 HKT | LossBefore                  0.0139314
+2019-05-09 02:05:42.636932 HKT | LossAfter                  -0.100411
+2019-05-09 02:05:42.636984 HKT | MeanKL                      0.806976
+2019-05-09 02:05:42.637036 HKT | MaxKL                       8.81814
+2019-05-09 02:05:42.637088 HKT | Time                        2.83413
+2019-05-09 02:05:42.637140 HKT | ItrTime                     2.83413
+2019-05-09 02:05:42.637192 HKT | ----------------------  -------------
+2019-05-09 02:05:42.637364 HKT | [test1/maml/goal3] itr #1 | Obtaining samples...
+2019-05-09 02:05:44.870686 HKT | [test1/maml/goal3] itr #1 | Processing samples...
+2019-05-09 02:05:44.871178 HKT | [test1/maml/goal3] itr #1 | fitting baseline...
+2019-05-09 02:05:44.897799 HKT | [test1/maml/goal3] itr #1 | fitted
+2019-05-09 02:05:44.906101 HKT | [test1/maml/goal3] itr #1 | Logging diagnostics...
+2019-05-09 02:05:44.907282 HKT | [test1/maml/goal3] itr #1 | Optimizing policy...
+2019-05-09 02:05:44.907436 HKT | [test1/maml/goal3] itr #1 | optimizing policy
+2019-05-09 02:05:45.017580 HKT | [test1/maml/goal3] itr #1 | Saving snapshot...
+2019-05-09 02:05:45.023153 HKT | [test1/maml/goal3] itr #1 | Saved
+2019-05-09 02:05:45.023822 HKT | ----------------------  -------------
+2019-05-09 02:05:45.023907 HKT | TotalExecTime               2.23085
+2019-05-09 02:05:45.023968 HKT | AverageReturn              30.0303
+2019-05-09 02:05:45.024022 HKT | ExplainedVariance           0.517536
+2019-05-09 02:05:45.024074 HKT | NumTrajs                   23
+2019-05-09 02:05:45.024125 HKT | Entropy                     9.48021
+2019-05-09 02:05:45.024174 HKT | Perplexity              13098
+2019-05-09 02:05:45.024223 HKT | StdReturn                  15.8951
+2019-05-09 02:05:45.024273 HKT | MaxReturn                  58.2586
+2019-05-09 02:05:45.024322 HKT | MinReturn                  -6.58918
+2019-05-09 02:05:45.024370 HKT | AverageForwardProgress      0.134798
+2019-05-09 02:05:45.024419 HKT | MaxForwardProgress          0.688448
+2019-05-09 02:05:45.024467 HKT | MinForwardProgress         -0.613459
+2019-05-09 02:05:45.024515 HKT | StdForwardProgress          0.31948
+2019-05-09 02:05:45.024563 HKT | AveragePolicyStd            0.796981
+2019-05-09 02:05:45.024611 HKT | LossBefore                 -0.0222487
+2019-05-09 02:05:45.024664 HKT | LossAfter                  -0.0650815
+2019-05-09 02:05:45.024714 HKT | MeanKL                      0.0751084
+2019-05-09 02:05:45.024762 HKT | MaxKL                       0.694638
+2019-05-09 02:05:45.024810 HKT | Time                        5.22192
+2019-05-09 02:05:45.024859 HKT | ItrTime                     2.38591
+2019-05-09 02:05:45.024907 HKT | ----------------------  -------------
+2019-05-09 02:05:45.025044 HKT | [test1/maml/goal3] itr #2 | Obtaining samples...
+2019-05-09 02:05:46.987779 HKT | [test1/maml/goal3] itr #2 | Processing samples...
+2019-05-09 02:05:46.988221 HKT | [test1/maml/goal3] itr #2 | fitting baseline...
+2019-05-09 02:05:47.024147 HKT | [test1/maml/goal3] itr #2 | fitted
+2019-05-09 02:05:47.035771 HKT | [test1/maml/goal3] itr #2 | Logging diagnostics...
+2019-05-09 02:05:47.036839 HKT | [test1/maml/goal3] itr #2 | Optimizing policy...
+2019-05-09 02:05:47.036944 HKT | [test1/maml/goal3] itr #2 | optimizing policy
+2019-05-09 02:05:47.090482 HKT | [test1/maml/goal3] itr #2 | Saving snapshot...
+2019-05-09 02:05:47.098882 HKT | [test1/maml/goal3] itr #2 | Saved
+2019-05-09 02:05:47.100041 HKT | ----------------------  -------------
+2019-05-09 02:05:47.100155 HKT | TotalExecTime               1.96036
+2019-05-09 02:05:47.100256 HKT | AverageReturn              32.9348
+2019-05-09 02:05:47.100351 HKT | ExplainedVariance           0.467415
+2019-05-09 02:05:47.100446 HKT | NumTrajs                   23
+2019-05-09 02:05:47.100540 HKT | Entropy                     9.47799
+2019-05-09 02:05:47.100632 HKT | Perplexity              13068.9
+2019-05-09 02:05:47.100724 HKT | StdReturn                  20.7307
+2019-05-09 02:05:47.100816 HKT | MaxReturn                  69.1023
+2019-05-09 02:05:47.100907 HKT | MinReturn                   0.549453
+2019-05-09 02:05:47.100997 HKT | AverageForwardProgress      0.217364
+2019-05-09 02:05:47.101088 HKT | MaxForwardProgress          1.08007
+2019-05-09 02:05:47.101180 HKT | MinForwardProgress         -0.458181
+2019-05-09 02:05:47.101272 HKT | StdForwardProgress          0.451802
+2019-05-09 02:05:47.101363 HKT | AveragePolicyStd            0.796788
+2019-05-09 02:05:47.101454 HKT | LossBefore                 -0.037029
+2019-05-09 02:05:47.101545 HKT | LossAfter                  -0.0818006
+2019-05-09 02:05:47.101635 HKT | MeanKL                      0.0917213
+2019-05-09 02:05:47.101726 HKT | MaxKL                       0.523738
+2019-05-09 02:05:47.101817 HKT | Time                        7.29774
+2019-05-09 02:05:47.101907 HKT | ItrTime                     2.07405
+2019-05-09 02:05:47.101998 HKT | ----------------------  -------------
+2019-05-09 02:05:47.102211 HKT | [test1/maml/goal3] itr #3 | Obtaining samples...
+2019-05-09 02:05:48.942660 HKT | [test1/maml/goal3] itr #3 | Processing samples...
+2019-05-09 02:05:48.943130 HKT | [test1/maml/goal3] itr #3 | fitting baseline...
+2019-05-09 02:05:48.971850 HKT | [test1/maml/goal3] itr #3 | fitted
+2019-05-09 02:05:48.981051 HKT | [test1/maml/goal3] itr #3 | Logging diagnostics...
+2019-05-09 02:05:48.982157 HKT | [test1/maml/goal3] itr #3 | Optimizing policy...
+2019-05-09 02:05:48.982299 HKT | [test1/maml/goal3] itr #3 | optimizing policy
+2019-05-09 02:05:49.005340 HKT | [test1/maml/goal3] itr #3 | Saving snapshot...
+2019-05-09 02:05:49.014141 HKT | [test1/maml/goal3] itr #3 | Saved
+2019-05-09 02:05:49.015218 HKT | ----------------------  --------------
+2019-05-09 02:05:49.015332 HKT | TotalExecTime               1.83704
+2019-05-09 02:05:49.015430 HKT | AverageReturn              32.3986
+2019-05-09 02:05:49.015524 HKT | ExplainedVariance           0.437342
+2019-05-09 02:05:49.015616 HKT | NumTrajs                   23
+2019-05-09 02:05:49.015707 HKT | Entropy                     9.47428
+2019-05-09 02:05:49.015797 HKT | Perplexity              13020.5
+2019-05-09 02:05:49.015887 HKT | StdReturn                  18.6489
+2019-05-09 02:05:49.015977 HKT | MaxReturn                  70.2395
+2019-05-09 02:05:49.016066 HKT | MinReturn                   3.82848
+2019-05-09 02:05:49.016162 HKT | AverageForwardProgress      0.197173
+2019-05-09 02:05:49.016252 HKT | MaxForwardProgress          1.15744
+2019-05-09 02:05:49.016342 HKT | MinForwardProgress         -0.391423
+2019-05-09 02:05:49.016431 HKT | StdForwardProgress          0.389928
+2019-05-09 02:05:49.016519 HKT | AveragePolicyStd            0.796405
+2019-05-09 02:05:49.016614 HKT | LossBefore                 -0.00734179
+2019-05-09 02:05:49.016705 HKT | LossAfter                  -0.0664846
+2019-05-09 02:05:49.016794 HKT | MeanKL                      0.1221
+2019-05-09 02:05:49.016883 HKT | MaxKL                       0.568607
+2019-05-09 02:05:49.016972 HKT | Time                        9.21293
+2019-05-09 02:05:49.017062 HKT | ItrTime                     1.91208
+2019-05-09 02:05:49.017151 HKT | ----------------------  --------------
+[1.25106601e+00 2.16097348e+00 3.43124452e-04 9.06997718e-01
+ 4.40267672e-01]
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/maml/goal0'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxYVgAAAGRhdGEvbG9jYWwvcG9zdGljbWwtdHJwby1tYW1sLWFudHBvcy0yMDAvbWFtbDFfZmJzMjBfbWJzMjBfZmxyXzAuMV9tbHIwLjAxL2l0cl8zNzUucGtscQ1YCQAAAHJlc2V0X2FyZ3EOY251bXB5LmNvcmUubXVsdGlhcnJheQpzY2FsYXIKcQ9jbnVtcHkKZHR5cGUKcRBYAgAAAGY4cRFLAEsBh3ESUnETKEsDWAEAAAA8cRROTk5K/////0r/////SwB0cRViQwgErfvLXQT0P3EWhnEXUnEYWAgAAABiYXNlbGluZXEZaAYpgXEafXEbKGgJKWgKfXEcWAgAAABlbnZfc3BlY3EdY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQXR0cgpxHimBcR99cSAoWAoAAABfYXR0cl9uYW1lcSFYBAAAAHNwZWNxIlgEAAAAX29ianEjaAYpgXEkfXElKGgJKWgKfXEmWAsAAAB3cmFwcGVkX2VudnEnaAYpgXEofXEpKGgJKWgKfXEqWAMAAABlbnZxK2gGKYFxLH1xLShoCSloCn1xLlgLAAAAcHJveHlfY2xhc3NxL2NybGxhYi5lbnZzLm11am9jby5hbnRfZW52X3JhbmQKQW50RW52UmFuZApxMHVic2gvY3JsbGFiLmVudnMubm9ybWFsaXplZF9lbnYKTm9ybWFsaXplZEVudgpxMXVic2gvY3NhbmRib3gucm9ja3kudGYuZW52cy5iYXNlClRmRW52CnEydWJ1YnNoL2NybGxhYi5iYXNlbGluZXMubGluZWFyX2ZlYXR1cmVfYmFzZWxpbmUKTGluZWFyRmVhdHVyZUJhc2VsaW5lCnEzdWJYCgAAAGJhdGNoX3NpemVxNE2gD1gGAAAAcG9saWN5cTVOaCtoJFgFAAAAbl9pdHJxNksEWA4AAABvcHRpbWl6ZXJfYXJnc3E3fXE4KFgQAAAAdGZfb3B0aW1pemVyX2Nsc3E5Y3RlbnNvcmZsb3cucHl0aG9uLnRyYWluaW5nLmdyYWRpZW50X2Rlc2NlbnQKR3JhZGllbnREZXNjZW50T3B0aW1pemVyCnE6WBEAAAB0Zl9vcHRpbWl6ZXJfYXJnc3E7fXE8WA0AAABsZWFybmluZ19yYXRlcT1HP6mZmZmZmZpzWBIAAABpbml0X2xlYXJuaW5nX3JhdGVxPkc/uZmZmZmZmnVYDwAAAG1heF9wYXRoX2xlbmd0aHE/S8h1aC9jc2FuZGJveC5yb2NreS50Zi5hbGdvcy52cGcKVlBHCnFAdWJYBQAAAHRyYWlucUEpfXFCdHFDdWIu'  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/maml/goal0'
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/maml/goal1'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxYVgAAAGRhdGEvbG9jYWwvcG9zdGljbWwtdHJwby1tYW1sLWFudHBvcy0yMDAvbWFtbDFfZmJzMjBfbWJzMjBfZmxyXzAuMV9tbHIwLjAxL2l0cl8zNzUucGtscQ1YCQAAAHJlc2V0X2FyZ3EOY251bXB5LmNvcmUubXVsdGlhcnJheQpzY2FsYXIKcQ9jbnVtcHkKZHR5cGUKcRBYAgAAAGY4cRFLAEsBh3ESUnETKEsDWAEAAAA8cRROTk5K/////0r/////SwB0cRViQwg9NMx2rEkBQHEWhnEXUnEYWAgAAABiYXNlbGluZXEZaAYpgXEafXEbKGgJKWgKfXEcWAgAAABlbnZfc3BlY3EdY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQXR0cgpxHimBcR99cSAoWAoAAABfYXR0cl9uYW1lcSFYBAAAAHNwZWNxIlgEAAAAX29ianEjaAYpgXEkfXElKGgJKWgKfXEmWAsAAAB3cmFwcGVkX2VudnEnaAYpgXEofXEpKGgJKWgKfXEqWAMAAABlbnZxK2gGKYFxLH1xLShoCSloCn1xLlgLAAAAcHJveHlfY2xhc3NxL2NybGxhYi5lbnZzLm11am9jby5hbnRfZW52X3JhbmQKQW50RW52UmFuZApxMHVic2gvY3JsbGFiLmVudnMubm9ybWFsaXplZF9lbnYKTm9ybWFsaXplZEVudgpxMXVic2gvY3NhbmRib3gucm9ja3kudGYuZW52cy5iYXNlClRmRW52CnEydWJ1YnNoL2NybGxhYi5iYXNlbGluZXMubGluZWFyX2ZlYXR1cmVfYmFzZWxpbmUKTGluZWFyRmVhdHVyZUJhc2VsaW5lCnEzdWJYCgAAAGJhdGNoX3NpemVxNE2gD1gGAAAAcG9saWN5cTVOaCtoJFgFAAAAbl9pdHJxNksEWA4AAABvcHRpbWl6ZXJfYXJnc3E3fXE4KFgQAAAAdGZfb3B0aW1pemVyX2Nsc3E5Y3RlbnNvcmZsb3cucHl0aG9uLnRyYWluaW5nLmdyYWRpZW50X2Rlc2NlbnQKR3JhZGllbnREZXNjZW50T3B0aW1pemVyCnE6WBEAAAB0Zl9vcHRpbWl6ZXJfYXJnc3E7fXE8WA0AAABsZWFybmluZ19yYXRlcT1HP6mZmZmZmZpzWBIAAABpbml0X2xlYXJuaW5nX3JhdGVxPkc/uZmZmZmZmnVYDwAAAG1heF9wYXRoX2xlbmd0aHE/S8h1aC9jc2FuZGJveC5yb2NreS50Zi5hbGdvcy52cGcKVlBHCnFAdWJYBQAAAHRyYWlucUEpfXFCdHFDdWIu'  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/maml/goal1'
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/maml/goal2'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxYVgAAAGRhdGEvbG9jYWwvcG9zdGljbWwtdHJwby1tYW1sLWFudHBvcy0yMDAvbWFtbDFfZmJzMjBfbWJzMjBfZmxyXzAuMV9tbHIwLjAxL2l0cl8zNzUucGtscQ1YCQAAAHJlc2V0X2FyZ3EOY251bXB5LmNvcmUubXVsdGlhcnJheQpzY2FsYXIKcQ9jbnVtcHkKZHR5cGUKcRBYAgAAAGY4cRFLAEsBh3ESUnETKEsDWAEAAAA8cRROTk5K/////0r/////SwB0cRViQwgAUMlMrHw2P3EWhnEXUnEYWAgAAABiYXNlbGluZXEZaAYpgXEafXEbKGgJKWgKfXEcWAgAAABlbnZfc3BlY3EdY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQXR0cgpxHimBcR99cSAoWAoAAABfYXR0cl9uYW1lcSFYBAAAAHNwZWNxIlgEAAAAX29ianEjaAYpgXEkfXElKGgJKWgKfXEmWAsAAAB3cmFwcGVkX2VudnEnaAYpgXEofXEpKGgJKWgKfXEqWAMAAABlbnZxK2gGKYFxLH1xLShoCSloCn1xLlgLAAAAcHJveHlfY2xhc3NxL2NybGxhYi5lbnZzLm11am9jby5hbnRfZW52X3JhbmQKQW50RW52UmFuZApxMHVic2gvY3JsbGFiLmVudnMubm9ybWFsaXplZF9lbnYKTm9ybWFsaXplZEVudgpxMXVic2gvY3NhbmRib3gucm9ja3kudGYuZW52cy5iYXNlClRmRW52CnEydWJ1YnNoL2NybGxhYi5iYXNlbGluZXMubGluZWFyX2ZlYXR1cmVfYmFzZWxpbmUKTGluZWFyRmVhdHVyZUJhc2VsaW5lCnEzdWJYCgAAAGJhdGNoX3NpemVxNE2gD1gGAAAAcG9saWN5cTVOaCtoJFgFAAAAbl9pdHJxNksEWA4AAABvcHRpbWl6ZXJfYXJnc3E3fXE4KFgQAAAAdGZfb3B0aW1pemVyX2Nsc3E5Y3RlbnNvcmZsb3cucHl0aG9uLnRyYWluaW5nLmdyYWRpZW50X2Rlc2NlbnQKR3JhZGllbnREZXNjZW50T3B0aW1pemVyCnE6WBEAAAB0Zl9vcHRpbWl6ZXJfYXJnc3E7fXE8WA0AAABsZWFybmluZ19yYXRlcT1HP6mZmZmZmZpzWBIAAABpbml0X2xlYXJuaW5nX3JhdGVxPkc/uZmZmZmZmnVYDwAAAG1heF9wYXRoX2xlbmd0aHE/S8h1aC9jc2FuZGJveC5yb2NreS50Zi5hbGdvcy52cGcKVlBHCnFAdWJYBQAAAHRyYWlucUEpfXFCdHFDdWIu'  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/maml/goal2'
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/maml/goal3'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxYVgAAAGRhdGEvbG9jYWwvcG9zdGljbWwtdHJwby1tYW1sLWFudHBvcy0yMDAvbWFtbDFfZmJzMjBfbWJzMjBfZmxyXzAuMV9tbHIwLjAxL2l0cl8zNzUucGtscQ1YCQAAAHJlc2V0X2FyZ3EOY251bXB5LmNvcmUubXVsdGlhcnJheQpzY2FsYXIKcQ9jbnVtcHkKZHR5cGUKcRBYAgAAAGY4cRFLAEsBh3ESUnETKEsDWAEAAAA8cRROTk5K/////0r/////SwB0cRViQwhuDf0TIAbtP3EWhnEXUnEYWAgAAABiYXNlbGluZXEZaAYpgXEafXEbKGgJKWgKfXEcWAgAAABlbnZfc3BlY3EdY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQXR0cgpxHimBcR99cSAoWAoAAABfYXR0cl9uYW1lcSFYBAAAAHNwZWNxIlgEAAAAX29ianEjaAYpgXEkfXElKGgJKWgKfXEmWAsAAAB3cmFwcGVkX2VudnEnaAYpgXEofXEpKGgJKWgKfXEqWAMAAABlbnZxK2gGKYFxLH1xLShoCSloCn1xLlgLAAAAcHJveHlfY2xhc3NxL2NybGxhYi5lbnZzLm11am9jby5hbnRfZW52X3JhbmQKQW50RW52UmFuZApxMHVic2gvY3JsbGFiLmVudnMubm9ybWFsaXplZF9lbnYKTm9ybWFsaXplZEVudgpxMXVic2gvY3NhbmRib3gucm9ja3kudGYuZW52cy5iYXNlClRmRW52CnEydWJ1YnNoL2NybGxhYi5iYXNlbGluZXMubGluZWFyX2ZlYXR1cmVfYmFzZWxpbmUKTGluZWFyRmVhdHVyZUJhc2VsaW5lCnEzdWJYCgAAAGJhdGNoX3NpemVxNE2gD1gGAAAAcG9saWN5cTVOaCtoJFgFAAAAbl9pdHJxNksEWA4AAABvcHRpbWl6ZXJfYXJnc3E3fXE4KFgQAAAAdGZfb3B0aW1pemVyX2Nsc3E5Y3RlbnNvcmZsb3cucHl0aG9uLnRyYWluaW5nLmdyYWRpZW50X2Rlc2NlbnQKR3JhZGllbnREZXNjZW50T3B0aW1pemVyCnE6WBEAAAB0Zl9vcHRpbWl6ZXJfYXJnc3E7fXE8WA0AAABsZWFybmluZ19yYXRlcT1HP6mZmZmZmZpzWBIAAABpbml0X2xlYXJuaW5nX3JhdGVxPkc/uZmZmZmZmnVYDwAAAG1heF9wYXRoX2xlbmd0aHE/S8h1aC9jc2FuZGJveC5yb2NreS50Zi5hbGdvcy52cGcKVlBHCnFAdWJYBQAAAHRyYWlucUEpfXFCdHFDdWIu'  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/maml/goal3'
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/maml/goal4'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxYVgAAAGRhdGEvbG9jYWwvcG9zdGljbWwtdHJwby1tYW1sLWFudHBvcy0yMDAvbWFtbDFfZmJzMjBfbWJzMjBfZmxyXzAuMV9tbHIwLjAxL2l0cl8zNzUucGtscQ1YCQAAAHJlc2V0X2FyZ3EOY251bXB5LmNvcmUubXVsdGlhcnJheQpzY2FsYXIKcQ9jbnVtcHkKZHR5cGUKcRBYAgAAAGY4cRFLAEsBh3ESUnETKEsDWAEAAAA8cRROTk5K/////0r/////SwB0cRViQwjah6p1WC3cP3EWhnEXUnEYWAgAAABiYXNlbGluZXEZaAYpgXEafXEbKGgJKWgKfXEcWAgAAABlbnZfc3BlY3EdY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQXR0cgpxHimBcR99cSAoWAoAAABfYXR0cl9uYW1lcSFYBAAAAHNwZWNxIlgEAAAAX29ianEjaAYpgXEkfXElKGgJKWgKfXEmWAsAAAB3cmFwcGVkX2VudnEnaAYpgXEofXEpKGgJKWgKfXEqWAMAAABlbnZxK2gGKYFxLH1xLShoCSloCn1xLlgLAAAAcHJveHlfY2xhc3NxL2NybGxhYi5lbnZzLm11am9jby5hbnRfZW52X3JhbmQKQW50RW52UmFuZApxMHVic2gvY3JsbGFiLmVudnMubm9ybWFsaXplZF9lbnYKTm9ybWFsaXplZEVudgpxMXVic2gvY3NhbmRib3gucm9ja3kudGYuZW52cy5iYXNlClRmRW52CnEydWJ1YnNoL2NybGxhYi5iYXNlbGluZXMubGluZWFyX2ZlYXR1cmVfYmFzZWxpbmUKTGluZWFyRmVhdHVyZUJhc2VsaW5lCnEzdWJYCgAAAGJhdGNoX3NpemVxNE2gD1gGAAAAcG9saWN5cTVOaCtoJFgFAAAAbl9pdHJxNksEWA4AAABvcHRpbWl6ZXJfYXJnc3E3fXE4KFgQAAAAdGZfb3B0aW1pemVyX2Nsc3E5Y3RlbnNvcmZsb3cucHl0aG9uLnRyYWluaW5nLmdyYWRpZW50X2Rlc2NlbnQKR3JhZGllbnREZXNjZW50T3B0aW1pemVyCnE6WBEAAAB0Zl9vcHRpbWl6ZXJfYXJnc3E7fXE8WA0AAABsZWFybmluZ19yYXRlcT1HP6mZmZmZmZpzWBIAAABpbml0X2xlYXJuaW5nX3JhdGVxPkc/uZmZmZmZmnVYDwAAAG1heF9wYXRoX2xlbmd0aHE/S8h1aC9jc2FuZGJveC5yb2NreS50Zi5hbGdvcy52cGcKVlBHCnFAdWJYBQAAAHRyYWlucUEpfXFCdHFDdWIu'  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/maml/goal4'[32musing seed 1[0m
+2019-05-09 02:05:50.986319 HKT | Setting seed to 4
+2019-05-09 02:05:50.986291 HKT | Setting seed to 2
+2019-05-09 02:05:50.986329 HKT | Setting seed to 3
+2019-05-09 02:05:50.986291 HKT | Setting seed to 1
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 125)
+2019-05-09 02:05:55.068162 HKT | [test1/maml/goal4] Populating workers...
+2019-05-09 02:06:01.405694 HKT | [test1/maml/goal4] Populated
+2019-05-09 02:06:01.445762 HKT | [test1/maml/goal4] itr #0 | Obtaining samples...
+2019-05-09 02:06:03.638280 HKT | [test1/maml/goal4] itr #0 | Processing samples...
+2019-05-09 02:06:03.638738 HKT | [test1/maml/goal4] itr #0 | fitting baseline...
+2019-05-09 02:06:03.684314 HKT | [test1/maml/goal4] itr #0 | fitted
+2019-05-09 02:06:03.695006 HKT | [test1/maml/goal4] itr #0 | Logging diagnostics...
+2019-05-09 02:06:03.699622 HKT | [test1/maml/goal4] itr #0 | Optimizing policy...
+2019-05-09 02:06:03.700791 HKT | [test1/maml/goal4] itr #0 | optimizing policy
+2019-05-09 02:06:04.062125 HKT | [test1/maml/goal4] itr #0 | Saving snapshot...
+2019-05-09 02:06:04.068222 HKT | [test1/maml/goal4] itr #0 | Saved
+2019-05-09 02:06:04.069245 HKT | ----------------------  -------------
+2019-05-09 02:06:04.069361 HKT | TotalExecTime               2.18903
+2019-05-09 02:06:04.069450 HKT | AverageReturn             111.313
+2019-05-09 02:06:04.069530 HKT | ExplainedVariance           0.828216
+2019-05-09 02:06:04.069604 HKT | NumTrajs                   24
+2019-05-09 02:06:04.069676 HKT | Entropy                     9.47743
+2019-05-09 02:06:04.069748 HKT | Perplexity              13061.5
+2019-05-09 02:06:04.069819 HKT | StdReturn                  18.2753
+2019-05-09 02:06:04.069889 HKT | MaxReturn                 143.851
+2019-05-09 02:06:04.069961 HKT | MinReturn                  75.0429
+2019-05-09 02:06:04.070037 HKT | AverageForwardProgress      0.204597
+2019-05-09 02:06:04.070112 HKT | MaxForwardProgress          1.13609
+2019-05-09 02:06:04.070187 HKT | MinForwardProgress         -0.672755
+2019-05-09 02:06:04.070262 HKT | StdForwardProgress          0.472297
+2019-05-09 02:06:04.070337 HKT | AveragePolicyStd            0.796703
+2019-05-09 02:06:04.070412 HKT | LossBefore                 -0.0183287
+2019-05-09 02:06:04.070487 HKT | LossAfter                  -0.140053
+2019-05-09 02:06:04.070561 HKT | MeanKL                      0.903779
+2019-05-09 02:06:04.070635 HKT | MaxKL                      11.423
+2019-05-09 02:06:04.070709 HKT | Time                        2.62264
+2019-05-09 02:06:04.070784 HKT | ItrTime                     2.62264
+2019-05-09 02:06:04.070859 HKT | ----------------------  -------------
+2019-05-09 02:06:04.071135 HKT | [test1/maml/goal4] itr #1 | Obtaining samples...
+2019-05-09 02:06:06.177167 HKT | [test1/maml/goal4] itr #1 | Processing samples...
+2019-05-09 02:06:06.177623 HKT | [test1/maml/goal4] itr #1 | fitting baseline...
+2019-05-09 02:06:06.215967 HKT | [test1/maml/goal4] itr #1 | fitted
+2019-05-09 02:06:06.224798 HKT | [test1/maml/goal4] itr #1 | Logging diagnostics...
+2019-05-09 02:06:06.227115 HKT | [test1/maml/goal4] itr #1 | Optimizing policy...
+2019-05-09 02:06:06.227399 HKT | [test1/maml/goal4] itr #1 | optimizing policy
+2019-05-09 02:06:06.361796 HKT | [test1/maml/goal4] itr #1 | Saving snapshot...
+2019-05-09 02:06:06.367601 HKT | [test1/maml/goal4] itr #1 | Saved
+2019-05-09 02:06:06.368237 HKT | ----------------------  --------------
+2019-05-09 02:06:06.368312 HKT | TotalExecTime               2.10306
+2019-05-09 02:06:06.368375 HKT | AverageReturn             113.607
+2019-05-09 02:06:06.368439 HKT | ExplainedVariance           0.875165
+2019-05-09 02:06:06.368496 HKT | NumTrajs                   23
+2019-05-09 02:06:06.368552 HKT | Entropy                     9.47376
+2019-05-09 02:06:06.368607 HKT | Perplexity              13013.7
+2019-05-09 02:06:06.368662 HKT | StdReturn                  17.0094
+2019-05-09 02:06:06.368716 HKT | MaxReturn                 144.501
+2019-05-09 02:06:06.368770 HKT | MinReturn                  60.9726
+2019-05-09 02:06:06.368823 HKT | AverageForwardProgress      0.125526
+2019-05-09 02:06:06.368876 HKT | MaxForwardProgress          1.46506
+2019-05-09 02:06:06.368929 HKT | MinForwardProgress         -0.805225
+2019-05-09 02:06:06.368983 HKT | StdForwardProgress          0.511212
+2019-05-09 02:06:06.369036 HKT | AveragePolicyStd            0.796315
+2019-05-09 02:06:06.369089 HKT | LossBefore                  0.0418121
+2019-05-09 02:06:06.369147 HKT | LossAfter                   0.00206455
+2019-05-09 02:06:06.369202 HKT | MeanKL                      0.0662238
+2019-05-09 02:06:06.369255 HKT | MaxKL                       0.730159
+2019-05-09 02:06:06.369309 HKT | Time                        4.92196
+2019-05-09 02:06:06.369362 HKT | ItrTime                     2.29658
+2019-05-09 02:06:06.369415 HKT | ----------------------  --------------
+2019-05-09 02:06:06.369547 HKT | [test1/maml/goal4] itr #2 | Obtaining samples...
+2019-05-09 02:06:08.427450 HKT | [test1/maml/goal4] itr #2 | Processing samples...
+2019-05-09 02:06:08.428051 HKT | [test1/maml/goal4] itr #2 | fitting baseline...
+2019-05-09 02:06:08.476146 HKT | [test1/maml/goal4] itr #2 | fitted
+2019-05-09 02:06:08.484920 HKT | [test1/maml/goal4] itr #2 | Logging diagnostics...
+2019-05-09 02:06:08.486205 HKT | [test1/maml/goal4] itr #2 | Optimizing policy...
+2019-05-09 02:06:08.486417 HKT | [test1/maml/goal4] itr #2 | optimizing policy
+2019-05-09 02:06:08.514584 HKT | [test1/maml/goal4] itr #2 | Saving snapshot...
+2019-05-09 02:06:08.523455 HKT | [test1/maml/goal4] itr #2 | Saved
+2019-05-09 02:06:08.524513 HKT | ----------------------  -------------
+2019-05-09 02:06:08.524626 HKT | TotalExecTime               2.05462
+2019-05-09 02:06:08.524722 HKT | AverageReturn             115.848
+2019-05-09 02:06:08.524814 HKT | ExplainedVariance           0.886456
+2019-05-09 02:06:08.524904 HKT | NumTrajs                   23
+2019-05-09 02:06:08.524993 HKT | Entropy                     9.47794
+2019-05-09 02:06:08.525082 HKT | Perplexity              13068.3
+2019-05-09 02:06:08.525170 HKT | StdReturn                  14.1265
+2019-05-09 02:06:08.525258 HKT | MaxReturn                 132.437
+2019-05-09 02:06:08.525346 HKT | MinReturn                  77.1658
+2019-05-09 02:06:08.525434 HKT | AverageForwardProgress      0.0864888
+2019-05-09 02:06:08.525522 HKT | MaxForwardProgress          0.584425
+2019-05-09 02:06:08.525609 HKT | MinForwardProgress         -0.800048
+2019-05-09 02:06:08.525696 HKT | StdForwardProgress          0.297782
+2019-05-09 02:06:08.525789 HKT | AveragePolicyStd            0.796707
+2019-05-09 02:06:08.525877 HKT | LossBefore                 -0.048054
+2019-05-09 02:06:08.525965 HKT | LossAfter                  -0.0967024
+2019-05-09 02:06:08.526055 HKT | MeanKL                      0.126872
+2019-05-09 02:06:08.526144 HKT | MaxKL                       0.765034
+2019-05-09 02:06:08.526231 HKT | Time                        7.0779
+2019-05-09 02:06:08.526319 HKT | ItrTime                     2.1541
+2019-05-09 02:06:08.526405 HKT | ----------------------  -------------
+2019-05-09 02:06:08.526611 HKT | [test1/maml/goal4] itr #3 | Obtaining samples...
+2019-05-09 02:06:10.512530 HKT | [test1/maml/goal4] itr #3 | Processing samples...
+2019-05-09 02:06:10.512974 HKT | [test1/maml/goal4] itr #3 | fitting baseline...
+2019-05-09 02:06:10.541526 HKT | [test1/maml/goal4] itr #3 | fitted
+2019-05-09 02:06:10.548851 HKT | [test1/maml/goal4] itr #3 | Logging diagnostics...
+2019-05-09 02:06:10.549937 HKT | [test1/maml/goal4] itr #3 | Optimizing policy...
+2019-05-09 02:06:10.550054 HKT | [test1/maml/goal4] itr #3 | optimizing policy
+2019-05-09 02:06:10.573273 HKT | [test1/maml/goal4] itr #3 | Saving snapshot...
+2019-05-09 02:06:10.582126 HKT | [test1/maml/goal4] itr #3 | Saved
+2019-05-09 02:06:10.583241 HKT | ----------------------  -------------
+2019-05-09 02:06:10.583357 HKT | TotalExecTime               1.98242
+2019-05-09 02:06:10.583456 HKT | AverageReturn             124.014
+2019-05-09 02:06:10.583551 HKT | ExplainedVariance           0.90075
+2019-05-09 02:06:10.583643 HKT | NumTrajs                   23
+2019-05-09 02:06:10.583734 HKT | Entropy                     9.47314
+2019-05-09 02:06:10.583825 HKT | Perplexity              13005.6
+2019-05-09 02:06:10.583915 HKT | StdReturn                  15.1681
+2019-05-09 02:06:10.584004 HKT | MaxReturn                 144.107
+2019-05-09 02:06:10.584093 HKT | MinReturn                  87.0288
+2019-05-09 02:06:10.584182 HKT | AverageForwardProgress      0.368238
+2019-05-09 02:06:10.584277 HKT | MaxForwardProgress          1.23106
+2019-05-09 02:06:10.584367 HKT | MinForwardProgress         -0.490605
+2019-05-09 02:06:10.584458 HKT | StdForwardProgress          0.438494
+2019-05-09 02:06:10.584547 HKT | AveragePolicyStd            0.796171
+2019-05-09 02:06:10.584637 HKT | LossBefore                  0.0170873
+2019-05-09 02:06:10.584727 HKT | LossAfter                  -0.0227214
+2019-05-09 02:06:10.584816 HKT | MeanKL                      0.0852227
+2019-05-09 02:06:10.584905 HKT | MaxKL                       0.62879
+2019-05-09 02:06:10.585001 HKT | Time                        9.13655
+2019-05-09 02:06:10.585108 HKT | ItrTime                     2.05569
+2019-05-09 02:06:10.585200 HKT | ----------------------  -------------
+[32musing seed 2[0m
+[32musing seed 4[0m
+[32musing seed 1[0m
+2019-05-09 02:06:12.624631 HKT | Setting seed to 1
+2019-05-09 02:06:12.624658 HKT | Setting seed to 4
+2019-05-09 02:06:12.624641 HKT | Setting seed to 2
+2019-05-09 02:06:12.624881 HKT | Setting seed to 3
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 125)
+idx 0
+idx 1
+2019-05-09 02:06:13.785537 HKT | [test1/pretrain/goal0] Populating workers...
+[32musing seed 1[0m
+obs_dim  125
+[32musing seed 4[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+[32musing seed 2[0m
+obs_dim  125
+[32musing seed 3[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+2019-05-09 02:06:14.795699 HKT | [test1/pretrain/goal0] Populated
+2019-05-09 02:06:14.828047 HKT | [test1/pretrain/goal0] itr #0 | Obtaining samples...
+2019-05-09 02:06:17.182953 HKT | [test1/pretrain/goal0] itr #0 | Processing samples...
+2019-05-09 02:06:17.183754 HKT | [test1/pretrain/goal0] itr #0 | fitting baseline...
+2019-05-09 02:06:17.300473 HKT | [test1/pretrain/goal0] itr #0 | fitted
+2019-05-09 02:06:17.319301 HKT | [test1/pretrain/goal0] itr #0 | Logging diagnostics...
+2019-05-09 02:06:17.320302 HKT | [test1/pretrain/goal0] itr #0 | Optimizing policy...
+2019-05-09 02:06:17.320512 HKT | [test1/pretrain/goal0] itr #0 | optimizing policy
+2019-05-09 02:06:17.632362 HKT | [test1/pretrain/goal0] itr #0 | Saving snapshot...
+2019-05-09 02:06:17.638145 HKT | [test1/pretrain/goal0] itr #0 | Saved
+2019-05-09 02:06:17.638855 HKT | ----------------------  -------------
+2019-05-09 02:06:17.638953 HKT | TotalExecTime               2.31696
+2019-05-09 02:06:17.639019 HKT | AverageReturn             -40.9228
+2019-05-09 02:06:17.639077 HKT | ExplainedVariance           0.375569
+2019-05-09 02:06:17.639132 HKT | NumTrajs                   29
+2019-05-09 02:06:17.639184 HKT | Entropy                    11.3515
+2019-05-09 02:06:17.639237 HKT | Perplexity              85093.6
+2019-05-09 02:06:17.639288 HKT | StdReturn                  52.3818
+2019-05-09 02:06:17.639338 HKT | MaxReturn                  41.4552
+2019-05-09 02:06:17.639389 HKT | MinReturn                -183.517
+2019-05-09 02:06:17.639439 HKT | AverageForwardProgress     -0.0292173
+2019-05-09 02:06:17.639489 HKT | MaxForwardProgress          1.66535
+2019-05-09 02:06:17.639539 HKT | MinForwardProgress         -2.76207
+2019-05-09 02:06:17.639589 HKT | StdForwardProgress          1.02192
+2019-05-09 02:06:17.639639 HKT | AveragePolicyStd            1
+2019-05-09 02:06:17.639689 HKT | LossBefore                 -0.0622922
+2019-05-09 02:06:17.639738 HKT | LossAfter                  -0.135687
+2019-05-09 02:06:17.639787 HKT | MeanKL                      0.0857074
+2019-05-09 02:06:17.639837 HKT | MaxKL                       1.00017
+2019-05-09 02:06:17.639887 HKT | Time                        2.81026
+2019-05-09 02:06:17.639936 HKT | ItrTime                     2.81027
+2019-05-09 02:06:17.639985 HKT | ----------------------  -------------
+2019-05-09 02:06:17.640167 HKT | [test1/pretrain/goal0] itr #1 | Obtaining samples...
+2019-05-09 02:06:19.623120 HKT | [test1/pretrain/goal0] itr #1 | Processing samples...
+2019-05-09 02:06:19.623692 HKT | [test1/pretrain/goal0] itr #1 | fitting baseline...
+2019-05-09 02:06:19.650363 HKT | [test1/pretrain/goal0] itr #1 | fitted
+2019-05-09 02:06:19.659173 HKT | [test1/pretrain/goal0] itr #1 | Logging diagnostics...
+2019-05-09 02:06:19.660309 HKT | [test1/pretrain/goal0] itr #1 | Optimizing policy...
+2019-05-09 02:06:19.660428 HKT | [test1/pretrain/goal0] itr #1 | optimizing policy
+2019-05-09 02:06:19.797177 HKT | [test1/pretrain/goal0] itr #1 | Saving snapshot...
+2019-05-09 02:06:19.806049 HKT | [test1/pretrain/goal0] itr #1 | Saved
+2019-05-09 02:06:19.807297 HKT | ----------------------  -------------
+2019-05-09 02:06:19.807423 HKT | TotalExecTime               1.98001
+2019-05-09 02:06:19.807530 HKT | AverageReturn             -36.5094
+2019-05-09 02:06:19.807634 HKT | ExplainedVariance           0.351409
+2019-05-09 02:06:19.807734 HKT | NumTrajs                   35
+2019-05-09 02:06:19.807834 HKT | Entropy                    11.3266
+2019-05-09 02:06:19.807933 HKT | Perplexity              82999.6
+2019-05-09 02:06:19.808032 HKT | StdReturn                  56.4094
+2019-05-09 02:06:19.808131 HKT | MaxReturn                  71.1432
+2019-05-09 02:06:19.808230 HKT | MinReturn                -181.665
+2019-05-09 02:06:19.808329 HKT | AverageForwardProgress     -0.0585968
+2019-05-09 02:06:19.808426 HKT | MaxForwardProgress          2.62076
+2019-05-09 02:06:19.808524 HKT | MinForwardProgress         -2.28687
+2019-05-09 02:06:19.808622 HKT | StdForwardProgress          1.12838
+2019-05-09 02:06:19.808719 HKT | AveragePolicyStd            0.996896
+2019-05-09 02:06:19.808822 HKT | LossBefore                  0.0149458
+2019-05-09 02:06:19.808920 HKT | LossAfter                  -0.0341061
+2019-05-09 02:06:19.809018 HKT | MeanKL                      0.0847956
+2019-05-09 02:06:19.809115 HKT | MaxKL                       1.20906
+2019-05-09 02:06:19.809213 HKT | Time                        4.97818
+2019-05-09 02:06:19.809310 HKT | ItrTime                     2.16604
+2019-05-09 02:06:19.809407 HKT | ----------------------  -------------
+2019-05-09 02:06:19.809622 HKT | [test1/pretrain/goal0] itr #2 | Obtaining samples...
+2019-05-09 02:06:21.812755 HKT | [test1/pretrain/goal0] itr #2 | Processing samples...
+2019-05-09 02:06:21.813313 HKT | [test1/pretrain/goal0] itr #2 | fitting baseline...
+2019-05-09 02:06:21.842567 HKT | [test1/pretrain/goal0] itr #2 | fitted
+2019-05-09 02:06:21.851215 HKT | [test1/pretrain/goal0] itr #2 | Logging diagnostics...
+2019-05-09 02:06:21.852449 HKT | [test1/pretrain/goal0] itr #2 | Optimizing policy...
+2019-05-09 02:06:21.852654 HKT | [test1/pretrain/goal0] itr #2 | optimizing policy
+2019-05-09 02:06:21.874955 HKT | [test1/pretrain/goal0] itr #2 | Saving snapshot...
+2019-05-09 02:06:21.882967 HKT | [test1/pretrain/goal0] itr #2 | Saved
+2019-05-09 02:06:21.884037 HKT | ----------------------  -------------
+2019-05-09 02:06:21.884161 HKT | TotalExecTime               2.0006
+2019-05-09 02:06:21.884262 HKT | AverageReturn             -25.6124
+2019-05-09 02:06:21.884358 HKT | ExplainedVariance           0.333664
+2019-05-09 02:06:21.884451 HKT | NumTrajs                   36
+2019-05-09 02:06:21.884543 HKT | Entropy                    11.3296
+2019-05-09 02:06:21.884634 HKT | Perplexity              83248.2
+2019-05-09 02:06:21.884733 HKT | StdReturn                  38.0239
+2019-05-09 02:06:21.884840 HKT | MaxReturn                  46.7079
+2019-05-09 02:06:21.884933 HKT | MinReturn                -123.741
+2019-05-09 02:06:21.885024 HKT | AverageForwardProgress      0.127886
+2019-05-09 02:06:21.885113 HKT | MaxForwardProgress          2.66004
+2019-05-09 02:06:21.885202 HKT | MinForwardProgress         -1.70517
+2019-05-09 02:06:21.885291 HKT | StdForwardProgress          0.828175
+2019-05-09 02:06:21.885379 HKT | AveragePolicyStd            0.997272
+2019-05-09 02:06:21.885468 HKT | LossBefore                 -0.0253112
+2019-05-09 02:06:21.885557 HKT | LossAfter                  -0.0609796
+2019-05-09 02:06:21.885645 HKT | MeanKL                      0.0396478
+2019-05-09 02:06:21.885733 HKT | MaxKL                       0.391568
+2019-05-09 02:06:21.885822 HKT | Time                        7.0551
+2019-05-09 02:06:21.885910 HKT | ItrTime                     2.07351
+2019-05-09 02:06:21.885998 HKT | ----------------------  -------------
+2019-05-09 02:06:21.886197 HKT | [test1/pretrain/goal0] itr #3 | Obtaining samples...
+2019-05-09 02:06:23.774284 HKT | [test1/pretrain/goal0] itr #3 | Processing samples...
+2019-05-09 02:06:23.775115 HKT | [test1/pretrain/goal0] itr #3 | fitting baseline...
+2019-05-09 02:06:23.826572 HKT | [test1/pretrain/goal0] itr #3 | fitted
+2019-05-09 02:06:23.832777 HKT | [test1/pretrain/goal0] itr #3 | Logging diagnostics...
+2019-05-09 02:06:23.833561 HKT | [test1/pretrain/goal0] itr #3 | Optimizing policy...
+2019-05-09 02:06:23.833645 HKT | [test1/pretrain/goal0] itr #3 | optimizing policy
+2019-05-09 02:06:23.853223 HKT | [test1/pretrain/goal0] itr #3 | Saving snapshot...
+2019-05-09 02:06:23.861530 HKT | [test1/pretrain/goal0] itr #3 | Saved
+2019-05-09 02:06:23.862647 HKT | ----------------------  -------------
+2019-05-09 02:06:23.862785 HKT | TotalExecTime               1.88312
+2019-05-09 02:06:23.862896 HKT | AverageReturn             -43.6792
+2019-05-09 02:06:23.863012 HKT | ExplainedVariance           0.387466
+2019-05-09 02:06:23.863108 HKT | NumTrajs                   33
+2019-05-09 02:06:23.863203 HKT | Entropy                    11.3245
+2019-05-09 02:06:23.863296 HKT | Perplexity              82827.6
+2019-05-09 02:06:23.863389 HKT | StdReturn                  43.7957
+2019-05-09 02:06:23.863486 HKT | MaxReturn                  37.7877
+2019-05-09 02:06:23.863579 HKT | MinReturn                -106.429
+2019-05-09 02:06:23.863670 HKT | AverageForwardProgress     -0.211896
+2019-05-09 02:06:23.863761 HKT | MaxForwardProgress          2.07036
+2019-05-09 02:06:23.863851 HKT | MinForwardProgress         -1.4787
+2019-05-09 02:06:23.863942 HKT | StdForwardProgress          0.81488
+2019-05-09 02:06:23.864032 HKT | AveragePolicyStd            0.996644
+2019-05-09 02:06:23.864122 HKT | LossBefore                 -0.0399756
+2019-05-09 02:06:23.864212 HKT | LossAfter                  -0.0823881
+2019-05-09 02:06:23.864301 HKT | MeanKL                      0.0348851
+2019-05-09 02:06:23.864397 HKT | MaxKL                       0.308998
+2019-05-09 02:06:23.864488 HKT | Time                        9.03368
+2019-05-09 02:06:23.864577 HKT | ItrTime                     1.97551
+2019-05-09 02:06:23.864667 HKT | ----------------------  -------------
+[32musing seed 1[0m
+2019-05-09 02:06:25.773763 HKT | Setting seed to 4
+2019-05-09 02:06:25.773758 HKT | Setting seed to 1
+2019-05-09 02:06:25.773758 HKT | Setting seed to 2
+2019-05-09 02:06:25.773979 HKT | Setting seed to 3
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 125)
+idx 0
+idx 1
+2019-05-09 02:06:26.947967 HKT | [test1/pretrain/goal1] Populating workers...
+[32musing seed 4[0m
+obs_dim  125
+[32musing seed 3[0m
+obs_dim  125
+[32musing seed 2[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 0
+idx 1
+idx 1
+idx 0
+idx 0
+idx 1
+idx 1
+idx 0
+idx 1
+[32musing seed 1[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+2019-05-09 02:06:27.713468 HKT | [test1/pretrain/goal1] Populated
+2019-05-09 02:06:27.740663 HKT | [test1/pretrain/goal1] itr #0 | Obtaining samples...
+2019-05-09 02:06:29.855136 HKT | [test1/pretrain/goal1] itr #0 | Processing samples...
+2019-05-09 02:06:29.855680 HKT | [test1/pretrain/goal1] itr #0 | fitting baseline...
+2019-05-09 02:06:29.899256 HKT | [test1/pretrain/goal1] itr #0 | fitted
+2019-05-09 02:06:29.907069 HKT | [test1/pretrain/goal1] itr #0 | Logging diagnostics...
+2019-05-09 02:06:29.908141 HKT | [test1/pretrain/goal1] itr #0 | Optimizing policy...
+2019-05-09 02:06:29.908462 HKT | [test1/pretrain/goal1] itr #0 | optimizing policy
+2019-05-09 02:06:30.191094 HKT | [test1/pretrain/goal1] itr #0 | Saving snapshot...
+2019-05-09 02:06:30.196500 HKT | [test1/pretrain/goal1] itr #0 | Saved
+2019-05-09 02:06:30.197149 HKT | ----------------------  -------------
+2019-05-09 02:06:30.197234 HKT | TotalExecTime               2.08598
+2019-05-09 02:06:30.197301 HKT | AverageReturn            -175.69
+2019-05-09 02:06:30.197363 HKT | ExplainedVariance           0.512743
+2019-05-09 02:06:30.197423 HKT | NumTrajs                   29
+2019-05-09 02:06:30.197482 HKT | Entropy                    11.3515
+2019-05-09 02:06:30.197540 HKT | Perplexity              85093.7
+2019-05-09 02:06:30.197598 HKT | StdReturn                  75.148
+2019-05-09 02:06:30.197655 HKT | MaxReturn                 -41.2104
+2019-05-09 02:06:30.197712 HKT | MinReturn                -297.306
+2019-05-09 02:06:30.197769 HKT | AverageForwardProgress      0.0533738
+2019-05-09 02:06:30.197826 HKT | MaxForwardProgress          1.66535
+2019-05-09 02:06:30.197882 HKT | MinForwardProgress         -2.24338
+2019-05-09 02:06:30.197939 HKT | StdForwardProgress          0.885384
+2019-05-09 02:06:30.197995 HKT | AveragePolicyStd            1
+2019-05-09 02:06:30.198051 HKT | LossBefore                 -0.0474928
+2019-05-09 02:06:30.198107 HKT | LossAfter                  -0.114949
+2019-05-09 02:06:30.198164 HKT | MeanKL                      0.0938087
+2019-05-09 02:06:30.198317 HKT | MaxKL                       0.932063
+2019-05-09 02:06:30.198410 HKT | Time                        2.45597
+2019-05-09 02:06:30.198495 HKT | ItrTime                     2.45597
+2019-05-09 02:06:30.198578 HKT | ----------------------  -------------
+2019-05-09 02:06:30.198845 HKT | [test1/pretrain/goal1] itr #1 | Obtaining samples...
+2019-05-09 02:06:32.296370 HKT | [test1/pretrain/goal1] itr #1 | Processing samples...
+2019-05-09 02:06:32.297392 HKT | [test1/pretrain/goal1] itr #1 | fitting baseline...
+2019-05-09 02:06:32.339654 HKT | [test1/pretrain/goal1] itr #1 | fitted
+2019-05-09 02:06:32.375968 HKT | [test1/pretrain/goal1] itr #1 | Logging diagnostics...
+2019-05-09 02:06:32.377171 HKT | [test1/pretrain/goal1] itr #1 | Optimizing policy...
+2019-05-09 02:06:32.377414 HKT | [test1/pretrain/goal1] itr #1 | optimizing policy
+2019-05-09 02:06:32.521310 HKT | [test1/pretrain/goal1] itr #1 | Saving snapshot...
+2019-05-09 02:06:32.526994 HKT | [test1/pretrain/goal1] itr #1 | Saved
+2019-05-09 02:06:32.527702 HKT | ----------------------  -------------
+2019-05-09 02:06:32.527784 HKT | TotalExecTime               2.09334
+2019-05-09 02:06:32.527881 HKT | AverageReturn            -153.407
+2019-05-09 02:06:32.527995 HKT | ExplainedVariance           0.471648
+2019-05-09 02:06:32.528104 HKT | NumTrajs                   33
+2019-05-09 02:06:32.528197 HKT | Entropy                    11.3325
+2019-05-09 02:06:32.528292 HKT | Perplexity              83492.4
+2019-05-09 02:06:32.528382 HKT | StdReturn                  89.5208
+2019-05-09 02:06:32.528472 HKT | MaxReturn                   7.79038
+2019-05-09 02:06:32.528562 HKT | MinReturn                -394.602
+2019-05-09 02:06:32.528652 HKT | AverageForwardProgress      0.169758
+2019-05-09 02:06:32.528743 HKT | MaxForwardProgress          2.68637
+2019-05-09 02:06:32.528824 HKT | MinForwardProgress         -3.29361
+2019-05-09 02:06:32.528903 HKT | StdForwardProgress          1.29794
+2019-05-09 02:06:32.528986 HKT | AveragePolicyStd            0.99763
+2019-05-09 02:06:32.529058 HKT | LossBefore                  0.0300495
+2019-05-09 02:06:32.529120 HKT | LossAfter                  -0.0191446
+2019-05-09 02:06:32.529180 HKT | MeanKL                      0.0779806
+2019-05-09 02:06:32.529239 HKT | MaxKL                       0.87286
+2019-05-09 02:06:32.529298 HKT | Time                        4.78649
+2019-05-09 02:06:32.529356 HKT | ItrTime                     2.32829
+2019-05-09 02:06:32.529415 HKT | ----------------------  -------------
+2019-05-09 02:06:32.529572 HKT | [test1/pretrain/goal1] itr #2 | Obtaining samples...
+2019-05-09 02:06:34.693881 HKT | [test1/pretrain/goal1] itr #2 | Processing samples...
+2019-05-09 02:06:34.694706 HKT | [test1/pretrain/goal1] itr #2 | fitting baseline...
+2019-05-09 02:06:34.858792 HKT | [test1/pretrain/goal1] itr #2 | fitted
+2019-05-09 02:06:34.871185 HKT | [test1/pretrain/goal1] itr #2 | Logging diagnostics...
+2019-05-09 02:06:34.872540 HKT | [test1/pretrain/goal1] itr #2 | Optimizing policy...
+2019-05-09 02:06:34.872806 HKT | [test1/pretrain/goal1] itr #2 | optimizing policy
+2019-05-09 02:06:34.895919 HKT | [test1/pretrain/goal1] itr #2 | Saving snapshot...
+2019-05-09 02:06:34.905043 HKT | [test1/pretrain/goal1] itr #2 | Saved
+2019-05-09 02:06:34.913379 HKT | ----------------------  --------------
+2019-05-09 02:06:34.914062 HKT | TotalExecTime               2.1615
+2019-05-09 02:06:34.914252 HKT | AverageReturn            -142.86
+2019-05-09 02:06:34.914433 HKT | ExplainedVariance           0.42287
+2019-05-09 02:06:34.914608 HKT | NumTrajs                   33
+2019-05-09 02:06:34.914780 HKT | Entropy                    11.3385
+2019-05-09 02:06:34.914951 HKT | Perplexity              83995.6
+2019-05-09 02:06:34.915127 HKT | StdReturn                  85.1134
+2019-05-09 02:06:34.915297 HKT | MaxReturn                 -27.1952
+2019-05-09 02:06:34.915466 HKT | MinReturn                -341.84
+2019-05-09 02:06:34.915636 HKT | AverageForwardProgress      0.346249
+2019-05-09 02:06:34.915806 HKT | MaxForwardProgress          2.28772
+2019-05-09 02:06:34.915974 HKT | MinForwardProgress         -2.27134
+2019-05-09 02:06:34.916142 HKT | StdForwardProgress          1.00463
+2019-05-09 02:06:34.916312 HKT | AveragePolicyStd            0.998382
+2019-05-09 02:06:34.916481 HKT | LossBefore                  0.00512879
+2019-05-09 02:06:34.916649 HKT | LossAfter                  -0.036326
+2019-05-09 02:06:34.916817 HKT | MeanKL                      0.057278
+2019-05-09 02:06:34.916985 HKT | MaxKL                       0.901334
+2019-05-09 02:06:34.917153 HKT | Time                        7.17125
+2019-05-09 02:06:34.917321 HKT | ItrTime                     2.38233
+2019-05-09 02:06:34.917488 HKT | ----------------------  --------------
+2019-05-09 02:06:34.917778 HKT | [test1/pretrain/goal1] itr #3 | Obtaining samples...
+2019-05-09 02:06:36.915622 HKT | [test1/pretrain/goal1] itr #3 | Processing samples...
+2019-05-09 02:06:36.916168 HKT | [test1/pretrain/goal1] itr #3 | fitting baseline...
+2019-05-09 02:06:36.950700 HKT | [test1/pretrain/goal1] itr #3 | fitted
+2019-05-09 02:06:37.063788 HKT | [test1/pretrain/goal1] itr #3 | Logging diagnostics...
+2019-05-09 02:06:37.067535 HKT | [test1/pretrain/goal1] itr #3 | Optimizing policy...
+2019-05-09 02:06:37.067999 HKT | [test1/pretrain/goal1] itr #3 | optimizing policy
+2019-05-09 02:06:37.092275 HKT | [test1/pretrain/goal1] itr #3 | Saving snapshot...
+2019-05-09 02:06:37.101215 HKT | [test1/pretrain/goal1] itr #3 | Saved
+2019-05-09 02:06:37.102350 HKT | ----------------------  --------------
+2019-05-09 02:06:37.102470 HKT | TotalExecTime               1.99328
+2019-05-09 02:06:37.102559 HKT | AverageReturn            -157.987
+2019-05-09 02:06:37.102640 HKT | ExplainedVariance           0.43381
+2019-05-09 02:06:37.102717 HKT | NumTrajs                   32
+2019-05-09 02:06:37.102794 HKT | Entropy                    11.3395
+2019-05-09 02:06:37.102871 HKT | Perplexity              84081.8
+2019-05-09 02:06:37.103037 HKT | StdReturn                  88.1828
+2019-05-09 02:06:37.103140 HKT | MaxReturn                 -38.421
+2019-05-09 02:06:37.103243 HKT | MinReturn                -401.339
+2019-05-09 02:06:37.103339 HKT | AverageForwardProgress      0.00392033
+2019-05-09 02:06:37.103434 HKT | MaxForwardProgress          1.77469
+2019-05-09 02:06:37.103528 HKT | MinForwardProgress         -3.4774
+2019-05-09 02:06:37.103622 HKT | StdForwardProgress          0.933521
+2019-05-09 02:06:37.103715 HKT | AveragePolicyStd            0.998513
+2019-05-09 02:06:37.103809 HKT | LossBefore                  0.00495082
+2019-05-09 02:06:37.103902 HKT | LossAfter                  -0.0411581
+2019-05-09 02:06:37.103995 HKT | MeanKL                      0.0517715
+2019-05-09 02:06:37.104089 HKT | MaxKL                       0.771675
+2019-05-09 02:06:37.104181 HKT | Time                        9.36075
+2019-05-09 02:06:37.104274 HKT | ItrTime                     2.18362
+2019-05-09 02:06:37.104367 HKT | ----------------------  --------------
+[32musing seed 1[0m
+2019-05-09 02:06:39.077094 HKT | Setting seed to 4
+2019-05-09 02:06:39.077069 HKT | Setting seed to 1
+2019-05-09 02:06:39.077071 HKT | Setting seed to 2
+2019-05-09 02:06:39.077316 HKT | Setting seed to 3
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 125)
+idx 0
+idx 1
+2019-05-09 02:06:40.347624 HKT | [test1/pretrain/goal2] Populating workers...
+[32musing seed 4[0m
+obs_dim  125
+idx 0
+idx 1
+[32musing seed 2[0m
+obs_dim  125
+idx 0
+idx 1
+[32musing seed 1[0m
+obs_dim  125
+idx 0
+idx 1
+[32musing seed 3[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+2019-05-09 02:06:41.148996 HKT | [test1/pretrain/goal2] Populated
+2019-05-09 02:06:41.170948 HKT | [test1/pretrain/goal2] itr #0 | Obtaining samples...
+2019-05-09 02:06:43.131572 HKT | [test1/pretrain/goal2] itr #0 | Processing samples...
+2019-05-09 02:06:43.132267 HKT | [test1/pretrain/goal2] itr #0 | fitting baseline...
+2019-05-09 02:06:43.171982 HKT | [test1/pretrain/goal2] itr #0 | fitted
+2019-05-09 02:06:43.180328 HKT | [test1/pretrain/goal2] itr #0 | Logging diagnostics...
+2019-05-09 02:06:43.181126 HKT | [test1/pretrain/goal2] itr #0 | Optimizing policy...
+2019-05-09 02:06:43.181242 HKT | [test1/pretrain/goal2] itr #0 | optimizing policy
+2019-05-09 02:06:43.459673 HKT | [test1/pretrain/goal2] itr #0 | Saving snapshot...
+2019-05-09 02:06:43.465109 HKT | [test1/pretrain/goal2] itr #0 | Saved
+2019-05-09 02:06:43.465779 HKT | ----------------------  -------------
+2019-05-09 02:06:43.465853 HKT | TotalExecTime               1.93141
+2019-05-09 02:06:43.465911 HKT | AverageReturn              81.3961
+2019-05-09 02:06:43.465965 HKT | ExplainedVariance           0.436141
+2019-05-09 02:06:43.466016 HKT | NumTrajs                   29
+2019-05-09 02:06:43.466067 HKT | Entropy                    11.3515
+2019-05-09 02:06:43.466117 HKT | Perplexity              85093.7
+2019-05-09 02:06:43.466167 HKT | StdReturn                  41.2809
+2019-05-09 02:06:43.466217 HKT | MaxReturn                 154.972
+2019-05-09 02:06:43.466267 HKT | MinReturn                  17.011
+2019-05-09 02:06:43.466316 HKT | AverageForwardProgress      0.0533738
+2019-05-09 02:06:43.466365 HKT | MaxForwardProgress          1.66535
+2019-05-09 02:06:43.466413 HKT | MinForwardProgress         -2.24338
+2019-05-09 02:06:43.466462 HKT | StdForwardProgress          0.885384
+2019-05-09 02:06:43.466510 HKT | AveragePolicyStd            1
+2019-05-09 02:06:43.466560 HKT | LossBefore                  0.0129449
+2019-05-09 02:06:43.466608 HKT | LossAfter                  -0.0814736
+2019-05-09 02:06:43.466657 HKT | MeanKL                      0.231327
+2019-05-09 02:06:43.466705 HKT | MaxKL                       1.68089
+2019-05-09 02:06:43.466753 HKT | Time                        2.29432
+2019-05-09 02:06:43.466802 HKT | ItrTime                     2.29432
+2019-05-09 02:06:43.466851 HKT | ----------------------  -------------
+2019-05-09 02:06:43.467026 HKT | [test1/pretrain/goal2] itr #1 | Obtaining samples...
+2019-05-09 02:06:45.353834 HKT | [test1/pretrain/goal2] itr #1 | Processing samples...
+2019-05-09 02:06:45.354847 HKT | [test1/pretrain/goal2] itr #1 | fitting baseline...
+2019-05-09 02:06:45.389399 HKT | [test1/pretrain/goal2] itr #1 | fitted
+2019-05-09 02:06:45.413198 HKT | [test1/pretrain/goal2] itr #1 | Logging diagnostics...
+2019-05-09 02:06:45.414410 HKT | [test1/pretrain/goal2] itr #1 | Optimizing policy...
+2019-05-09 02:06:45.414548 HKT | [test1/pretrain/goal2] itr #1 | optimizing policy
+2019-05-09 02:06:45.577620 HKT | [test1/pretrain/goal2] itr #1 | Saving snapshot...
+2019-05-09 02:06:45.583308 HKT | [test1/pretrain/goal2] itr #1 | Saved
+2019-05-09 02:06:45.583951 HKT | ----------------------  --------------
+2019-05-09 02:06:45.584029 HKT | TotalExecTime               1.8834
+2019-05-09 02:06:45.584088 HKT | AverageReturn              72.662
+2019-05-09 02:06:45.584142 HKT | ExplainedVariance           0.414084
+2019-05-09 02:06:45.584194 HKT | NumTrajs                   34
+2019-05-09 02:06:45.584246 HKT | Entropy                    11.3567
+2019-05-09 02:06:45.584297 HKT | Perplexity              85535.5
+2019-05-09 02:06:45.584347 HKT | StdReturn                  33.6387
+2019-05-09 02:06:45.584396 HKT | MaxReturn                 143.339
+2019-05-09 02:06:45.584446 HKT | MinReturn                  11.7768
+2019-05-09 02:06:45.584495 HKT | AverageForwardProgress      0.0905707
+2019-05-09 02:06:45.584544 HKT | MaxForwardProgress          1.58756
+2019-05-09 02:06:45.584593 HKT | MinForwardProgress         -1.07502
+2019-05-09 02:06:45.584642 HKT | StdForwardProgress          0.623799
+2019-05-09 02:06:45.584692 HKT | AveragePolicyStd            1.00066
+2019-05-09 02:06:45.584746 HKT | LossBefore                  0.0379962
+2019-05-09 02:06:45.584797 HKT | LossAfter                  -0.00594594
+2019-05-09 02:06:45.584846 HKT | MeanKL                      0.0605664
+2019-05-09 02:06:45.584895 HKT | MaxKL                       0.555571
+2019-05-09 02:06:45.584944 HKT | Time                        4.4125
+2019-05-09 02:06:45.584993 HKT | ItrTime                     2.11639
+2019-05-09 02:06:45.585042 HKT | ----------------------  --------------
+2019-05-09 02:06:45.585176 HKT | [test1/pretrain/goal2] itr #2 | Obtaining samples...
+2019-05-09 02:06:47.707241 HKT | [test1/pretrain/goal2] itr #2 | Processing samples...
+2019-05-09 02:06:47.707794 HKT | [test1/pretrain/goal2] itr #2 | fitting baseline...
+2019-05-09 02:06:47.742806 HKT | [test1/pretrain/goal2] itr #2 | fitted
+2019-05-09 02:06:47.751297 HKT | [test1/pretrain/goal2] itr #2 | Logging diagnostics...
+2019-05-09 02:06:47.752461 HKT | [test1/pretrain/goal2] itr #2 | Optimizing policy...
+2019-05-09 02:06:47.752580 HKT | [test1/pretrain/goal2] itr #2 | optimizing policy
+2019-05-09 02:06:47.792455 HKT | [test1/pretrain/goal2] itr #2 | Saving snapshot...
+2019-05-09 02:06:47.800526 HKT | [test1/pretrain/goal2] itr #2 | Saved
+2019-05-09 02:06:47.801607 HKT | ----------------------  -------------
+2019-05-09 02:06:47.801723 HKT | TotalExecTime               2.1197
+2019-05-09 02:06:47.801825 HKT | AverageReturn              68.4526
+2019-05-09 02:06:47.801922 HKT | ExplainedVariance           0.381706
+2019-05-09 02:06:47.802018 HKT | NumTrajs                   34
+2019-05-09 02:06:47.802113 HKT | Entropy                    11.3643
+2019-05-09 02:06:47.802212 HKT | Perplexity              86187.9
+2019-05-09 02:06:47.802308 HKT | StdReturn                  41.6161
+2019-05-09 02:06:47.802401 HKT | MaxReturn                 147.238
+2019-05-09 02:06:47.802495 HKT | MinReturn                   3.38668
+2019-05-09 02:06:47.802589 HKT | AverageForwardProgress      0.133182
+2019-05-09 02:06:47.802682 HKT | MaxForwardProgress          2.5607
+2019-05-09 02:06:47.802775 HKT | MinForwardProgress         -1.58644
+2019-05-09 02:06:47.802868 HKT | StdForwardProgress          0.907139
+2019-05-09 02:06:47.802969 HKT | AveragePolicyStd            1.00162
+2019-05-09 02:06:47.803064 HKT | LossBefore                 -0.0382001
+2019-05-09 02:06:47.803158 HKT | LossAfter                  -0.0697269
+2019-05-09 02:06:47.803251 HKT | MeanKL                      0.0283529
+2019-05-09 02:06:47.803345 HKT | MaxKL                       0.243826
+2019-05-09 02:06:47.803437 HKT | Time                        6.62977
+2019-05-09 02:06:47.803530 HKT | ItrTime                     2.21551
+2019-05-09 02:06:47.803624 HKT | ----------------------  -------------
+2019-05-09 02:06:47.803822 HKT | [test1/pretrain/goal2] itr #3 | Obtaining samples...
+2019-05-09 02:06:49.699328 HKT | [test1/pretrain/goal2] itr #3 | Processing samples...
+2019-05-09 02:06:49.700004 HKT | [test1/pretrain/goal2] itr #3 | fitting baseline...
+2019-05-09 02:06:49.740475 HKT | [test1/pretrain/goal2] itr #3 | fitted
+2019-05-09 02:06:49.755716 HKT | [test1/pretrain/goal2] itr #3 | Logging diagnostics...
+2019-05-09 02:06:49.757085 HKT | [test1/pretrain/goal2] itr #3 | Optimizing policy...
+2019-05-09 02:06:49.757355 HKT | [test1/pretrain/goal2] itr #3 | optimizing policy
+2019-05-09 02:06:49.784228 HKT | [test1/pretrain/goal2] itr #3 | Saving snapshot...
+2019-05-09 02:06:49.792574 HKT | [test1/pretrain/goal2] itr #3 | Saved
+2019-05-09 02:06:49.793726 HKT | ----------------------  -------------
+2019-05-09 02:06:49.793838 HKT | TotalExecTime               1.8917
+2019-05-09 02:06:49.793935 HKT | AverageReturn              73.2679
+2019-05-09 02:06:49.794029 HKT | ExplainedVariance           0.500742
+2019-05-09 02:06:49.794121 HKT | NumTrajs                   31
+2019-05-09 02:06:49.794211 HKT | Entropy                    11.3566
+2019-05-09 02:06:49.794301 HKT | Perplexity              85531.8
+2019-05-09 02:06:49.794390 HKT | StdReturn                  41.2587
+2019-05-09 02:06:49.794484 HKT | MaxReturn                 149.547
+2019-05-09 02:06:49.794574 HKT | MinReturn                 -18.8185
+2019-05-09 02:06:49.794662 HKT | AverageForwardProgress      0.101297
+2019-05-09 02:06:49.794750 HKT | MaxForwardProgress          2.21257
+2019-05-09 02:06:49.794838 HKT | MinForwardProgress         -2.2899
+2019-05-09 02:06:49.794936 HKT | StdForwardProgress          0.997873
+2019-05-09 02:06:49.795029 HKT | AveragePolicyStd            1.00067
+2019-05-09 02:06:49.795119 HKT | LossBefore                  0.0293679
+2019-05-09 02:06:49.795207 HKT | LossAfter                  -0.0064645
+2019-05-09 02:06:49.795312 HKT | MeanKL                      0.0316374
+2019-05-09 02:06:49.795403 HKT | MaxKL                       0.420183
+2019-05-09 02:06:49.795491 HKT | Time                        8.62186
+2019-05-09 02:06:49.795580 HKT | ItrTime                     1.98896
+2019-05-09 02:06:49.795668 HKT | ----------------------  -------------
+
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/pretrain/goal0'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxOWAkAAAByZXNldF9hcmdxDWNudW1weS5jb3JlLm11bHRpYXJyYXkKc2NhbGFyCnEOY251bXB5CmR0eXBlCnEPWAIAAABmOHEQSwBLAYdxEVJxEihLA1gBAAAAPHETTk5OSv////9K/////0sAdHEUYkMIBK37y10E9D9xFYZxFlJxF1gIAAAAYmFzZWxpbmVxGGgGKYFxGX1xGihoCSloCn1xG1gIAAAAZW52X3NwZWNxHGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcR0pgXEefXEfKFgKAAAAX2F0dHJfbmFtZXEgWAQAAABzcGVjcSFYBAAAAF9vYmpxImgGKYFxI31xJChoCSloCn1xJVgLAAAAd3JhcHBlZF9lbnZxJmgGKYFxJ31xKChoCSloCn1xKVgDAAAAZW52cSpoBimBcSt9cSwoaAkpaAp9cS1YCwAAAHByb3h5X2NsYXNzcS5jcmxsYWIuZW52cy5tdWpvY28uYW50X2Vudl9yYW5kCkFudEVudlJhbmQKcS91YnNoLmNybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcTB1YnNoLmNzYW5kYm94LnJvY2t5LnRmLmVudnMuYmFzZQpUZkVudgpxMXVidWJzaC5jcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpxMnViWAoAAABiYXRjaF9zaXplcTNNoA9YBgAAAHBvbGljeXE0aAYpgXE1fXE2KGgJKWgKfXE3KGgcaB0pgXE4fXE5KGggaCFoImgjdWJYEwAAAGhpZGRlbl9ub25saW5lYXJpdHlxOmN0ZW5zb3JmbG93LnB5dGhvbi5vcHMuZ2VuX25uX29wcwpyZWx1CnE7WAwAAABoaWRkZW5fc2l6ZXNxPEtkS2SGcT1YBAAAAG5hbWVxPmg0dWguY3NhbmRib3gucm9ja3kudGYucG9saWNpZXMubWluaW1hbF9nYXVzc19tbHBfcG9saWN5CkdhdXNzaWFuTUxQUG9saWN5CnE/dWJoKmgjWAUAAABuX2l0cnFASwRYDgAAAG9wdGltaXplcl9hcmdzcUF9cUIoWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcUNjdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcURYEQAAAHRmX29wdGltaXplcl9hcmdzcUV9cUZYDQAAAGxlYXJuaW5nX3JhdGVxR0c/uZmZmZmZmnNYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXFIRz/JmZmZmZmadVgPAAAAbWF4X3BhdGhfbGVuZ3RocUlLyHVoLmNzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnZwZwpWUEcKcUp1YlgFAAAAdHJhaW5xSyl9cUx0cU11Yi4='  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/pretrain/goal0'
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/pretrain/goal1'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxOWAkAAAByZXNldF9hcmdxDWNudW1weS5jb3JlLm11bHRpYXJyYXkKc2NhbGFyCnEOY251bXB5CmR0eXBlCnEPWAIAAABmOHEQSwBLAYdxEVJxEihLA1gBAAAAPHETTk5OSv////9K/////0sAdHEUYkMIPTTMdqxJAUBxFYZxFlJxF1gIAAAAYmFzZWxpbmVxGGgGKYFxGX1xGihoCSloCn1xG1gIAAAAZW52X3NwZWNxHGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcR0pgXEefXEfKFgKAAAAX2F0dHJfbmFtZXEgWAQAAABzcGVjcSFYBAAAAF9vYmpxImgGKYFxI31xJChoCSloCn1xJVgLAAAAd3JhcHBlZF9lbnZxJmgGKYFxJ31xKChoCSloCn1xKVgDAAAAZW52cSpoBimBcSt9cSwoaAkpaAp9cS1YCwAAAHByb3h5X2NsYXNzcS5jcmxsYWIuZW52cy5tdWpvY28uYW50X2Vudl9yYW5kCkFudEVudlJhbmQKcS91YnNoLmNybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcTB1YnNoLmNzYW5kYm94LnJvY2t5LnRmLmVudnMuYmFzZQpUZkVudgpxMXVidWJzaC5jcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpxMnViWAoAAABiYXRjaF9zaXplcTNNoA9YBgAAAHBvbGljeXE0aAYpgXE1fXE2KGgJKWgKfXE3KGgcaB0pgXE4fXE5KGggaCFoImgjdWJYEwAAAGhpZGRlbl9ub25saW5lYXJpdHlxOmN0ZW5zb3JmbG93LnB5dGhvbi5vcHMuZ2VuX25uX29wcwpyZWx1CnE7WAwAAABoaWRkZW5fc2l6ZXNxPEtkS2SGcT1YBAAAAG5hbWVxPmg0dWguY3NhbmRib3gucm9ja3kudGYucG9saWNpZXMubWluaW1hbF9nYXVzc19tbHBfcG9saWN5CkdhdXNzaWFuTUxQUG9saWN5CnE/dWJoKmgjWAUAAABuX2l0cnFASwRYDgAAAG9wdGltaXplcl9hcmdzcUF9cUIoWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcUNjdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcURYEQAAAHRmX29wdGltaXplcl9hcmdzcUV9cUZYDQAAAGxlYXJuaW5nX3JhdGVxR0c/uZmZmZmZmnNYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXFIRz/JmZmZmZmadVgPAAAAbWF4X3BhdGhfbGVuZ3RocUlLyHVoLmNzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnZwZwpWUEcKcUp1YlgFAAAAdHJhaW5xSyl9cUx0cU11Yi4='  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/pretrain/goal1'
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/pretrain/goal2'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxOWAkAAAByZXNldF9hcmdxDWNudW1weS5jb3JlLm11bHRpYXJyYXkKc2NhbGFyCnEOY251bXB5CmR0eXBlCnEPWAIAAABmOHEQSwBLAYdxEVJxEihLA1gBAAAAPHETTk5OSv////9K/////0sAdHEUYkMIAFDJTKx8Nj9xFYZxFlJxF1gIAAAAYmFzZWxpbmVxGGgGKYFxGX1xGihoCSloCn1xG1gIAAAAZW52X3NwZWNxHGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcR0pgXEefXEfKFgKAAAAX2F0dHJfbmFtZXEgWAQAAABzcGVjcSFYBAAAAF9vYmpxImgGKYFxI31xJChoCSloCn1xJVgLAAAAd3JhcHBlZF9lbnZxJmgGKYFxJ31xKChoCSloCn1xKVgDAAAAZW52cSpoBimBcSt9cSwoaAkpaAp9cS1YCwAAAHByb3h5X2NsYXNzcS5jcmxsYWIuZW52cy5tdWpvY28uYW50X2Vudl9yYW5kCkFudEVudlJhbmQKcS91YnNoLmNybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcTB1YnNoLmNzYW5kYm94LnJvY2t5LnRmLmVudnMuYmFzZQpUZkVudgpxMXVidWJzaC5jcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpxMnViWAoAAABiYXRjaF9zaXplcTNNoA9YBgAAAHBvbGljeXE0aAYpgXE1fXE2KGgJKWgKfXE3KGgcaB0pgXE4fXE5KGggaCFoImgjdWJYEwAAAGhpZGRlbl9ub25saW5lYXJpdHlxOmN0ZW5zb3JmbG93LnB5dGhvbi5vcHMuZ2VuX25uX29wcwpyZWx1CnE7WAwAAABoaWRkZW5fc2l6ZXNxPEtkS2SGcT1YBAAAAG5hbWVxPmg0dWguY3NhbmRib3gucm9ja3kudGYucG9saWNpZXMubWluaW1hbF9nYXVzc19tbHBfcG9saWN5CkdhdXNzaWFuTUxQUG9saWN5CnE/dWJoKmgjWAUAAABuX2l0cnFASwRYDgAAAG9wdGltaXplcl9hcmdzcUF9cUIoWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcUNjdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcURYEQAAAHRmX29wdGltaXplcl9hcmdzcUV9cUZYDQAAAGxlYXJuaW5nX3JhdGVxR0c/uZmZmZmZmnNYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXFIRz/JmZmZmZmadVgPAAAAbWF4X3BhdGhfbGVuZ3RocUlLyHVoLmNzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnZwZwpWUEcKcUp1YlgFAAAAdHJhaW5xSyl9cUx0cU11Yi4='  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/pretrain/goal2'
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/pretrain/goal3'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxOWAkAAAByZXNldF9hcmdxDWNudW1weS5jb3JlLm11bHRpYXJyYXkKc2NhbGFyCnEOY251bXB5CmR0eXBlCnEPWAIAAABmOHEQSwBLAYdxEVJxEihLA1gBAAAAPHETTk5OSv////9K/////0sAdHEUYkMIbg39EyAG7T9xFYZxFlJxF1gIAAAAYmFzZWxpbmVxGGgGKYFxGX1xGihoCSloCn1xG1gIAAAAZW52X3NwZWNxHGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcR0pgXEefXEfKFgKAAAAX2F0dHJfbmFtZXEgWAQAAABzcGVjcSFYBAAAAF9vYmpxImgGKYFxI31xJChoCSloCn1xJVgLAAAAd3JhcHBlZF9lbnZxJmgGKYFxJ31xKChoCSloCn1xKVgDAAAAZW52cSpoBimBcSt9cSwoaAkpaAp9cS1YCwAAAHByb3h5X2NsYXNzcS5jcmxsYWIuZW52cy5tdWpvY28uYW50X2Vudl9yYW5kCkFudEVudlJhbmQKcS91YnNoLmNybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcTB1YnNoLmNzYW5kYm94LnJvY2t5LnRmLmVudnMuYmFzZQpUZkVudgpxMXVidWJzaC5jcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpxMnViWAoAAABiYXRjaF9zaXplcTNNoA9YBgAAAHBvbGljeXE0aAYpgXE1fXE2KGgJKWgKfXE3KGgcaB0pgXE4fXE5KGggaCFoImgjdWJYEwAAAGhpZGRlbl9ub25saW5lYXJpdHlxOmN0ZW5zb3JmbG93LnB5dGhvbi5vcHMuZ2VuX25uX29wcwpyZWx1CnE7WAwAAABoaWRkZW5fc2l6ZXNxPEtkS2SGcT1YBAAAAG5hbWVxPmg0dWguY3NhbmRib3gucm9ja3kudGYucG9saWNpZXMubWluaW1hbF9nYXVzc19tbHBfcG9saWN5CkdhdXNzaWFuTUxQUG9saWN5CnE/dWJoKmgjWAUAAABuX2l0cnFASwRYDgAAAG9wdGltaXplcl9hcmdzcUF9cUIoWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcUNjdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcURYEQAAAHRmX29wdGltaXplcl9hcmdzcUV9cUZYDQAAAGxlYXJuaW5nX3JhdGVxR0c/uZmZmZmZmnNYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXFIRz/JmZmZmZmadVgPAAAAbWF4X3BhdGhfbGVuZ3RocUlLyHVoLmNzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnZwZwpWUEcKcUp1YlgFAAAAdHJhaW5xSyl9cUx0cU11Yi4='  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/pretrain/goal3'[32musing seed 1[0m
+2019-05-09 02:06:51.706746 HKT | Setting seed to 1
+2019-05-09 02:06:51.706786 HKT | Setting seed to 3
+2019-05-09 02:06:51.706789 HKT | Setting seed to 4
+2019-05-09 02:06:51.707262 HKT | Setting seed to 2
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 125)
+idx 0
+idx 1
+2019-05-09 02:06:52.902184 HKT | [test1/pretrain/goal3] Populating workers...
+[32musing seed 1[0m
+obs_dim  125
+[32musing seed 3[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 0
+idx 1
+idx 1
+idx 0
+idx 1
+[32musing seed 2[0m
+obs_dim  125
+idx 0
+idx 1
+[32musing seed 4[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+2019-05-09 02:06:53.790016 HKT | [test1/pretrain/goal3] Populated
+2019-05-09 02:06:53.815507 HKT | [test1/pretrain/goal3] itr #0 | Obtaining samples...
+2019-05-09 02:06:55.771705 HKT | [test1/pretrain/goal3] itr #0 | Processing samples...
+2019-05-09 02:06:55.772237 HKT | [test1/pretrain/goal3] itr #0 | fitting baseline...
+2019-05-09 02:06:55.808995 HKT | [test1/pretrain/goal3] itr #0 | fitted
+2019-05-09 02:06:55.821942 HKT | [test1/pretrain/goal3] itr #0 | Logging diagnostics...
+2019-05-09 02:06:55.822864 HKT | [test1/pretrain/goal3] itr #0 | Optimizing policy...
+2019-05-09 02:06:55.823051 HKT | [test1/pretrain/goal3] itr #0 | optimizing policy
+2019-05-09 02:06:56.095891 HKT | [test1/pretrain/goal3] itr #0 | Saving snapshot...
+2019-05-09 02:06:56.101330 HKT | [test1/pretrain/goal3] itr #0 | Saved
+2019-05-09 02:06:56.102001 HKT | ----------------------  -------------
+2019-05-09 02:06:56.102084 HKT | TotalExecTime               1.90848
+2019-05-09 02:06:56.102158 HKT | AverageReturn              12.5119
+2019-05-09 02:06:56.102219 HKT | ExplainedVariance           0.340154
+2019-05-09 02:06:56.102275 HKT | NumTrajs                   29
+2019-05-09 02:06:56.102332 HKT | Entropy                    11.3515
+2019-05-09 02:06:56.102387 HKT | Perplexity              85093.7
+2019-05-09 02:06:56.102443 HKT | StdReturn                  40.8041
+2019-05-09 02:06:56.102520 HKT | MaxReturn                 105.388
+2019-05-09 02:06:56.102605 HKT | MinReturn                 -95.8989
+2019-05-09 02:06:56.102685 HKT | AverageForwardProgress      0.0533738
+2019-05-09 02:06:56.102742 HKT | MaxForwardProgress          1.66535
+2019-05-09 02:06:56.102798 HKT | MinForwardProgress         -2.24338
+2019-05-09 02:06:56.102853 HKT | StdForwardProgress          0.885384
+2019-05-09 02:06:56.102908 HKT | AveragePolicyStd            1
+2019-05-09 02:06:56.102969 HKT | LossBefore                 -0.0336561
+2019-05-09 02:06:56.103024 HKT | LossAfter                  -0.111909
+2019-05-09 02:06:56.103079 HKT | MeanKL                      0.118372
+2019-05-09 02:06:56.103133 HKT | MaxKL                       1.30292
+2019-05-09 02:06:56.103187 HKT | Time                        2.28596
+2019-05-09 02:06:56.103241 HKT | ItrTime                     2.28596
+2019-05-09 02:06:56.103295 HKT | ----------------------  -------------
+2019-05-09 02:06:56.103497 HKT | [test1/pretrain/goal3] itr #1 | Obtaining samples...
+2019-05-09 02:06:58.086767 HKT | [test1/pretrain/goal3] itr #1 | Processing samples...
+2019-05-09 02:06:58.087846 HKT | [test1/pretrain/goal3] itr #1 | fitting baseline...
+2019-05-09 02:06:58.139491 HKT | [test1/pretrain/goal3] itr #1 | fitted
+2019-05-09 02:06:58.161674 HKT | [test1/pretrain/goal3] itr #1 | Logging diagnostics...
+2019-05-09 02:06:58.162942 HKT | [test1/pretrain/goal3] itr #1 | Optimizing policy...
+2019-05-09 02:06:58.163167 HKT | [test1/pretrain/goal3] itr #1 | optimizing policy
+2019-05-09 02:06:58.288177 HKT | [test1/pretrain/goal3] itr #1 | Saving snapshot...
+2019-05-09 02:06:58.293589 HKT | [test1/pretrain/goal3] itr #1 | Saved
+2019-05-09 02:06:58.294246 HKT | ----------------------  -------------
+2019-05-09 02:06:58.294331 HKT | TotalExecTime               1.98051
+2019-05-09 02:06:58.294400 HKT | AverageReturn              -6.61333
+2019-05-09 02:06:58.294463 HKT | ExplainedVariance           0.428605
+2019-05-09 02:06:58.294525 HKT | NumTrajs                   37
+2019-05-09 02:06:58.294585 HKT | Entropy                    11.338
+2019-05-09 02:06:58.294644 HKT | Perplexity              83955.7
+2019-05-09 02:06:58.294703 HKT | StdReturn                  42.7451
+2019-05-09 02:06:58.294762 HKT | MaxReturn                  70.0333
+2019-05-09 02:06:58.294820 HKT | MinReturn                -123.845
+2019-05-09 02:06:58.294878 HKT | AverageForwardProgress     -0.340962
+2019-05-09 02:06:58.294942 HKT | MaxForwardProgress          1.77743
+2019-05-09 02:06:58.295002 HKT | MinForwardProgress         -2.93336
+2019-05-09 02:06:58.295061 HKT | StdForwardProgress          0.973085
+2019-05-09 02:06:58.295119 HKT | AveragePolicyStd            0.998323
+2019-05-09 02:06:58.295182 HKT | LossBefore                 -0.0519655
+2019-05-09 02:06:58.295242 HKT | LossAfter                  -0.080641
+2019-05-09 02:06:58.295303 HKT | MeanKL                      0.012412
+2019-05-09 02:06:58.295364 HKT | MaxKL                       0.125242
+2019-05-09 02:06:58.295422 HKT | Time                        4.47823
+2019-05-09 02:06:58.295480 HKT | ItrTime                     2.19022
+2019-05-09 02:06:58.295538 HKT | ----------------------  -------------
+2019-05-09 02:06:58.295682 HKT | [test1/pretrain/goal3] itr #2 | Obtaining samples...
+2019-05-09 02:07:00.015625 HKT | [test1/pretrain/goal3] itr #2 | Processing samples...
+2019-05-09 02:07:00.016130 HKT | [test1/pretrain/goal3] itr #2 | fitting baseline...
+2019-05-09 02:07:00.044649 HKT | [test1/pretrain/goal3] itr #2 | fitted
+2019-05-09 02:07:00.052890 HKT | [test1/pretrain/goal3] itr #2 | Logging diagnostics...
+2019-05-09 02:07:00.053991 HKT | [test1/pretrain/goal3] itr #2 | Optimizing policy...
+2019-05-09 02:07:00.054176 HKT | [test1/pretrain/goal3] itr #2 | optimizing policy
+2019-05-09 02:07:00.077020 HKT | [test1/pretrain/goal3] itr #2 | Saving snapshot...
+2019-05-09 02:07:00.086803 HKT | [test1/pretrain/goal3] itr #2 | Saved
+2019-05-09 02:07:00.088181 HKT | ----------------------  -------------
+2019-05-09 02:07:00.088428 HKT | TotalExecTime               1.71737
+2019-05-09 02:07:00.088643 HKT | AverageReturn              17.1833
+2019-05-09 02:07:00.088855 HKT | ExplainedVariance           0.290412
+2019-05-09 02:07:00.089062 HKT | NumTrajs                   29
+2019-05-09 02:07:00.089270 HKT | Entropy                    11.3277
+2019-05-09 02:07:00.089475 HKT | Perplexity              83087.7
+2019-05-09 02:07:00.095082 HKT | StdReturn                  40.8885
+2019-05-09 02:07:00.095320 HKT | MaxReturn                 107.355
+2019-05-09 02:07:00.095543 HKT | MinReturn                 -62.1607
+2019-05-09 02:07:00.095754 HKT | AverageForwardProgress      0.168602
+2019-05-09 02:07:00.095959 HKT | MaxForwardProgress          2.19198
+2019-05-09 02:07:00.096165 HKT | MinForwardProgress         -1.67409
+2019-05-09 02:07:00.096368 HKT | StdForwardProgress          0.920252
+2019-05-09 02:07:00.096572 HKT | AveragePolicyStd            0.997027
+2019-05-09 02:07:00.096773 HKT | LossBefore                  0.0185362
+2019-05-09 02:07:00.096980 HKT | LossAfter                  -0.0233699
+2019-05-09 02:07:00.097184 HKT | MeanKL                      0.0453708
+2019-05-09 02:07:00.097393 HKT | MaxKL                       0.44905
+2019-05-09 02:07:00.097598 HKT | Time                        6.27162
+2019-05-09 02:07:00.097798 HKT | ItrTime                     1.79143
+2019-05-09 02:07:00.098001 HKT | ----------------------  -------------
+2019-05-09 02:07:00.098338 HKT | [test1/pretrain/goal3] itr #3 | Obtaining samples...
+2019-05-09 02:07:02.298246 HKT | [test1/pretrain/goal3] itr #3 | Processing samples...
+2019-05-09 02:07:02.298796 HKT | [test1/pretrain/goal3] itr #3 | fitting baseline...
+2019-05-09 02:07:02.337290 HKT | [test1/pretrain/goal3] itr #3 | fitted
+2019-05-09 02:07:02.345525 HKT | [test1/pretrain/goal3] itr #3 | Logging diagnostics...
+2019-05-09 02:07:02.346644 HKT | [test1/pretrain/goal3] itr #3 | Optimizing policy...
+2019-05-09 02:07:02.346768 HKT | [test1/pretrain/goal3] itr #3 | optimizing policy
+2019-05-09 02:07:02.368780 HKT | [test1/pretrain/goal3] itr #3 | Saving snapshot...
+2019-05-09 02:07:02.376897 HKT | [test1/pretrain/goal3] itr #3 | Saved
+2019-05-09 02:07:02.378033 HKT | ----------------------  --------------
+2019-05-09 02:07:02.378147 HKT | TotalExecTime               2.1961
+2019-05-09 02:07:02.378247 HKT | AverageReturn               4.10758
+2019-05-09 02:07:02.378342 HKT | ExplainedVariance           0.386382
+2019-05-09 02:07:02.378435 HKT | NumTrajs                   30
+2019-05-09 02:07:02.378528 HKT | Entropy                    11.3314
+2019-05-09 02:07:02.378620 HKT | Perplexity              83396.4
+2019-05-09 02:07:02.378711 HKT | StdReturn                  38.0909
+2019-05-09 02:07:02.378807 HKT | MaxReturn                  58.6739
+2019-05-09 02:07:02.378899 HKT | MinReturn                 -91.2771
+2019-05-09 02:07:02.379002 HKT | AverageForwardProgress     -0.124587
+2019-05-09 02:07:02.379098 HKT | MaxForwardProgress          1.45597
+2019-05-09 02:07:02.379190 HKT | MinForwardProgress         -2.17224
+2019-05-09 02:07:02.379281 HKT | StdForwardProgress          0.869586
+2019-05-09 02:07:02.379371 HKT | AveragePolicyStd            0.997487
+2019-05-09 02:07:02.379461 HKT | LossBefore                  0.0432524
+2019-05-09 02:07:02.379551 HKT | LossAfter                   0.00312435
+2019-05-09 02:07:02.379642 HKT | MeanKL                      0.0409968
+2019-05-09 02:07:02.379732 HKT | MaxKL                       0.407626
+2019-05-09 02:07:02.379822 HKT | Time                        8.56161
+2019-05-09 02:07:02.379912 HKT | ItrTime                     2.27877
+2019-05-09 02:07:02.380002 HKT | ----------------------  --------------
+[32musing seed 1[0m
+2019-05-09 02:07:04.510946 HKT | Setting seed to 1
+2019-05-09 02:07:04.511064 HKT | Setting seed to 3
+2019-05-09 02:07:04.511055 HKT | Setting seed to 2
+2019-05-09 02:07:04.511377 HKT | Setting seed to 4
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 125)
+idx 0
+idx 1
+2019-05-09 02:07:05.741974 HKT | [test1/pretrain/goal4] Populating workers...
+[32musing seed 2[0m
+obs_dim  125
+[32musing seed 4[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+[32musing seed 3[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+[32musing seed 1[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+2019-05-09 02:07:06.761532 HKT | [test1/pretrain/goal4] Populated
+2019-05-09 02:07:06.792328 HKT | [test1/pretrain/goal4] itr #0 | Obtaining samples...
+2019-05-09 02:07:08.684079 HKT | [test1/pretrain/goal4] itr #0 | Processing samples...
+2019-05-09 02:07:08.685015 HKT | [test1/pretrain/goal4] itr #0 | fitting baseline...
+2019-05-09 02:07:08.739363 HKT | [test1/pretrain/goal4] itr #0 | fitted
+2019-05-09 02:07:08.748312 HKT | [test1/pretrain/goal4] itr #0 | Logging diagnostics...
+2019-05-09 02:07:08.749387 HKT | [test1/pretrain/goal4] itr #0 | Optimizing policy...
+2019-05-09 02:07:08.749658 HKT | [test1/pretrain/goal4] itr #0 | optimizing policy
+2019-05-09 02:07:09.092151 HKT | [test1/pretrain/goal4] itr #0 | Saving snapshot...
+2019-05-09 02:07:09.098225 HKT | [test1/pretrain/goal4] itr #0 | Saved
+2019-05-09 02:07:09.099380 HKT | ----------------------  -------------
+2019-05-09 02:07:09.099500 HKT | TotalExecTime               1.86307
+2019-05-09 02:07:09.099592 HKT | AverageReturn              62.3689
+2019-05-09 02:07:09.099682 HKT | ExplainedVariance           0.425796
+2019-05-09 02:07:09.099769 HKT | NumTrajs                   29
+2019-05-09 02:07:09.099854 HKT | Entropy                    11.3515
+2019-05-09 02:07:09.099937 HKT | Perplexity              85093.8
+2019-05-09 02:07:09.100021 HKT | StdReturn                  38.6105
+2019-05-09 02:07:09.100105 HKT | MaxReturn                 136.604
+2019-05-09 02:07:09.100186 HKT | MinReturn                 -25.5021
+2019-05-09 02:07:09.100275 HKT | AverageForwardProgress      0.0788686
+2019-05-09 02:07:09.100362 HKT | MaxForwardProgress          1.66535
+2019-05-09 02:07:09.100433 HKT | MinForwardProgress         -2.24338
+2019-05-09 02:07:09.100486 HKT | StdForwardProgress          0.883557
+2019-05-09 02:07:09.100537 HKT | AveragePolicyStd            1
+2019-05-09 02:07:09.100589 HKT | LossBefore                 -0.0177644
+2019-05-09 02:07:09.100640 HKT | LossAfter                  -0.111954
+2019-05-09 02:07:09.100690 HKT | MeanKL                      0.180154
+2019-05-09 02:07:09.100741 HKT | MaxKL                       1.2513
+2019-05-09 02:07:09.100790 HKT | Time                        2.30609
+2019-05-09 02:07:09.100840 HKT | ItrTime                     2.30609
+2019-05-09 02:07:09.100890 HKT | ----------------------  -------------
+2019-05-09 02:07:09.101069 HKT | [test1/pretrain/goal4] itr #1 | Obtaining samples...
+2019-05-09 02:07:11.206236 HKT | [test1/pretrain/goal4] itr #1 | Processing samples...
+2019-05-09 02:07:11.206810 HKT | [test1/pretrain/goal4] itr #1 | fitting baseline...
+2019-05-09 02:07:11.238381 HKT | [test1/pretrain/goal4] itr #1 | fitted
+2019-05-09 02:07:11.247231 HKT | [test1/pretrain/goal4] itr #1 | Logging diagnostics...
+2019-05-09 02:07:11.248417 HKT | [test1/pretrain/goal4] itr #1 | Optimizing policy...
+2019-05-09 02:07:11.248560 HKT | [test1/pretrain/goal4] itr #1 | optimizing policy
+2019-05-09 02:07:11.370829 HKT | [test1/pretrain/goal4] itr #1 | Saving snapshot...
+2019-05-09 02:07:11.376047 HKT | [test1/pretrain/goal4] itr #1 | Saved
+2019-05-09 02:07:11.376674 HKT | ----------------------  --------------
+2019-05-09 02:07:11.376746 HKT | TotalExecTime               2.10266
+2019-05-09 02:07:11.376804 HKT | AverageReturn              51.0598
+2019-05-09 02:07:11.376858 HKT | ExplainedVariance           0.363606
+2019-05-09 02:07:11.376910 HKT | NumTrajs                   38
+2019-05-09 02:07:11.376961 HKT | Entropy                    11.3444
+2019-05-09 02:07:11.377011 HKT | Perplexity              84491.2
+2019-05-09 02:07:11.377061 HKT | StdReturn                  32.4615
+2019-05-09 02:07:11.377111 HKT | MaxReturn                 138.453
+2019-05-09 02:07:11.377161 HKT | MinReturn                  -2.01106
+2019-05-09 02:07:11.377211 HKT | AverageForwardProgress      0.0217038
+2019-05-09 02:07:11.377261 HKT | MaxForwardProgress          2.04938
+2019-05-09 02:07:11.377311 HKT | MinForwardProgress         -1.63992
+2019-05-09 02:07:11.377360 HKT | StdForwardProgress          0.828614
+2019-05-09 02:07:11.377410 HKT | AveragePolicyStd            0.999122
+2019-05-09 02:07:11.377464 HKT | LossBefore                  0.0257341
+2019-05-09 02:07:11.377516 HKT | LossAfter                  -0.00829479
+2019-05-09 02:07:11.377566 HKT | MeanKL                      0.028555
+2019-05-09 02:07:11.377615 HKT | MaxKL                       0.315709
+2019-05-09 02:07:11.377665 HKT | Time                        4.58386
+2019-05-09 02:07:11.377714 HKT | ItrTime                     2.27507
+2019-05-09 02:07:11.377764 HKT | ----------------------  --------------
+2019-05-09 02:07:11.377891 HKT | [test1/pretrain/goal4] itr #2 | Obtaining samples...
+2019-05-09 02:07:13.520141 HKT | [test1/pretrain/goal4] itr #2 | Processing samples...
+2019-05-09 02:07:13.520707 HKT | [test1/pretrain/goal4] itr #2 | fitting baseline...
+2019-05-09 02:07:13.554793 HKT | [test1/pretrain/goal4] itr #2 | fitted
+2019-05-09 02:07:13.568697 HKT | [test1/pretrain/goal4] itr #2 | Logging diagnostics...
+2019-05-09 02:07:13.569812 HKT | [test1/pretrain/goal4] itr #2 | Optimizing policy...
+2019-05-09 02:07:13.569933 HKT | [test1/pretrain/goal4] itr #2 | optimizing policy
+2019-05-09 02:07:13.603074 HKT | [test1/pretrain/goal4] itr #2 | Saving snapshot...
+2019-05-09 02:07:13.614118 HKT | [test1/pretrain/goal4] itr #2 | Saved
+2019-05-09 02:07:13.615545 HKT | ----------------------  -------------
+2019-05-09 02:07:13.615797 HKT | TotalExecTime               2.13967
+2019-05-09 02:07:13.616019 HKT | AverageReturn              58.4284
+2019-05-09 02:07:13.616229 HKT | ExplainedVariance           0.406822
+2019-05-09 02:07:13.616439 HKT | NumTrajs                   35
+2019-05-09 02:07:13.616649 HKT | Entropy                    11.3495
+2019-05-09 02:07:13.616852 HKT | Perplexity              84927.2
+2019-05-09 02:07:13.617058 HKT | StdReturn                  38.0652
+2019-05-09 02:07:13.617266 HKT | MaxReturn                 145.866
+2019-05-09 02:07:13.617468 HKT | MinReturn                   1.76657
+2019-05-09 02:07:13.617674 HKT | AverageForwardProgress     -0.0606347
+2019-05-09 02:07:13.617915 HKT | MaxForwardProgress          2.47447
+2019-05-09 02:07:13.618116 HKT | MinForwardProgress         -1.98162
+2019-05-09 02:07:13.618321 HKT | StdForwardProgress          0.765238
+2019-05-09 02:07:13.618529 HKT | AveragePolicyStd            0.999767
+2019-05-09 02:07:13.618728 HKT | LossBefore                 -0.0213403
+2019-05-09 02:07:13.618942 HKT | LossAfter                  -0.0663769
+2019-05-09 02:07:13.619151 HKT | MeanKL                      0.0487158
+2019-05-09 02:07:13.619352 HKT | MaxKL                       0.382864
+2019-05-09 02:07:13.619558 HKT | Time                        6.82213
+2019-05-09 02:07:13.619764 HKT | ItrTime                     2.23653
+2019-05-09 02:07:13.619969 HKT | ----------------------  -------------
+2019-05-09 02:07:13.620306 HKT | [test1/pretrain/goal4] itr #3 | Obtaining samples...
+2019-05-09 02:07:15.745434 HKT | [test1/pretrain/goal4] itr #3 | Processing samples...
+2019-05-09 02:07:15.746176 HKT | [test1/pretrain/goal4] itr #3 | fitting baseline...
+2019-05-09 02:07:15.802298 HKT | [test1/pretrain/goal4] itr #3 | fitted
+2019-05-09 02:07:15.818145 HKT | [test1/pretrain/goal4] itr #3 | Logging diagnostics...
+2019-05-09 02:07:15.821520 HKT | [test1/pretrain/goal4] itr #3 | Optimizing policy...
+2019-05-09 02:07:15.822823 HKT | [test1/pretrain/goal4] itr #3 | optimizing policy
+2019-05-09 02:07:15.856265 HKT | [test1/pretrain/goal4] itr #3 | Saving snapshot...
+2019-05-09 02:07:15.871875 HKT | [test1/pretrain/goal4] itr #3 | Saved
+2019-05-09 02:07:15.874846 HKT | ----------------------  --------------
+2019-05-09 02:07:15.876122 HKT | TotalExecTime               2.12026
+2019-05-09 02:07:15.876328 HKT | AverageReturn              58.9107
+2019-05-09 02:07:15.876521 HKT | ExplainedVariance           0.483315
+2019-05-09 02:07:15.876710 HKT | NumTrajs                   35
+2019-05-09 02:07:15.876899 HKT | Entropy                    11.3453
+2019-05-09 02:07:15.877089 HKT | Perplexity              84565.6
+2019-05-09 02:07:15.877277 HKT | StdReturn                  36.3495
+2019-05-09 02:07:15.877476 HKT | MaxReturn                 143.667
+2019-05-09 02:07:15.877665 HKT | MinReturn                  -8.36245
+2019-05-09 02:07:15.877850 HKT | AverageForwardProgress      0.0239242
+2019-05-09 02:07:15.878035 HKT | MaxForwardProgress          1.39573
+2019-05-09 02:07:15.878220 HKT | MinForwardProgress         -1.65456
+2019-05-09 02:07:15.878404 HKT | StdForwardProgress          0.590993
+2019-05-09 02:07:15.878590 HKT | AveragePolicyStd            0.999246
+2019-05-09 02:07:15.878773 HKT | LossBefore                  0.00281841
+2019-05-09 02:07:15.878959 HKT | LossAfter                  -0.0363973
+2019-05-09 02:07:15.879154 HKT | MeanKL                      0.0410302
+2019-05-09 02:07:15.879339 HKT | MaxKL                       0.394823
+2019-05-09 02:07:15.879524 HKT | Time                        9.08154
+2019-05-09 02:07:15.879710 HKT | ItrTime                     2.25354
+2019-05-09 02:07:15.879895 HKT | ----------------------  --------------
+[32musing seed 1[0m
+2019-05-09 02:07:17.758794 HKT | Setting seed to 4
+2019-05-09 02:07:17.758759 HKT | Setting seed to 1
+2019-05-09 02:07:17.758785 HKT | Setting seed to 2
+2019-05-09 02:07:17.759152 HKT | Setting seed to 3
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 125)
+idx 0
+idx 1
+2019-05-09 02:07:18.993804 HKT | [test1/random/goal0] Populating workers...
+[32musing seed 4[0m
+obs_dim  125
+[32musing seed 1[0m
+obs_dim  125
+[32musing seed 2[0m
+obs_dim  125
+[32musing seed 3[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+2019-05-09 02:07:19.745623 HKT | [test1/random/goal0] Populated
+2019-05-09 02:07:19.776832 HKT | [test1/random/goal0] itr #0 | Obtaining samples...
+2019-05-09 02:07:22.008786 HKT | [test1/random/goal0] itr #0 | Processing samples...
+2019-05-09 02:07:22.009304 HKT | [test1/random/goal0] itr #0 | fitting baseline...
+2019-05-09 02:07:22.077249 HKT | [test1/random/goal0] itr #0 | fitted
+2019-05-09 02:07:22.103935 HKT | [test1/random/goal0] itr #0 | Logging diagnostics...
+2019-05-09 02:07:22.104965 HKT | [test1/random/goal0] itr #0 | Optimizing policy...
+2019-05-09 02:07:22.105081 HKT | [test1/random/goal0] itr #0 | optimizing policy
+2019-05-09 02:07:22.387221 HKT | [test1/random/goal0] itr #0 | Saving snapshot...
+2019-05-09 02:07:22.396559 HKT | [test1/random/goal0] itr #0 | Saved
+2019-05-09 02:07:22.397816 HKT | ----------------------  --------------
+2019-05-09 02:07:22.397939 HKT | TotalExecTime               2.22867
+2019-05-09 02:07:22.398045 HKT | AverageReturn             -38.8725
+2019-05-09 02:07:22.398145 HKT | ExplainedVariance           0.413414
+2019-05-09 02:07:22.398244 HKT | NumTrajs                   25
+2019-05-09 02:07:22.398342 HKT | Entropy                    10.7636
+2019-05-09 02:07:22.398439 HKT | Perplexity              47269.6
+2019-05-09 02:07:22.398536 HKT | StdReturn                  43.0085
+2019-05-09 02:07:22.398633 HKT | MaxReturn                  40.4653
+2019-05-09 02:07:22.398729 HKT | MinReturn                -131.463
+2019-05-09 02:07:22.398826 HKT | AverageForwardProgress      0.0649584
+2019-05-09 02:07:22.398926 HKT | MaxForwardProgress          1.7108
+2019-05-09 02:07:22.399026 HKT | MinForwardProgress         -1.7051
+2019-05-09 02:07:22.399122 HKT | StdForwardProgress          0.817967
+2019-05-09 02:07:22.399217 HKT | AveragePolicyStd            0.933012
+2019-05-09 02:07:22.399310 HKT | LossBefore                  0.00873739
+2019-05-09 02:07:22.399405 HKT | LossAfter                  -0.865439
+2019-05-09 02:07:22.399500 HKT | MeanKL                     40.0653
+2019-05-09 02:07:22.399596 HKT | MaxKL                     327.774
+2019-05-09 02:07:22.399691 HKT | Time                        2.61991
+2019-05-09 02:07:22.399784 HKT | ItrTime                     2.61991
+2019-05-09 02:07:22.399879 HKT | ----------------------  --------------
+2019-05-09 02:07:22.400164 HKT | [test1/random/goal0] itr #1 | Obtaining samples...
+2019-05-09 02:07:24.579865 HKT | [test1/random/goal0] itr #1 | Processing samples...
+2019-05-09 02:07:24.580333 HKT | [test1/random/goal0] itr #1 | fitting baseline...
+2019-05-09 02:07:24.637559 HKT | [test1/random/goal0] itr #1 | fitted
+2019-05-09 02:07:24.655863 HKT | [test1/random/goal0] itr #1 | Logging diagnostics...
+2019-05-09 02:07:24.657190 HKT | [test1/random/goal0] itr #1 | Optimizing policy...
+2019-05-09 02:07:24.658344 HKT | [test1/random/goal0] itr #1 | optimizing policy
+2019-05-09 02:07:24.831278 HKT | [test1/random/goal0] itr #1 | Saving snapshot...
+2019-05-09 02:07:24.851476 HKT | [test1/random/goal0] itr #1 | Saved
+2019-05-09 02:07:24.852186 HKT | ----------------------  --------------
+2019-05-09 02:07:24.852264 HKT | TotalExecTime               2.17643
+2019-05-09 02:07:24.852333 HKT | AverageReturn             -34.1241
+2019-05-09 02:07:24.852396 HKT | ExplainedVariance           0.463874
+2019-05-09 02:07:24.852458 HKT | NumTrajs                   23
+2019-05-09 02:07:24.852520 HKT | Entropy                    10.7811
+2019-05-09 02:07:24.852579 HKT | Perplexity              48102.9
+2019-05-09 02:07:24.852637 HKT | StdReturn                  23.0433
+2019-05-09 02:07:24.852695 HKT | MaxReturn                   8.66413
+2019-05-09 02:07:24.852752 HKT | MinReturn                -100.609
+2019-05-09 02:07:24.852810 HKT | AverageForwardProgress      0.254284
+2019-05-09 02:07:24.852867 HKT | MaxForwardProgress          1.10236
+2019-05-09 02:07:24.852925 HKT | MinForwardProgress         -1.08009
+2019-05-09 02:07:24.852982 HKT | StdForwardProgress          0.461119
+2019-05-09 02:07:24.853039 HKT | AveragePolicyStd            0.934623
+2019-05-09 02:07:24.853101 HKT | LossBefore                  0.00275529
+2019-05-09 02:07:24.853159 HKT | LossAfter                  -0.110187
+2019-05-09 02:07:24.853217 HKT | MeanKL                      1.16576
+2019-05-09 02:07:24.853274 HKT | MaxKL                      10.538
+2019-05-09 02:07:24.853331 HKT | Time                        5.07482
+2019-05-09 02:07:24.853388 HKT | ItrTime                     2.45147
+2019-05-09 02:07:24.853446 HKT | ----------------------  --------------
+2019-05-09 02:07:24.853599 HKT | [test1/random/goal0] itr #2 | Obtaining samples...
+2019-05-09 02:07:27.179188 HKT | [test1/random/goal0] itr #2 | Processing samples...
+2019-05-09 02:07:27.179633 HKT | [test1/random/goal0] itr #2 | fitting baseline...
+2019-05-09 02:07:27.210353 HKT | [test1/random/goal0] itr #2 | fitted
+2019-05-09 02:07:27.218229 HKT | [test1/random/goal0] itr #2 | Logging diagnostics...
+2019-05-09 02:07:27.219326 HKT | [test1/random/goal0] itr #2 | Optimizing policy...
+2019-05-09 02:07:27.219446 HKT | [test1/random/goal0] itr #2 | optimizing policy
+2019-05-09 02:07:27.240236 HKT | [test1/random/goal0] itr #2 | Saving snapshot...
+2019-05-09 02:07:27.249145 HKT | [test1/random/goal0] itr #2 | Saved
+2019-05-09 02:07:27.250253 HKT | ----------------------  -------------
+2019-05-09 02:07:27.250382 HKT | TotalExecTime               2.32279
+2019-05-09 02:07:27.250486 HKT | AverageReturn             -38.4139
+2019-05-09 02:07:27.250580 HKT | ExplainedVariance           0.661896
+2019-05-09 02:07:27.250673 HKT | NumTrajs                   23
+2019-05-09 02:07:27.250764 HKT | Entropy                    10.7839
+2019-05-09 02:07:27.250854 HKT | Perplexity              48235.6
+2019-05-09 02:07:27.250952 HKT | StdReturn                  10.839
+2019-05-09 02:07:27.251043 HKT | MaxReturn                 -22.3313
+2019-05-09 02:07:27.251132 HKT | MinReturn                 -68.8821
+2019-05-09 02:07:27.251221 HKT | AverageForwardProgress      0.167734
+2019-05-09 02:07:27.251310 HKT | MaxForwardProgress          0.481491
+2019-05-09 02:07:27.251399 HKT | MinForwardProgress         -0.44626
+2019-05-09 02:07:27.251487 HKT | StdForwardProgress          0.215551
+2019-05-09 02:07:27.251576 HKT | AveragePolicyStd            0.93459
+2019-05-09 02:07:27.251665 HKT | LossBefore                 -0.0590513
+2019-05-09 02:07:27.251754 HKT | LossAfter                  -0.303234
+2019-05-09 02:07:27.251843 HKT | MeanKL                      2.19002
+2019-05-09 02:07:27.251931 HKT | MaxKL                      24.5514
+2019-05-09 02:07:27.252020 HKT | Time                        7.47251
+2019-05-09 02:07:27.252109 HKT | ItrTime                     2.39571
+2019-05-09 02:07:27.252197 HKT | ----------------------  -------------
+2019-05-09 02:07:27.252403 HKT | [test1/random/goal0] itr #3 | Obtaining samples...
+2019-05-09 02:07:29.385054 HKT | [test1/random/goal0] itr #3 | Processing samples...
+2019-05-09 02:07:29.385530 HKT | [test1/random/goal0] itr #3 | fitting baseline...
+2019-05-09 02:07:29.420290 HKT | [test1/random/goal0] itr #3 | fitted
+2019-05-09 02:07:29.429144 HKT | [test1/random/goal0] itr #3 | Logging diagnostics...
+2019-05-09 02:07:29.430204 HKT | [test1/random/goal0] itr #3 | Optimizing policy...
+2019-05-09 02:07:29.430309 HKT | [test1/random/goal0] itr #3 | optimizing policy
+2019-05-09 02:07:29.451503 HKT | [test1/random/goal0] itr #3 | Saving snapshot...
+2019-05-09 02:07:29.460271 HKT | [test1/random/goal0] itr #3 | Saved
+2019-05-09 02:07:29.461369 HKT | ----------------------  --------------
+2019-05-09 02:07:29.461476 HKT | TotalExecTime               2.12938
+2019-05-09 02:07:29.461561 HKT | AverageReturn             -26.0965
+2019-05-09 02:07:29.461640 HKT | ExplainedVariance           0.423596
+2019-05-09 02:07:29.461716 HKT | NumTrajs                   23
+2019-05-09 02:07:29.461792 HKT | Entropy                    10.7248
+2019-05-09 02:07:29.461867 HKT | Perplexity              45469.6
+2019-05-09 02:07:29.461942 HKT | StdReturn                  16.3925
+2019-05-09 02:07:29.462015 HKT | MaxReturn                   4.7016
+2019-05-09 02:07:29.462089 HKT | MinReturn                 -56.3419
+2019-05-09 02:07:29.462168 HKT | AverageForwardProgress      0.423563
+2019-05-09 02:07:29.462243 HKT | MaxForwardProgress          1.03795
+2019-05-09 02:07:29.462316 HKT | MinForwardProgress         -0.190875
+2019-05-09 02:07:29.462389 HKT | StdForwardProgress          0.327213
+2019-05-09 02:07:29.462462 HKT | AveragePolicyStd            0.927838
+2019-05-09 02:07:29.462535 HKT | LossBefore                  0.00563523
+2019-05-09 02:07:29.462608 HKT | LossAfter                  -0.520495
+2019-05-09 02:07:29.462681 HKT | MeanKL                     12.1199
+2019-05-09 02:07:29.462754 HKT | MaxKL                      86.8322
+2019-05-09 02:07:29.462827 HKT | Time                        9.68363
+2019-05-09 02:07:29.462900 HKT | ItrTime                     2.20803
+2019-05-09 02:07:29.462982 HKT | ----------------------  --------------
+[32musing seed 1[0m
+2019-05-09 02:07:31.422671 HKT | Setting seed to 4
+2019-05-09 02:07:31.422646 HKT | Setting seed to 1
+2019-05-09 02:07:31.422665 HKT | Setting seed to 2
+2019-05-09 02:07:31.422943 HKT | Setting seed to 3
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 125)
+idx 0
+idx 1
+2019-05-09 02:07:32.628663 HKT | [test1/random/goal1] Populating workers...
+[32musing seed 2[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+[32musing seed 4[0m
+obs_dim  125
+idx 0
+idx 1
+[32musing seed 3[0m
+obs_dim  125
+idx 0
+idx 1
+[32musing seed 1[0m
+obs_dim  125
+idx 0
+idx 0
+idx 1
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+2019-05-09 02:07:33.423888 HKT | [test1/random/goal1] Populated
+2019-05-09 02:07:33.448992 HKT | [test1/random/goal1] itr #0 | Obtaining samples...
+2019-05-09 02:07:35.410041 HKT | [test1/random/goal1] itr #0 | Processing samples...
+2019-05-09 02:07:35.410859 HKT | [test1/random/goal1] itr #0 | fitting baseline...
+2019-05-09 02:07:35.443778 HKT | [test1/random/goal1] itr #0 | fitted
+2019-05-09 02:07:35.452062 HKT | [test1/random/goal1] itr #0 | Logging diagnostics...
+2019-05-09 02:07:35.453356 HKT | [test1/random/goal1] itr #0 | Optimizing policy...
+2019-05-09 02:07:35.453591 HKT | [test1/random/goal1] itr #0 | optimizing policy
+2019-05-09 02:07:35.823022 HKT | [test1/random/goal1] itr #0 | Saving snapshot...
+2019-05-09 02:07:35.828761 HKT | [test1/random/goal1] itr #0 | Saved
+2019-05-09 02:07:35.829417 HKT | ----------------------  --------------
+2019-05-09 02:07:35.829489 HKT | TotalExecTime               1.95831
+2019-05-09 02:07:35.829546 HKT | AverageReturn            -206.072
+2019-05-09 02:07:35.829598 HKT | ExplainedVariance           0.680475
+2019-05-09 02:07:35.829648 HKT | NumTrajs                   25
+2019-05-09 02:07:35.829697 HKT | Entropy                    10.7636
+2019-05-09 02:07:35.829746 HKT | Perplexity              47269.6
+2019-05-09 02:07:35.829794 HKT | StdReturn                  63.9609
+2019-05-09 02:07:35.829842 HKT | MaxReturn                 -43.6389
+2019-05-09 02:07:35.829890 HKT | MinReturn                -313.444
+2019-05-09 02:07:35.829938 HKT | AverageForwardProgress      0.0649584
+2019-05-09 02:07:35.829986 HKT | MaxForwardProgress          1.7108
+2019-05-09 02:07:35.830033 HKT | MinForwardProgress         -1.7051
+2019-05-09 02:07:35.830081 HKT | StdForwardProgress          0.817967
+2019-05-09 02:07:35.830128 HKT | AveragePolicyStd            0.933012
+2019-05-09 02:07:35.830175 HKT | LossBefore                 -0.00760141
+2019-05-09 02:07:35.830222 HKT | LossAfter                  -0.926052
+2019-05-09 02:07:35.830269 HKT | MeanKL                     34.8621
+2019-05-09 02:07:35.830316 HKT | MaxKL                     434.416
+2019-05-09 02:07:35.830363 HKT | Time                        2.3799
+2019-05-09 02:07:35.830411 HKT | ItrTime                     2.3799
+2019-05-09 02:07:35.830458 HKT | ----------------------  --------------
+2019-05-09 02:07:35.830621 HKT | [test1/random/goal1] itr #1 | Obtaining samples...
+2019-05-09 02:07:37.894951 HKT | [test1/random/goal1] itr #1 | Processing samples...
+2019-05-09 02:07:37.895455 HKT | [test1/random/goal1] itr #1 | fitting baseline...
+2019-05-09 02:07:37.928099 HKT | [test1/random/goal1] itr #1 | fitted
+2019-05-09 02:07:37.936569 HKT | [test1/random/goal1] itr #1 | Logging diagnostics...
+2019-05-09 02:07:37.937611 HKT | [test1/random/goal1] itr #1 | Optimizing policy...
+2019-05-09 02:07:37.937714 HKT | [test1/random/goal1] itr #1 | optimizing policy
+2019-05-09 02:07:38.060231 HKT | [test1/random/goal1] itr #1 | Saving snapshot...
+2019-05-09 02:07:38.066188 HKT | [test1/random/goal1] itr #1 | Saved
+2019-05-09 02:07:38.067111 HKT | ----------------------  -------------
+2019-05-09 02:07:38.067188 HKT | TotalExecTime               2.06184
+2019-05-09 02:07:38.067259 HKT | AverageReturn            -176.775
+2019-05-09 02:07:38.067332 HKT | ExplainedVariance           0.61667
+2019-05-09 02:07:38.067399 HKT | NumTrajs                   28
+2019-05-09 02:07:38.067466 HKT | Entropy                    10.7484
+2019-05-09 02:07:38.067533 HKT | Perplexity              46556.4
+2019-05-09 02:07:38.067598 HKT | StdReturn                  67.8842
+2019-05-09 02:07:38.067664 HKT | MaxReturn                 -37.9679
+2019-05-09 02:07:38.067729 HKT | MinReturn                -288.274
+2019-05-09 02:07:38.067794 HKT | AverageForwardProgress      0.253684
+2019-05-09 02:07:38.067859 HKT | MaxForwardProgress          1.26623
+2019-05-09 02:07:38.067924 HKT | MinForwardProgress         -1.16523
+2019-05-09 02:07:38.067988 HKT | StdForwardProgress          0.583156
+2019-05-09 02:07:38.068052 HKT | AveragePolicyStd            0.931331
+2019-05-09 02:07:38.068122 HKT | LossBefore                  0.0233111
+2019-05-09 02:07:38.068188 HKT | LossAfter                  -0.0610932
+2019-05-09 02:07:38.068253 HKT | MeanKL                      9.74599
+2019-05-09 02:07:38.068318 HKT | MaxKL                     137.544
+2019-05-09 02:07:38.068384 HKT | Time                        4.61737
+2019-05-09 02:07:38.068448 HKT | ItrTime                     2.23572
+2019-05-09 02:07:38.068512 HKT | ----------------------  -------------
+2019-05-09 02:07:38.068671 HKT | [test1/random/goal1] itr #2 | Obtaining samples...
+2019-05-09 02:07:39.930999 HKT | [test1/random/goal1] itr #2 | Processing samples...
+2019-05-09 02:07:39.931633 HKT | [test1/random/goal1] itr #2 | fitting baseline...
+2019-05-09 02:07:39.963715 HKT | [test1/random/goal1] itr #2 | fitted
+2019-05-09 02:07:39.973260 HKT | [test1/random/goal1] itr #2 | Logging diagnostics...
+2019-05-09 02:07:39.974371 HKT | [test1/random/goal1] itr #2 | Optimizing policy...
+2019-05-09 02:07:39.974490 HKT | [test1/random/goal1] itr #2 | optimizing policy
+2019-05-09 02:07:39.995029 HKT | [test1/random/goal1] itr #2 | Saving snapshot...
+2019-05-09 02:07:40.003807 HKT | [test1/random/goal1] itr #2 | Saved
+2019-05-09 02:07:40.004946 HKT | ----------------------  -------------
+2019-05-09 02:07:40.005085 HKT | TotalExecTime               1.85987
+2019-05-09 02:07:40.005197 HKT | AverageReturn             -96.8789
+2019-05-09 02:07:40.005298 HKT | ExplainedVariance           0.388274
+2019-05-09 02:07:40.005395 HKT | NumTrajs                   48
+2019-05-09 02:07:40.005490 HKT | Entropy                    10.7717
+2019-05-09 02:07:40.005584 HKT | Perplexity              47654.4
+2019-05-09 02:07:40.005678 HKT | StdReturn                  77.973
+2019-05-09 02:07:40.005770 HKT | MaxReturn                  26.6917
+2019-05-09 02:07:40.005864 HKT | MinReturn                -305.516
+2019-05-09 02:07:40.005956 HKT | AverageForwardProgress      0.169396
+2019-05-09 02:07:40.006049 HKT | MaxForwardProgress          4.16392
+2019-05-09 02:07:40.006141 HKT | MinForwardProgress         -1.91619
+2019-05-09 02:07:40.006233 HKT | StdForwardProgress          0.911548
+2019-05-09 02:07:40.006325 HKT | AveragePolicyStd            0.934007
+2019-05-09 02:07:40.006417 HKT | LossBefore                 -0.0183627
+2019-05-09 02:07:40.006509 HKT | LossAfter                  -1.14548
+2019-05-09 02:07:40.006601 HKT | MeanKL                     37.9577
+2019-05-09 02:07:40.006693 HKT | MaxKL                     478.233
+2019-05-09 02:07:40.006785 HKT | Time                        6.55501
+2019-05-09 02:07:40.006876 HKT | ItrTime                     1.93531
+2019-05-09 02:07:40.006979 HKT | ----------------------  -------------
+2019-05-09 02:07:40.007189 HKT | [test1/random/goal1] itr #3 | Obtaining samples...
+2019-05-09 02:07:41.936421 HKT | [test1/random/goal1] itr #3 | Processing samples...
+2019-05-09 02:07:41.936951 HKT | [test1/random/goal1] itr #3 | fitting baseline...
+2019-05-09 02:07:41.964278 HKT | [test1/random/goal1] itr #3 | fitted
+2019-05-09 02:07:41.973025 HKT | [test1/random/goal1] itr #3 | Logging diagnostics...
+2019-05-09 02:07:41.974207 HKT | [test1/random/goal1] itr #3 | Optimizing policy...
+2019-05-09 02:07:41.974322 HKT | [test1/random/goal1] itr #3 | optimizing policy
+2019-05-09 02:07:41.997843 HKT | [test1/random/goal1] itr #3 | Saving snapshot...
+2019-05-09 02:07:42.006318 HKT | [test1/random/goal1] itr #3 | Saved
+2019-05-09 02:07:42.007454 HKT | ----------------------  -------------
+2019-05-09 02:07:42.007568 HKT | TotalExecTime               1.926
+2019-05-09 02:07:42.007664 HKT | AverageReturn            -151.211
+2019-05-09 02:07:42.007755 HKT | ExplainedVariance           0.531167
+2019-05-09 02:07:42.007845 HKT | NumTrajs                   34
+2019-05-09 02:07:42.007934 HKT | Entropy                    10.7534
+2019-05-09 02:07:42.008029 HKT | Perplexity              46787.2
+2019-05-09 02:07:42.008120 HKT | StdReturn                  84.9652
+2019-05-09 02:07:42.008209 HKT | MaxReturn                 -14.927
+2019-05-09 02:07:42.008298 HKT | MinReturn                -309.779
+2019-05-09 02:07:42.008391 HKT | AverageForwardProgress      0.13307
+2019-05-09 02:07:42.008479 HKT | MaxForwardProgress          1.9937
+2019-05-09 02:07:42.008566 HKT | MinForwardProgress         -1.61464
+2019-05-09 02:07:42.008652 HKT | StdForwardProgress          0.868223
+2019-05-09 02:07:42.008739 HKT | AveragePolicyStd            0.93156
+2019-05-09 02:07:42.008826 HKT | LossBefore                 -0.0095126
+2019-05-09 02:07:42.008913 HKT | LossAfter                  -0.282434
+2019-05-09 02:07:42.009002 HKT | MeanKL                     10.3177
+2019-05-09 02:07:42.009090 HKT | MaxKL                     129.503
+2019-05-09 02:07:42.009178 HKT | Time                        8.55749
+2019-05-09 02:07:42.009266 HKT | ItrTime                     1.99927
+2019-05-09 02:07:42.009354 HKT | ----------------------  -------------
+[32musing seed 1[0m
+2019-05-09 02:07:43.882979 HKT | Setting seed to 1
+2019-05-09 02:07:43.882989 HKT | Setting seed to 2
+2019-05-09 02:07:43.883031 HKT | Setting seed to 4
+2019-05-09 02:07:43.883334 HKT | Setting seed to 3
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 125)
+idx 0
+idx 1
+2019-05-09 02:07:45.134286 HKT | [test1/random/goal2] Populating workers...
+[32musing seed 2[0m
+obs_dim  125
+idx 0
+[32musing seed 1[0m
+obs_dim  125
+idx 1
+[32musing seed 4[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+[32musing seed 3[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+2019-05-09 02:07:45.932098 HKT | [test1/random/goal2] Populated
+2019-05-09 02:07:45.958150 HKT | [test1/random/goal2] itr #0 | Obtaining samples...
+2019-05-09 02:07:48.003902 HKT | [test1/random/goal2] itr #0 | Processing samples...
+2019-05-09 02:07:48.004399 HKT | [test1/random/goal2] itr #0 | fitting baseline...
+2019-05-09 02:07:48.043974 HKT | [test1/random/goal2] itr #0 | fitted
+2019-05-09 02:07:48.052033 HKT | [test1/random/goal2] itr #0 | Logging diagnostics...
+2019-05-09 02:07:48.053135 HKT | [test1/random/goal2] itr #0 | Optimizing policy...
+2019-05-09 02:07:48.053257 HKT | [test1/random/goal2] itr #0 | optimizing policy
+2019-05-09 02:07:48.336273 HKT | [test1/random/goal2] itr #0 | Saving snapshot...
+2019-05-09 02:07:48.342093 HKT | [test1/random/goal2] itr #0 | Saved
+2019-05-09 02:07:48.342768 HKT | ----------------------  -------------
+2019-05-09 02:07:48.342850 HKT | TotalExecTime               2.04291
+2019-05-09 02:07:48.342941 HKT | AverageReturn             117.078
+2019-05-09 02:07:48.343022 HKT | ExplainedVariance           0.753102
+2019-05-09 02:07:48.343101 HKT | NumTrajs                   25
+2019-05-09 02:07:48.343176 HKT | Entropy                    10.7636
+2019-05-09 02:07:48.343251 HKT | Perplexity              47269.6
+2019-05-09 02:07:48.343328 HKT | StdReturn                  28.6261
+2019-05-09 02:07:48.343404 HKT | MaxReturn                 156.413
+2019-05-09 02:07:48.343477 HKT | MinReturn                  35.688
+2019-05-09 02:07:48.343550 HKT | AverageForwardProgress      0.0649584
+2019-05-09 02:07:48.343626 HKT | MaxForwardProgress          1.7108
+2019-05-09 02:07:48.343700 HKT | MinForwardProgress         -1.7051
+2019-05-09 02:07:48.343773 HKT | StdForwardProgress          0.817967
+2019-05-09 02:07:48.343846 HKT | AveragePolicyStd            0.933012
+2019-05-09 02:07:48.343920 HKT | LossBefore                  0.0167389
+2019-05-09 02:07:48.343993 HKT | LossAfter                  -0.680722
+2019-05-09 02:07:48.344065 HKT | MeanKL                     26.3767
+2019-05-09 02:07:48.344140 HKT | MaxKL                     256.216
+2019-05-09 02:07:48.344214 HKT | Time                        2.38407
+2019-05-09 02:07:48.344286 HKT | ItrTime                     2.38407
+2019-05-09 02:07:48.344359 HKT | ----------------------  -------------
+2019-05-09 02:07:48.344568 HKT | [test1/random/goal2] itr #1 | Obtaining samples...
+2019-05-09 02:07:50.140342 HKT | [test1/random/goal2] itr #1 | Processing samples...
+2019-05-09 02:07:50.140775 HKT | [test1/random/goal2] itr #1 | fitting baseline...
+2019-05-09 02:07:50.203366 HKT | [test1/random/goal2] itr #1 | fitted
+2019-05-09 02:07:50.211678 HKT | [test1/random/goal2] itr #1 | Logging diagnostics...
+2019-05-09 02:07:50.212763 HKT | [test1/random/goal2] itr #1 | Optimizing policy...
+2019-05-09 02:07:50.212882 HKT | [test1/random/goal2] itr #1 | optimizing policy
+2019-05-09 02:07:50.347044 HKT | [test1/random/goal2] itr #1 | Saving snapshot...
+2019-05-09 02:07:50.353402 HKT | [test1/random/goal2] itr #1 | Saved
+2019-05-09 02:07:50.354101 HKT | ----------------------  --------------
+2019-05-09 02:07:50.354196 HKT | TotalExecTime               1.79349
+2019-05-09 02:07:50.354271 HKT | AverageReturn             149.32
+2019-05-09 02:07:50.354337 HKT | ExplainedVariance           0.937714
+2019-05-09 02:07:50.354400 HKT | NumTrajs                   23
+2019-05-09 02:07:50.354461 HKT | Entropy                    10.7971
+2019-05-09 02:07:50.354519 HKT | Perplexity              48878.7
+2019-05-09 02:07:50.354577 HKT | StdReturn                  13.031
+2019-05-09 02:07:50.354636 HKT | MaxReturn                 172.805
+2019-05-09 02:07:50.354694 HKT | MinReturn                 128.78
+2019-05-09 02:07:50.354752 HKT | AverageForwardProgress     -0.149357
+2019-05-09 02:07:50.354809 HKT | MaxForwardProgress          0.994579
+2019-05-09 02:07:50.354866 HKT | MinForwardProgress         -0.905984
+2019-05-09 02:07:50.354930 HKT | StdForwardProgress          0.419517
+2019-05-09 02:07:50.354993 HKT | AveragePolicyStd            0.93665
+2019-05-09 02:07:50.355068 HKT | LossBefore                 -0.00220263
+2019-05-09 02:07:50.355148 HKT | LossAfter                  -0.27715
+2019-05-09 02:07:50.355207 HKT | MeanKL                      2.75145
+2019-05-09 02:07:50.355264 HKT | MaxKL                      22.7199
+2019-05-09 02:07:50.355322 HKT | Time                        4.39541
+2019-05-09 02:07:50.355378 HKT | ItrTime                     2.00897
+2019-05-09 02:07:50.355435 HKT | ----------------------  --------------
+2019-05-09 02:07:50.355592 HKT | [test1/random/goal2] itr #2 | Obtaining samples...
+2019-05-09 02:07:52.416732 HKT | [test1/random/goal2] itr #2 | Processing samples...
+2019-05-09 02:07:52.417206 HKT | [test1/random/goal2] itr #2 | fitting baseline...
+2019-05-09 02:07:52.460239 HKT | [test1/random/goal2] itr #2 | fitted
+2019-05-09 02:07:52.468189 HKT | [test1/random/goal2] itr #2 | Logging diagnostics...
+2019-05-09 02:07:52.469297 HKT | [test1/random/goal2] itr #2 | Optimizing policy...
+2019-05-09 02:07:52.469441 HKT | [test1/random/goal2] itr #2 | optimizing policy
+2019-05-09 02:07:52.490854 HKT | [test1/random/goal2] itr #2 | Saving snapshot...
+2019-05-09 02:07:52.499692 HKT | [test1/random/goal2] itr #2 | Saved
+2019-05-09 02:07:52.500792 HKT | ----------------------  -------------
+2019-05-09 02:07:52.500918 HKT | TotalExecTime               2.05797
+2019-05-09 02:07:52.501027 HKT | AverageReturn             143.986
+2019-05-09 02:07:52.501140 HKT | ExplainedVariance           0.934694
+2019-05-09 02:07:52.501235 HKT | NumTrajs                   23
+2019-05-09 02:07:52.501326 HKT | Entropy                    10.7949
+2019-05-09 02:07:52.501415 HKT | Perplexity              48771.3
+2019-05-09 02:07:52.501508 HKT | StdReturn                  14.3675
+2019-05-09 02:07:52.501605 HKT | MaxReturn                 162.927
+2019-05-09 02:07:52.501701 HKT | MinReturn                 114.717
+2019-05-09 02:07:52.501789 HKT | AverageForwardProgress      0.6083
+2019-05-09 02:07:52.501879 HKT | MaxForwardProgress          1.37335
+2019-05-09 02:07:52.501973 HKT | MinForwardProgress          0.0416415
+2019-05-09 02:07:52.502078 HKT | StdForwardProgress          0.362936
+2019-05-09 02:07:52.502184 HKT | AveragePolicyStd            0.935911
+2019-05-09 02:07:52.502289 HKT | LossBefore                 -0.0318791
+2019-05-09 02:07:52.502391 HKT | LossAfter                  -0.24178
+2019-05-09 02:07:52.502490 HKT | MeanKL                      1.69365
+2019-05-09 02:07:52.502596 HKT | MaxKL                      10.4337
+2019-05-09 02:07:52.502708 HKT | Time                        6.54173
+2019-05-09 02:07:52.502815 HKT | ItrTime                     2.14427
+2019-05-09 02:07:52.502925 HKT | ----------------------  -------------
+2019-05-09 02:07:52.503141 HKT | [test1/random/goal2] itr #3 | Obtaining samples...
+2019-05-09 02:07:54.903248 HKT | [test1/random/goal2] itr #3 | Processing samples...
+2019-05-09 02:07:54.903677 HKT | [test1/random/goal2] itr #3 | fitting baseline...
+2019-05-09 02:07:54.937016 HKT | [test1/random/goal2] itr #3 | fitted
+2019-05-09 02:07:54.944441 HKT | [test1/random/goal2] itr #3 | Logging diagnostics...
+2019-05-09 02:07:54.945521 HKT | [test1/random/goal2] itr #3 | Optimizing policy...
+2019-05-09 02:07:54.945624 HKT | [test1/random/goal2] itr #3 | optimizing policy
+2019-05-09 02:07:54.965241 HKT | [test1/random/goal2] itr #3 | Saving snapshot...
+2019-05-09 02:07:54.974200 HKT | [test1/random/goal2] itr #3 | Saved
+2019-05-09 02:07:54.975322 HKT | ----------------------  --------------
+2019-05-09 02:07:54.975440 HKT | TotalExecTime               2.3967
+2019-05-09 02:07:54.975528 HKT | AverageReturn             179.554
+2019-05-09 02:07:54.975607 HKT | ExplainedVariance           0.996709
+2019-05-09 02:07:54.975683 HKT | NumTrajs                   23
+2019-05-09 02:07:54.975758 HKT | Entropy                    10.763
+2019-05-09 02:07:54.975832 HKT | Perplexity              47241
+2019-05-09 02:07:54.975907 HKT | StdReturn                   3.82729
+2019-05-09 02:07:54.975980 HKT | MaxReturn                 188.169
+2019-05-09 02:07:54.976053 HKT | MinReturn                 171.271
+2019-05-09 02:07:54.976131 HKT | AverageForwardProgress      0.0332478
+2019-05-09 02:07:54.976207 HKT | MaxForwardProgress          0.293091
+2019-05-09 02:07:54.976280 HKT | MinForwardProgress         -0.170707
+2019-05-09 02:07:54.976353 HKT | StdForwardProgress          0.131472
+2019-05-09 02:07:54.976426 HKT | AveragePolicyStd            0.931963
+2019-05-09 02:07:54.976499 HKT | LossBefore                 -0.00476289
+2019-05-09 02:07:54.976573 HKT | LossAfter                  -0.195707
+2019-05-09 02:07:54.976646 HKT | MeanKL                      1.50105
+2019-05-09 02:07:54.976718 HKT | MaxKL                      12.1761
+2019-05-09 02:07:54.976790 HKT | Time                        9.01624
+2019-05-09 02:07:54.976863 HKT | ItrTime                     2.47123
+2019-05-09 02:07:54.976935 HKT | ----------------------  --------------
+
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/pretrain/goal4'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxOWAkAAAByZXNldF9hcmdxDWNudW1weS5jb3JlLm11bHRpYXJyYXkKc2NhbGFyCnEOY251bXB5CmR0eXBlCnEPWAIAAABmOHEQSwBLAYdxEVJxEihLA1gBAAAAPHETTk5OSv////9K/////0sAdHEUYkMI2oeqdVgt3D9xFYZxFlJxF1gIAAAAYmFzZWxpbmVxGGgGKYFxGX1xGihoCSloCn1xG1gIAAAAZW52X3NwZWNxHGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcR0pgXEefXEfKFgKAAAAX2F0dHJfbmFtZXEgWAQAAABzcGVjcSFYBAAAAF9vYmpxImgGKYFxI31xJChoCSloCn1xJVgLAAAAd3JhcHBlZF9lbnZxJmgGKYFxJ31xKChoCSloCn1xKVgDAAAAZW52cSpoBimBcSt9cSwoaAkpaAp9cS1YCwAAAHByb3h5X2NsYXNzcS5jcmxsYWIuZW52cy5tdWpvY28uYW50X2Vudl9yYW5kCkFudEVudlJhbmQKcS91YnNoLmNybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcTB1YnNoLmNzYW5kYm94LnJvY2t5LnRmLmVudnMuYmFzZQpUZkVudgpxMXVidWJzaC5jcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpxMnViWAoAAABiYXRjaF9zaXplcTNNoA9YBgAAAHBvbGljeXE0aAYpgXE1fXE2KGgJKWgKfXE3KGgcaB0pgXE4fXE5KGggaCFoImgjdWJYEwAAAGhpZGRlbl9ub25saW5lYXJpdHlxOmN0ZW5zb3JmbG93LnB5dGhvbi5vcHMuZ2VuX25uX29wcwpyZWx1CnE7WAwAAABoaWRkZW5fc2l6ZXNxPEtkS2SGcT1YBAAAAG5hbWVxPmg0dWguY3NhbmRib3gucm9ja3kudGYucG9saWNpZXMubWluaW1hbF9nYXVzc19tbHBfcG9saWN5CkdhdXNzaWFuTUxQUG9saWN5CnE/dWJoKmgjWAUAAABuX2l0cnFASwRYDgAAAG9wdGltaXplcl9hcmdzcUF9cUIoWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcUNjdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcURYEQAAAHRmX29wdGltaXplcl9hcmdzcUV9cUZYDQAAAGxlYXJuaW5nX3JhdGVxR0c/uZmZmZmZmnNYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXFIRz/JmZmZmZmadVgPAAAAbWF4X3BhdGhfbGVuZ3RocUlLyHVoLmNzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnZwZwpWUEcKcUp1YlgFAAAAdHJhaW5xSyl9cUx0cU11Yi4='  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/pretrain/goal4'
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/random/goal0'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxYQwAAAGRhdGEvbG9jYWwvcG9zdGljbWwtdHJwby1tYW1sLWFudHBvcy0yMDAvcmFuZGVudjEwMHRyYWovaXRyXzU3NS5wa2xxDVgJAAAAcmVzZXRfYXJncQ5jbnVtcHkuY29yZS5tdWx0aWFycmF5CnNjYWxhcgpxD2NudW1weQpkdHlwZQpxEFgCAAAAZjhxEUsASwGHcRJScRMoSwNYAQAAADxxFE5OTkr/////Sv////9LAHRxFWJDCASt+8tdBPQ/cRaGcRdScRhYCAAAAGJhc2VsaW5lcRloBimBcRp9cRsoaAkpaAp9cRxYCAAAAGVudl9zcGVjcR1jcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnEeKYFxH31xIChYCgAAAF9hdHRyX25hbWVxIVgEAAAAc3BlY3EiWAQAAABfb2JqcSNoBimBcSR9cSUoaAkpaAp9cSZYCwAAAHdyYXBwZWRfZW52cSdoBimBcSh9cSkoaAkpaAp9cSpYAwAAAGVudnEraAYpgXEsfXEtKGgJKWgKfXEuWAsAAABwcm94eV9jbGFzc3EvY3JsbGFiLmVudnMubXVqb2NvLmFudF9lbnZfcmFuZApBbnRFbnZSYW5kCnEwdWJzaC9jcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnExdWJzaC9jc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcTJ1YnVic2gvY3JsbGFiLmJhc2VsaW5lcy5saW5lYXJfZmVhdHVyZV9iYXNlbGluZQpMaW5lYXJGZWF0dXJlQmFzZWxpbmUKcTN1YlgKAAAAYmF0Y2hfc2l6ZXE0TaAPWAYAAABwb2xpY3lxNU5oK2gkWAUAAABuX2l0cnE2SwRYDgAAAG9wdGltaXplcl9hcmdzcTd9cTgoWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcTljdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcTpYEQAAAHRmX29wdGltaXplcl9hcmdzcTt9cTxYDQAAAGxlYXJuaW5nX3JhdGVxPUc/4AAAAAAAAHNYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXE+Rz/wAAAAAAAAdVgPAAAAbWF4X3BhdGhfbGVuZ3RocT9LyHVoL2NzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnZwZwpWUEcKcUB1YlgFAAAAdHJhaW5xQSl9cUJ0cUN1Yi4='  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/random/goal0'
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/random/goal1'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxYQwAAAGRhdGEvbG9jYWwvcG9zdGljbWwtdHJwby1tYW1sLWFudHBvcy0yMDAvcmFuZGVudjEwMHRyYWovaXRyXzU3NS5wa2xxDVgJAAAAcmVzZXRfYXJncQ5jbnVtcHkuY29yZS5tdWx0aWFycmF5CnNjYWxhcgpxD2NudW1weQpkdHlwZQpxEFgCAAAAZjhxEUsASwGHcRJScRMoSwNYAQAAADxxFE5OTkr/////Sv////9LAHRxFWJDCD00zHasSQFAcRaGcRdScRhYCAAAAGJhc2VsaW5lcRloBimBcRp9cRsoaAkpaAp9cRxYCAAAAGVudl9zcGVjcR1jcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnEeKYFxH31xIChYCgAAAF9hdHRyX25hbWVxIVgEAAAAc3BlY3EiWAQAAABfb2JqcSNoBimBcSR9cSUoaAkpaAp9cSZYCwAAAHdyYXBwZWRfZW52cSdoBimBcSh9cSkoaAkpaAp9cSpYAwAAAGVudnEraAYpgXEsfXEtKGgJKWgKfXEuWAsAAABwcm94eV9jbGFzc3EvY3JsbGFiLmVudnMubXVqb2NvLmFudF9lbnZfcmFuZApBbnRFbnZSYW5kCnEwdWJzaC9jcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnExdWJzaC9jc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcTJ1YnVic2gvY3JsbGFiLmJhc2VsaW5lcy5saW5lYXJfZmVhdHVyZV9iYXNlbGluZQpMaW5lYXJGZWF0dXJlQmFzZWxpbmUKcTN1YlgKAAAAYmF0Y2hfc2l6ZXE0TaAPWAYAAABwb2xpY3lxNU5oK2gkWAUAAABuX2l0cnE2SwRYDgAAAG9wdGltaXplcl9hcmdzcTd9cTgoWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcTljdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcTpYEQAAAHRmX29wdGltaXplcl9hcmdzcTt9cTxYDQAAAGxlYXJuaW5nX3JhdGVxPUc/4AAAAAAAAHNYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXE+Rz/wAAAAAAAAdVgPAAAAbWF4X3BhdGhfbGVuZ3RocT9LyHVoL2NzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnZwZwpWUEcKcUB1YlgFAAAAdHJhaW5xQSl9cUJ0cUN1Yi4='  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/random/goal1'
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/random/goal2'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxYQwAAAGRhdGEvbG9jYWwvcG9zdGljbWwtdHJwby1tYW1sLWFudHBvcy0yMDAvcmFuZGVudjEwMHRyYWovaXRyXzU3NS5wa2xxDVgJAAAAcmVzZXRfYXJncQ5jbnVtcHkuY29yZS5tdWx0aWFycmF5CnNjYWxhcgpxD2NudW1weQpkdHlwZQpxEFgCAAAAZjhxEUsASwGHcRJScRMoSwNYAQAAADxxFE5OTkr/////Sv////9LAHRxFWJDCABQyUysfDY/cRaGcRdScRhYCAAAAGJhc2VsaW5lcRloBimBcRp9cRsoaAkpaAp9cRxYCAAAAGVudl9zcGVjcR1jcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnEeKYFxH31xIChYCgAAAF9hdHRyX25hbWVxIVgEAAAAc3BlY3EiWAQAAABfb2JqcSNoBimBcSR9cSUoaAkpaAp9cSZYCwAAAHdyYXBwZWRfZW52cSdoBimBcSh9cSkoaAkpaAp9cSpYAwAAAGVudnEraAYpgXEsfXEtKGgJKWgKfXEuWAsAAABwcm94eV9jbGFzc3EvY3JsbGFiLmVudnMubXVqb2NvLmFudF9lbnZfcmFuZApBbnRFbnZSYW5kCnEwdWJzaC9jcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnExdWJzaC9jc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcTJ1YnVic2gvY3JsbGFiLmJhc2VsaW5lcy5saW5lYXJfZmVhdHVyZV9iYXNlbGluZQpMaW5lYXJGZWF0dXJlQmFzZWxpbmUKcTN1YlgKAAAAYmF0Y2hfc2l6ZXE0TaAPWAYAAABwb2xpY3lxNU5oK2gkWAUAAABuX2l0cnE2SwRYDgAAAG9wdGltaXplcl9hcmdzcTd9cTgoWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcTljdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcTpYEQAAAHRmX29wdGltaXplcl9hcmdzcTt9cTxYDQAAAGxlYXJuaW5nX3JhdGVxPUc/4AAAAAAAAHNYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXE+Rz/wAAAAAAAAdVgPAAAAbWF4X3BhdGhfbGVuZ3RocT9LyHVoL2NzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnZwZwpWUEcKcUB1YlgFAAAAdHJhaW5xQSl9cUJ0cUN1Yi4='  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/random/goal2'
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/random/goal3'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxYQwAAAGRhdGEvbG9jYWwvcG9zdGljbWwtdHJwby1tYW1sLWFudHBvcy0yMDAvcmFuZGVudjEwMHRyYWovaXRyXzU3NS5wa2xxDVgJAAAAcmVzZXRfYXJncQ5jbnVtcHkuY29yZS5tdWx0aWFycmF5CnNjYWxhcgpxD2NudW1weQpkdHlwZQpxEFgCAAAAZjhxEUsASwGHcRJScRMoSwNYAQAAADxxFE5OTkr/////Sv////9LAHRxFWJDCG4N/RMgBu0/cRaGcRdScRhYCAAAAGJhc2VsaW5lcRloBimBcRp9cRsoaAkpaAp9cRxYCAAAAGVudl9zcGVjcR1jcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnEeKYFxH31xIChYCgAAAF9hdHRyX25hbWVxIVgEAAAAc3BlY3EiWAQAAABfb2JqcSNoBimBcSR9cSUoaAkpaAp9cSZYCwAAAHdyYXBwZWRfZW52cSdoBimBcSh9cSkoaAkpaAp9cSpYAwAAAGVudnEraAYpgXEsfXEtKGgJKWgKfXEuWAsAAABwcm94eV9jbGFzc3EvY3JsbGFiLmVudnMubXVqb2NvLmFudF9lbnZfcmFuZApBbnRFbnZSYW5kCnEwdWJzaC9jcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnExdWJzaC9jc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcTJ1YnVic2gvY3JsbGFiLmJhc2VsaW5lcy5saW5lYXJfZmVhdHVyZV9iYXNlbGluZQpMaW5lYXJGZWF0dXJlQmFzZWxpbmUKcTN1YlgKAAAAYmF0Y2hfc2l6ZXE0TaAPWAYAAABwb2xpY3lxNU5oK2gkWAUAAABuX2l0cnE2SwRYDgAAAG9wdGltaXplcl9hcmdzcTd9cTgoWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcTljdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcTpYEQAAAHRmX29wdGltaXplcl9hcmdzcTt9cTxYDQAAAGxlYXJuaW5nX3JhdGVxPUc/4AAAAAAAAHNYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXE+Rz/wAAAAAAAAdVgPAAAAbWF4X3BhdGhfbGVuZ3RocT9LyHVoL2NzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnZwZwpWUEcKcUB1YlgFAAAAdHJhaW5xQSl9cUJ0cUN1Yi4='  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/random/goal3'[32musing seed 1[0m
+2019-05-09 02:07:56.996873 HKT | Setting seed to 1
+2019-05-09 02:07:56.996894 HKT | Setting seed to 2
+2019-05-09 02:07:56.996912 HKT | Setting seed to 4
+2019-05-09 02:07:56.997129 HKT | Setting seed to 3
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 125)
+idx 0
+idx 1
+2019-05-09 02:07:58.468593 HKT | [test1/random/goal3] Populating workers...
+[32musing seed 1[0m
+obs_dim  125
+[32musing seed 3[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+[32musing seed 4[0m
+obs_dim  125
+idx 0
+idx 1
+[32musing seed 2[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+2019-05-09 02:07:59.375617 HKT | [test1/random/goal3] Populated
+2019-05-09 02:07:59.401871 HKT | [test1/random/goal3] itr #0 | Obtaining samples...
+2019-05-09 02:08:01.553687 HKT | [test1/random/goal3] itr #0 | Processing samples...
+2019-05-09 02:08:01.554153 HKT | [test1/random/goal3] itr #0 | fitting baseline...
+2019-05-09 02:08:01.584678 HKT | [test1/random/goal3] itr #0 | fitted
+2019-05-09 02:08:01.597975 HKT | [test1/random/goal3] itr #0 | Logging diagnostics...
+2019-05-09 02:08:01.599023 HKT | [test1/random/goal3] itr #0 | Optimizing policy...
+2019-05-09 02:08:01.599146 HKT | [test1/random/goal3] itr #0 | optimizing policy
+2019-05-09 02:08:01.882759 HKT | [test1/random/goal3] itr #0 | Saving snapshot...
+2019-05-09 02:08:01.888634 HKT | [test1/random/goal3] itr #0 | Saved
+2019-05-09 02:08:01.889311 HKT | ----------------------  -------------
+2019-05-09 02:08:01.889396 HKT | TotalExecTime               2.14902
+2019-05-09 02:08:01.889463 HKT | AverageReturn              24.1345
+2019-05-09 02:08:01.889522 HKT | ExplainedVariance           0.426429
+2019-05-09 02:08:01.889578 HKT | NumTrajs                   25
+2019-05-09 02:08:01.889634 HKT | Entropy                    10.7636
+2019-05-09 02:08:01.889688 HKT | Perplexity              47269.6
+2019-05-09 02:08:01.889743 HKT | StdReturn                  39.2306
+2019-05-09 02:08:01.889797 HKT | MaxReturn                 106.742
+2019-05-09 02:08:01.889851 HKT | MinReturn                 -62.6493
+2019-05-09 02:08:01.889906 HKT | AverageForwardProgress      0.104425
+2019-05-09 02:08:01.889960 HKT | MaxForwardProgress          1.7108
+2019-05-09 02:08:01.890014 HKT | MinForwardProgress         -1.7051
+2019-05-09 02:08:01.890067 HKT | StdForwardProgress          0.825419
+2019-05-09 02:08:01.890120 HKT | AveragePolicyStd            0.933012
+2019-05-09 02:08:01.890173 HKT | LossBefore                  0.0216151
+2019-05-09 02:08:01.890226 HKT | LossAfter                  -0.750821
+2019-05-09 02:08:01.890281 HKT | MeanKL                     40.0318
+2019-05-09 02:08:01.890333 HKT | MaxKL                     288.342
+2019-05-09 02:08:01.890386 HKT | Time                        2.48691
+2019-05-09 02:08:01.890438 HKT | ItrTime                     2.48691
+2019-05-09 02:08:01.890491 HKT | ----------------------  -------------
+2019-05-09 02:08:01.890672 HKT | [test1/random/goal3] itr #1 | Obtaining samples...
+2019-05-09 02:08:04.263939 HKT | [test1/random/goal3] itr #1 | Processing samples...
+2019-05-09 02:08:04.264406 HKT | [test1/random/goal3] itr #1 | fitting baseline...
+2019-05-09 02:08:04.293007 HKT | [test1/random/goal3] itr #1 | fitted
+2019-05-09 02:08:04.301668 HKT | [test1/random/goal3] itr #1 | Logging diagnostics...
+2019-05-09 02:08:04.302791 HKT | [test1/random/goal3] itr #1 | Optimizing policy...
+2019-05-09 02:08:04.302954 HKT | [test1/random/goal3] itr #1 | optimizing policy
+2019-05-09 02:08:04.426528 HKT | [test1/random/goal3] itr #1 | Saving snapshot...
+2019-05-09 02:08:04.436297 HKT | [test1/random/goal3] itr #1 | Saved
+2019-05-09 02:08:04.437495 HKT | ----------------------  -------------
+2019-05-09 02:08:04.437618 HKT | TotalExecTime               2.37056
+2019-05-09 02:08:04.437713 HKT | AverageReturn              31.8802
+2019-05-09 02:08:04.437799 HKT | ExplainedVariance           0.604827
+2019-05-09 02:08:04.437883 HKT | NumTrajs                   23
+2019-05-09 02:08:04.437966 HKT | Entropy                    10.8069
+2019-05-09 02:08:04.438048 HKT | Perplexity              49357.9
+2019-05-09 02:08:04.438129 HKT | StdReturn                  10.4183
+2019-05-09 02:08:04.438210 HKT | MaxReturn                  57.4308
+2019-05-09 02:08:04.438291 HKT | MinReturn                  15.9469
+2019-05-09 02:08:04.438373 HKT | AverageForwardProgress      0.21533
+2019-05-09 02:08:04.438452 HKT | MaxForwardProgress          0.706183
+2019-05-09 02:08:04.438533 HKT | MinForwardProgress         -0.116184
+2019-05-09 02:08:04.438614 HKT | StdForwardProgress          0.220517
+2019-05-09 02:08:04.438695 HKT | AveragePolicyStd            0.93711
+2019-05-09 02:08:04.438781 HKT | LossBefore                  0.0303801
+2019-05-09 02:08:04.438862 HKT | LossAfter                  -0.109278
+2019-05-09 02:08:04.438954 HKT | MeanKL                      0.88086
+2019-05-09 02:08:04.439039 HKT | MaxKL                      12.0868
+2019-05-09 02:08:04.439120 HKT | Time                        5.03461
+2019-05-09 02:08:04.439203 HKT | ItrTime                     2.54579
+2019-05-09 02:08:04.439284 HKT | ----------------------  -------------
+2019-05-09 02:08:04.439492 HKT | [test1/random/goal3] itr #2 | Obtaining samples...
+2019-05-09 02:08:06.648526 HKT | [test1/random/goal3] itr #2 | Processing samples...
+2019-05-09 02:08:06.649005 HKT | [test1/random/goal3] itr #2 | fitting baseline...
+2019-05-09 02:08:06.683904 HKT | [test1/random/goal3] itr #2 | fitted
+2019-05-09 02:08:06.695223 HKT | [test1/random/goal3] itr #2 | Logging diagnostics...
+2019-05-09 02:08:06.696479 HKT | [test1/random/goal3] itr #2 | Optimizing policy...
+2019-05-09 02:08:06.696652 HKT | [test1/random/goal3] itr #2 | optimizing policy
+2019-05-09 02:08:06.719324 HKT | [test1/random/goal3] itr #2 | Saving snapshot...
+2019-05-09 02:08:06.728196 HKT | [test1/random/goal3] itr #2 | Saved
+2019-05-09 02:08:06.729295 HKT | ----------------------  --------------
+2019-05-09 02:08:06.729421 HKT | TotalExecTime               2.20634
+2019-05-09 02:08:06.729531 HKT | AverageReturn              37.6854
+2019-05-09 02:08:06.729634 HKT | ExplainedVariance           0.691142
+2019-05-09 02:08:06.729734 HKT | NumTrajs                   25
+2019-05-09 02:08:06.729833 HKT | Entropy                    10.8372
+2019-05-09 02:08:06.729932 HKT | Perplexity              50880.5
+2019-05-09 02:08:06.730029 HKT | StdReturn                  27.3093
+2019-05-09 02:08:06.730127 HKT | MaxReturn                  77.4562
+2019-05-09 02:08:06.730223 HKT | MinReturn                 -43.6123
+2019-05-09 02:08:06.730319 HKT | AverageForwardProgress      0.442031
+2019-05-09 02:08:06.730414 HKT | MaxForwardProgress          1.29827
+2019-05-09 02:08:06.730511 HKT | MinForwardProgress         -1.10205
+2019-05-09 02:08:06.730606 HKT | StdForwardProgress          0.557277
+2019-05-09 02:08:06.730704 HKT | AveragePolicyStd            0.941106
+2019-05-09 02:08:06.730801 HKT | LossBefore                  0.00207223
+2019-05-09 02:08:06.730897 HKT | LossAfter                  -0.16949
+2019-05-09 02:08:06.731001 HKT | MeanKL                      2.0742
+2019-05-09 02:08:06.731097 HKT | MaxKL                      29.4235
+2019-05-09 02:08:06.731193 HKT | Time                        7.32651
+2019-05-09 02:08:06.731288 HKT | ItrTime                     2.28888
+2019-05-09 02:08:06.731383 HKT | ----------------------  --------------
+2019-05-09 02:08:06.731597 HKT | [test1/random/goal3] itr #3 | Obtaining samples...
+2019-05-09 02:08:08.972570 HKT | [test1/random/goal3] itr #3 | Processing samples...
+2019-05-09 02:08:08.973212 HKT | [test1/random/goal3] itr #3 | fitting baseline...
+2019-05-09 02:08:09.002680 HKT | [test1/random/goal3] itr #3 | fitted
+2019-05-09 02:08:09.012466 HKT | [test1/random/goal3] itr #3 | Logging diagnostics...
+2019-05-09 02:08:09.013718 HKT | [test1/random/goal3] itr #3 | Optimizing policy...
+2019-05-09 02:08:09.013871 HKT | [test1/random/goal3] itr #3 | optimizing policy
+2019-05-09 02:08:09.029932 HKT | [test1/random/goal3] itr #3 | Saving snapshot...
+2019-05-09 02:08:09.038224 HKT | [test1/random/goal3] itr #3 | Saved
+2019-05-09 02:08:09.039388 HKT | ----------------------  -------------
+2019-05-09 02:08:09.039529 HKT | TotalExecTime               2.23763
+2019-05-09 02:08:09.039637 HKT | AverageReturn              25.92
+2019-05-09 02:08:09.039733 HKT | ExplainedVariance           0.596403
+2019-05-09 02:08:09.039826 HKT | NumTrajs                   48
+2019-05-09 02:08:09.039924 HKT | Entropy                    10.8393
+2019-05-09 02:08:09.040017 HKT | Perplexity              50985.8
+2019-05-09 02:08:09.040108 HKT | StdReturn                  32.2585
+2019-05-09 02:08:09.040199 HKT | MaxReturn                 100.573
+2019-05-09 02:08:09.040290 HKT | MinReturn                 -36.444
+2019-05-09 02:08:09.040384 HKT | AverageForwardProgress      0.572884
+2019-05-09 02:08:09.040474 HKT | MaxForwardProgress          2.10058
+2019-05-09 02:08:09.040564 HKT | MinForwardProgress         -0.62372
+2019-05-09 02:08:09.040653 HKT | StdForwardProgress          0.724374
+2019-05-09 02:08:09.040741 HKT | AveragePolicyStd            0.941638
+2019-05-09 02:08:09.040830 HKT | LossBefore                  0.0130711
+2019-05-09 02:08:09.040919 HKT | LossAfter                  -0.16293
+2019-05-09 02:08:09.041008 HKT | MeanKL                     11.1472
+2019-05-09 02:08:09.041096 HKT | MaxKL                      86.2397
+2019-05-09 02:08:09.041184 HKT | Time                        9.63657
+2019-05-09 02:08:09.041273 HKT | ItrTime                     2.30684
+2019-05-09 02:08:09.041362 HKT | ----------------------  -------------
+[32musing seed 1[0m
+2019-05-09 02:08:11.061753 HKT | Setting seed to 3
+2019-05-09 02:08:11.061737 HKT | Setting seed to 1
+2019-05-09 02:08:11.061753 HKT | Setting seed to 2
+2019-05-09 02:08:11.062033 HKT | Setting seed to 4
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 125)
+idx 0
+idx 1
+2019-05-09 02:08:12.301767 HKT | [test1/random/goal4] Populating workers...
+[32musing seed 1[0m
+obs_dim  125
+idx 0
+idx 1
+idx 0
+idx 1
+[32musing seed 4[0m
+obs_dim  125
+[32musing seed 2[0m
+obs_dim  125
+idx 0
+[32musing seed 3[0m
+obs_dim  125
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+idx 0
+idx 1
+2019-05-09 02:08:13.219173 HKT | [test1/random/goal4] Populated
+2019-05-09 02:08:13.267749 HKT | [test1/random/goal4] itr #0 | Obtaining samples...
+2019-05-09 02:08:15.535569 HKT | [test1/random/goal4] itr #0 | Processing samples...
+2019-05-09 02:08:15.536246 HKT | [test1/random/goal4] itr #0 | fitting baseline...
+2019-05-09 02:08:15.615429 HKT | [test1/random/goal4] itr #0 | fitted
+2019-05-09 02:08:15.626550 HKT | [test1/random/goal4] itr #0 | Logging diagnostics...
+2019-05-09 02:08:15.631249 HKT | [test1/random/goal4] itr #0 | Optimizing policy...
+2019-05-09 02:08:15.632480 HKT | [test1/random/goal4] itr #0 | optimizing policy
+2019-05-09 02:08:15.938373 HKT | [test1/random/goal4] itr #0 | Saving snapshot...
+2019-05-09 02:08:15.947076 HKT | [test1/random/goal4] itr #0 | Saved
+2019-05-09 02:08:15.948189 HKT | ----------------------  -------------
+2019-05-09 02:08:15.948292 HKT | TotalExecTime               2.26402
+2019-05-09 02:08:15.948378 HKT | AverageReturn              89.0278
+2019-05-09 02:08:15.948460 HKT | ExplainedVariance           0.58727
+2019-05-09 02:08:15.948541 HKT | NumTrajs                   25
+2019-05-09 02:08:15.948620 HKT | Entropy                    10.7636
+2019-05-09 02:08:15.948699 HKT | Perplexity              47269.6
+2019-05-09 02:08:15.948777 HKT | StdReturn                  33.8447
+2019-05-09 02:08:15.948855 HKT | MaxReturn                 143.594
+2019-05-09 02:08:15.948932 HKT | MinReturn                  30.6967
+2019-05-09 02:08:15.949010 HKT | AverageForwardProgress      0.0330622
+2019-05-09 02:08:15.949088 HKT | MaxForwardProgress          1.7108
+2019-05-09 02:08:15.949166 HKT | MinForwardProgress         -1.7051
+2019-05-09 02:08:15.949241 HKT | StdForwardProgress          0.855567
+2019-05-09 02:08:15.949318 HKT | AveragePolicyStd            0.933012
+2019-05-09 02:08:15.949396 HKT | LossBefore                  0.0242404
+2019-05-09 02:08:15.949473 HKT | LossAfter                  -0.556105
+2019-05-09 02:08:15.949550 HKT | MeanKL                     47.5291
+2019-05-09 02:08:15.949627 HKT | MaxKL                     303.868
+2019-05-09 02:08:15.949705 HKT | Time                        2.67952
+2019-05-09 02:08:15.949782 HKT | ItrTime                     2.67952
+2019-05-09 02:08:15.949855 HKT | ----------------------  -------------
+2019-05-09 02:08:15.950103 HKT | [test1/random/goal4] itr #1 | Obtaining samples...
+2019-05-09 02:08:18.130080 HKT | [test1/random/goal4] itr #1 | Processing samples...
+2019-05-09 02:08:18.130699 HKT | [test1/random/goal4] itr #1 | fitting baseline...
+2019-05-09 02:08:18.178369 HKT | [test1/random/goal4] itr #1 | fitted
+2019-05-09 02:08:18.190088 HKT | [test1/random/goal4] itr #1 | Logging diagnostics...
+2019-05-09 02:08:18.191206 HKT | [test1/random/goal4] itr #1 | Optimizing policy...
+2019-05-09 02:08:18.191324 HKT | [test1/random/goal4] itr #1 | optimizing policy
+2019-05-09 02:08:18.315583 HKT | [test1/random/goal4] itr #1 | Saving snapshot...
+2019-05-09 02:08:18.321433 HKT | [test1/random/goal4] itr #1 | Saved
+2019-05-09 02:08:18.322098 HKT | ----------------------  -------------
+2019-05-09 02:08:18.322181 HKT | TotalExecTime               2.17739
+2019-05-09 02:08:18.322243 HKT | AverageReturn             117.076
+2019-05-09 02:08:18.322300 HKT | ExplainedVariance           0.961073
+2019-05-09 02:08:18.322353 HKT | NumTrajs                   23
+2019-05-09 02:08:18.322406 HKT | Entropy                    10.8121
+2019-05-09 02:08:18.322458 HKT | Perplexity              49617.7
+2019-05-09 02:08:18.322509 HKT | StdReturn                   8.42368
+2019-05-09 02:08:18.322560 HKT | MaxReturn                 129.877
+2019-05-09 02:08:18.322611 HKT | MinReturn                 100.251
+2019-05-09 02:08:18.322662 HKT | AverageForwardProgress      0.0690263
+2019-05-09 02:08:18.322712 HKT | MaxForwardProgress          0.362314
+2019-05-09 02:08:18.322763 HKT | MinForwardProgress         -0.299011
+2019-05-09 02:08:18.322813 HKT | StdForwardProgress          0.187397
+2019-05-09 02:08:18.322863 HKT | AveragePolicyStd            0.938402
+2019-05-09 02:08:18.322924 HKT | LossBefore                  0.089126
+2019-05-09 02:08:18.322985 HKT | LossAfter                  -0.0326845
+2019-05-09 02:08:18.323036 HKT | MeanKL                      0.641649
+2019-05-09 02:08:18.323087 HKT | MaxKL                       7.17594
+2019-05-09 02:08:18.323139 HKT | Time                        5.05382
+2019-05-09 02:08:18.323189 HKT | ItrTime                     2.37145
+2019-05-09 02:08:18.323240 HKT | ----------------------  -------------
+2019-05-09 02:08:18.323375 HKT | [test1/random/goal4] itr #2 | Obtaining samples...
+2019-05-09 02:08:20.690941 HKT | [test1/random/goal4] itr #2 | Processing samples...
+2019-05-09 02:08:20.691420 HKT | [test1/random/goal4] itr #2 | fitting baseline...
+2019-05-09 02:08:20.732583 HKT | [test1/random/goal4] itr #2 | fitted
+2019-05-09 02:08:20.740101 HKT | [test1/random/goal4] itr #2 | Logging diagnostics...
+2019-05-09 02:08:20.741247 HKT | [test1/random/goal4] itr #2 | Optimizing policy...
+2019-05-09 02:08:20.741402 HKT | [test1/random/goal4] itr #2 | optimizing policy
+2019-05-09 02:08:20.768140 HKT | [test1/random/goal4] itr #2 | Saving snapshot...
+2019-05-09 02:08:20.777194 HKT | [test1/random/goal4] itr #2 | Saved
+2019-05-09 02:08:20.778346 HKT | ----------------------  --------------
+2019-05-09 02:08:20.778460 HKT | TotalExecTime               2.36502
+2019-05-09 02:08:20.778561 HKT | AverageReturn             124.974
+2019-05-09 02:08:20.778658 HKT | ExplainedVariance           0.967073
+2019-05-09 02:08:20.778753 HKT | NumTrajs                   23
+2019-05-09 02:08:20.778846 HKT | Entropy                    10.9012
+2019-05-09 02:08:20.778947 HKT | Perplexity              54243
+2019-05-09 02:08:20.779042 HKT | StdReturn                   6.42474
+2019-05-09 02:08:20.779134 HKT | MaxReturn                 136.72
+2019-05-09 02:08:20.779227 HKT | MinReturn                 112.752
+2019-05-09 02:08:20.779319 HKT | AverageForwardProgress      0.217283
+2019-05-09 02:08:20.779411 HKT | MaxForwardProgress          0.492058
+2019-05-09 02:08:20.779503 HKT | MinForwardProgress         -0.0461276
+2019-05-09 02:08:20.779595 HKT | StdForwardProgress          0.148413
+2019-05-09 02:08:20.779686 HKT | AveragePolicyStd            0.94886
+2019-05-09 02:08:20.779778 HKT | LossBefore                  0.00867607
+2019-05-09 02:08:20.779869 HKT | LossAfter                  -0.130514
+2019-05-09 02:08:20.779967 HKT | MeanKL                      0.940586
+2019-05-09 02:08:20.780060 HKT | MaxKL                       8.25082
+2019-05-09 02:08:20.780152 HKT | Time                        7.50967
+2019-05-09 02:08:20.780244 HKT | ItrTime                     2.45402
+2019-05-09 02:08:20.780336 HKT | ----------------------  --------------
+2019-05-09 02:08:20.780548 HKT | [test1/random/goal4] itr #3 | Obtaining samples...
+2019-05-09 02:08:23.039272 HKT | [test1/random/goal4] itr #3 | Processing samples...
+2019-05-09 02:08:23.039721 HKT | [test1/random/goal4] itr #3 | fitting baseline...
+2019-05-09 02:08:23.087003 HKT | [test1/random/goal4] itr #3 | fitted
+2019-05-09 02:08:23.095610 HKT | [test1/random/goal4] itr #3 | Logging diagnostics...
+2019-05-09 02:08:23.096792 HKT | [test1/random/goal4] itr #3 | Optimizing policy...
+2019-05-09 02:08:23.096929 HKT | [test1/random/goal4] itr #3 | optimizing policy
+2019-05-09 02:08:23.119766 HKT | [test1/random/goal4] itr #3 | Saving snapshot...
+2019-05-09 02:08:23.128875 HKT | [test1/random/goal4] itr #3 | Saved
+2019-05-09 02:08:23.130023 HKT | ----------------------  -------------
+2019-05-09 02:08:23.130139 HKT | TotalExecTime               2.25516
+2019-05-09 02:08:23.130237 HKT | AverageReturn             114.828
+2019-05-09 02:08:23.130331 HKT | ExplainedVariance           0.827878
+2019-05-09 02:08:23.130423 HKT | NumTrajs                   24
+2019-05-09 02:08:23.130514 HKT | Entropy                    10.9099
+2019-05-09 02:08:23.130605 HKT | Perplexity              54715.7
+2019-05-09 02:08:23.130695 HKT | StdReturn                  31.0677
+2019-05-09 02:08:23.130786 HKT | MaxReturn                 149.449
+2019-05-09 02:08:23.130876 HKT | MinReturn                  25.3752
+2019-05-09 02:08:23.130994 HKT | AverageForwardProgress      0.420823
+2019-05-09 02:08:23.131087 HKT | MaxForwardProgress          1.69866
+2019-05-09 02:08:23.131177 HKT | MinForwardProgress         -1.76809
+2019-05-09 02:08:23.131267 HKT | StdForwardProgress          0.727193
+2019-05-09 02:08:23.131356 HKT | AveragePolicyStd            0.95023
+2019-05-09 02:08:23.131446 HKT | LossBefore                 -0.0255988
+2019-05-09 02:08:23.131536 HKT | LossAfter                  -0.212044
+2019-05-09 02:08:23.131626 HKT | MeanKL                      1.23022
+2019-05-09 02:08:23.131716 HKT | MaxKL                      12.2174
+2019-05-09 02:08:23.131806 HKT | Time                        9.86134
+2019-05-09 02:08:23.131896 HKT | ItrTime                     2.34853
+2019-05-09 02:08:23.131985 HKT | ----------------------  -------------
+[32musing seed 1[0m
+2019-05-09 02:08:25.130347 HKT | Setting seed to 1
+2019-05-09 02:08:25.130371 HKT | Setting seed to 2
+2019-05-09 02:08:25.130381 HKT | Setting seed to 3
+2019-05-09 02:08:25.130730 HKT | Setting seed to 4
+obs_dim  127
+idx 0
+idx 1
+idx 0
+idx 1
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 126)
+idx 0
+[32musing seed 1[0m
+[32musing seed 1[0m
+2019-05-09 02:08:28.055569 HKT | Setting seed to 2
+2019-05-09 02:08:28.055603 HKT | Setting seed to 4
+2019-05-09 02:08:28.055726 HKT | Setting seed to 1
+2019-05-09 02:08:28.056756 HKT | Setting seed to 3
+obs_dim  127
+idx 0
+idx 1
+idx 0
+idx 1
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 126)
+idx 0
+[32musing seed 2[0m
+[32musing seed 1[0m
+2019-05-09 02:08:31.031546 HKT | Setting seed to 1
+2019-05-09 02:08:31.031585 HKT | Setting seed to 3
+2019-05-09 02:08:31.031585 HKT | Setting seed to 2
+2019-05-09 02:08:31.031846 HKT | Setting seed to 4
+obs_dim  127
+idx 0
+idx 1
+idx 0
+idx 1
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 126)
+idx 0
+[32musing seed 1[0m
+[32musing seed 4[0m
+
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/random/goal4'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxYQwAAAGRhdGEvbG9jYWwvcG9zdGljbWwtdHJwby1tYW1sLWFudHBvcy0yMDAvcmFuZGVudjEwMHRyYWovaXRyXzU3NS5wa2xxDVgJAAAAcmVzZXRfYXJncQ5jbnVtcHkuY29yZS5tdWx0aWFycmF5CnNjYWxhcgpxD2NudW1weQpkdHlwZQpxEFgCAAAAZjhxEUsASwGHcRJScRMoSwNYAQAAADxxFE5OTkr/////Sv////9LAHRxFWJDCNqHqnVYLdw/cRaGcRdScRhYCAAAAGJhc2VsaW5lcRloBimBcRp9cRsoaAkpaAp9cRxYCAAAAGVudl9zcGVjcR1jcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnEeKYFxH31xIChYCgAAAF9hdHRyX25hbWVxIVgEAAAAc3BlY3EiWAQAAABfb2JqcSNoBimBcSR9cSUoaAkpaAp9cSZYCwAAAHdyYXBwZWRfZW52cSdoBimBcSh9cSkoaAkpaAp9cSpYAwAAAGVudnEraAYpgXEsfXEtKGgJKWgKfXEuWAsAAABwcm94eV9jbGFzc3EvY3JsbGFiLmVudnMubXVqb2NvLmFudF9lbnZfcmFuZApBbnRFbnZSYW5kCnEwdWJzaC9jcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnExdWJzaC9jc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcTJ1YnVic2gvY3JsbGFiLmJhc2VsaW5lcy5saW5lYXJfZmVhdHVyZV9iYXNlbGluZQpMaW5lYXJGZWF0dXJlQmFzZWxpbmUKcTN1YlgKAAAAYmF0Y2hfc2l6ZXE0TaAPWAYAAABwb2xpY3lxNU5oK2gkWAUAAABuX2l0cnE2SwRYDgAAAG9wdGltaXplcl9hcmdzcTd9cTgoWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcTljdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcTpYEQAAAHRmX29wdGltaXplcl9hcmdzcTt9cTxYDQAAAGxlYXJuaW5nX3JhdGVxPUc/4AAAAAAAAHNYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXE+Rz/wAAAAAAAAdVgPAAAAbWF4X3BhdGhfbGVuZ3RocT9LyHVoL2NzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnZwZwpWUEcKcUB1YlgFAAAAdHJhaW5xQSl9cUJ0cUN1Yi4='  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/random/goal4'
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/oracle/goal0'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxYRQAAAGRhdGEvbG9jYWwvcG9zdGljbWwtdHJwby1tYW1sLWFudHBvcy0yMDAvb3JhY2xlZW52MTAwdHJhai9pdHJfNTUwLnBrbHENWAkAAAByZXNldF9hcmdxDmNudW1weS5jb3JlLm11bHRpYXJyYXkKc2NhbGFyCnEPY251bXB5CmR0eXBlCnEQWAIAAABmOHERSwBLAYdxElJxEyhLA1gBAAAAPHEUTk5OSv////9K/////0sAdHEVYkMIBK37y10E9D9xFoZxF1JxGFgIAAAAYmFzZWxpbmVxGWgGKYFxGn1xGyhoCSloCn1xHFgIAAAAZW52X3NwZWNxHWNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcR4pgXEffXEgKFgKAAAAX2F0dHJfbmFtZXEhWAQAAABzcGVjcSJYBAAAAF9vYmpxI2gGKYFxJH1xJShoCSloCn1xJlgLAAAAd3JhcHBlZF9lbnZxJ2gGKYFxKH1xKShoCSloCn1xKlgDAAAAZW52cStoBimBcSx9cS0oaAkpaAp9cS5YCwAAAHByb3h5X2NsYXNzcS9jcmxsYWIuZW52cy5tdWpvY28uYW50X2Vudl9vcmFjbGUKQW50RW52T3JhY2xlCnEwdWJzaC9jcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnExdWJzaC9jc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcTJ1YnVic2gvY3JsbGFiLmJhc2VsaW5lcy5saW5lYXJfZmVhdHVyZV9iYXNlbGluZQpMaW5lYXJGZWF0dXJlQmFzZWxpbmUKcTN1YlgKAAAAYmF0Y2hfc2l6ZXE0TaAPWAYAAABwb2xpY3lxNU5oK2gkWAUAAABuX2l0cnE2SwFYDgAAAG9wdGltaXplcl9hcmdzcTd9cTgoWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcTljdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcTpYEQAAAHRmX29wdGltaXplcl9hcmdzcTt9cTxYDQAAAGxlYXJuaW5nX3JhdGVxPUcAAAAAAAAAAHNYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXE+RwAAAAAAAAAAdVgPAAAAbWF4X3BhdGhfbGVuZ3RocT9LyHVoL2NzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnZwZwpWUEcKcUB1YlgFAAAAdHJhaW5xQSl9cUJ0cUN1Yi4='  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/oracle/goal0'
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/oracle/goal1'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxYRQAAAGRhdGEvbG9jYWwvcG9zdGljbWwtdHJwby1tYW1sLWFudHBvcy0yMDAvb3JhY2xlZW52MTAwdHJhai9pdHJfNTUwLnBrbHENWAkAAAByZXNldF9hcmdxDmNudW1weS5jb3JlLm11bHRpYXJyYXkKc2NhbGFyCnEPY251bXB5CmR0eXBlCnEQWAIAAABmOHERSwBLAYdxElJxEyhLA1gBAAAAPHEUTk5OSv////9K/////0sAdHEVYkMIPTTMdqxJAUBxFoZxF1JxGFgIAAAAYmFzZWxpbmVxGWgGKYFxGn1xGyhoCSloCn1xHFgIAAAAZW52X3NwZWNxHWNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcR4pgXEffXEgKFgKAAAAX2F0dHJfbmFtZXEhWAQAAABzcGVjcSJYBAAAAF9vYmpxI2gGKYFxJH1xJShoCSloCn1xJlgLAAAAd3JhcHBlZF9lbnZxJ2gGKYFxKH1xKShoCSloCn1xKlgDAAAAZW52cStoBimBcSx9cS0oaAkpaAp9cS5YCwAAAHByb3h5X2NsYXNzcS9jcmxsYWIuZW52cy5tdWpvY28uYW50X2Vudl9vcmFjbGUKQW50RW52T3JhY2xlCnEwdWJzaC9jcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnExdWJzaC9jc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcTJ1YnVic2gvY3JsbGFiLmJhc2VsaW5lcy5saW5lYXJfZmVhdHVyZV9iYXNlbGluZQpMaW5lYXJGZWF0dXJlQmFzZWxpbmUKcTN1YlgKAAAAYmF0Y2hfc2l6ZXE0TaAPWAYAAABwb2xpY3lxNU5oK2gkWAUAAABuX2l0cnE2SwFYDgAAAG9wdGltaXplcl9hcmdzcTd9cTgoWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcTljdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcTpYEQAAAHRmX29wdGltaXplcl9hcmdzcTt9cTxYDQAAAGxlYXJuaW5nX3JhdGVxPUcAAAAAAAAAAHNYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXE+RwAAAAAAAAAAdVgPAAAAbWF4X3BhdGhfbGVuZ3RocT9LyHVoL2NzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnZwZwpWUEcKcUB1YlgFAAAAdHJhaW5xQSl9cUJ0cUN1Yi4='  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/oracle/goal1'
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/oracle/goal2'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxYRQAAAGRhdGEvbG9jYWwvcG9zdGljbWwtdHJwby1tYW1sLWFudHBvcy0yMDAvb3JhY2xlZW52MTAwdHJhai9pdHJfNTUwLnBrbHENWAkAAAByZXNldF9hcmdxDmNudW1weS5jb3JlLm11bHRpYXJyYXkKc2NhbGFyCnEPY251bXB5CmR0eXBlCnEQWAIAAABmOHERSwBLAYdxElJxEyhLA1gBAAAAPHEUTk5OSv////9K/////0sAdHEVYkMIAFDJTKx8Nj9xFoZxF1JxGFgIAAAAYmFzZWxpbmVxGWgGKYFxGn1xGyhoCSloCn1xHFgIAAAAZW52X3NwZWNxHWNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcR4pgXEffXEgKFgKAAAAX2F0dHJfbmFtZXEhWAQAAABzcGVjcSJYBAAAAF9vYmpxI2gGKYFxJH1xJShoCSloCn1xJlgLAAAAd3JhcHBlZF9lbnZxJ2gGKYFxKH1xKShoCSloCn1xKlgDAAAAZW52cStoBimBcSx9cS0oaAkpaAp9cS5YCwAAAHByb3h5X2NsYXNzcS9jcmxsYWIuZW52cy5tdWpvY28uYW50X2Vudl9vcmFjbGUKQW50RW52T3JhY2xlCnEwdWJzaC9jcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnExdWJzaC9jc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcTJ1YnVic2gvY3JsbGFiLmJhc2VsaW5lcy5saW5lYXJfZmVhdHVyZV9iYXNlbGluZQpMaW5lYXJGZWF0dXJlQmFzZWxpbmUKcTN1YlgKAAAAYmF0Y2hfc2l6ZXE0TaAPWAYAAABwb2xpY3lxNU5oK2gkWAUAAABuX2l0cnE2SwFYDgAAAG9wdGltaXplcl9hcmdzcTd9cTgoWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcTljdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcTpYEQAAAHRmX29wdGltaXplcl9hcmdzcTt9cTxYDQAAAGxlYXJuaW5nX3JhdGVxPUcAAAAAAAAAAHNYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXE+RwAAAAAAAAAAdVgPAAAAbWF4X3BhdGhfbGVuZ3RocT9LyHVoL2NzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnZwZwpWUEcKcUB1YlgFAAAAdHJhaW5xQSl9cUJ0cUN1Yi4='  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/oracle/goal2'
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/oracle/goal3'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxYRQAAAGRhdGEvbG9jYWwvcG9zdGljbWwtdHJwby1tYW1sLWFudHBvcy0yMDAvb3JhY2xlZW52MTAwdHJhai9pdHJfNTUwLnBrbHENWAkAAAByZXNldF9hcmdxDmNudW1weS5jb3JlLm11bHRpYXJyYXkKc2NhbGFyCnEPY251bXB5CmR0eXBlCnEQWAIAAABmOHERSwBLAYdxElJxEyhLA1gBAAAAPHEUTk5OSv////9K/////0sAdHEVYkMIbg39EyAG7T9xFoZxF1JxGFgIAAAAYmFzZWxpbmVxGWgGKYFxGn1xGyhoCSloCn1xHFgIAAAAZW52X3NwZWNxHWNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcR4pgXEffXEgKFgKAAAAX2F0dHJfbmFtZXEhWAQAAABzcGVjcSJYBAAAAF9vYmpxI2gGKYFxJH1xJShoCSloCn1xJlgLAAAAd3JhcHBlZF9lbnZxJ2gGKYFxKH1xKShoCSloCn1xKlgDAAAAZW52cStoBimBcSx9cS0oaAkpaAp9cS5YCwAAAHByb3h5X2NsYXNzcS9jcmxsYWIuZW52cy5tdWpvY28uYW50X2Vudl9vcmFjbGUKQW50RW52T3JhY2xlCnEwdWJzaC9jcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnExdWJzaC9jc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcTJ1YnVic2gvY3JsbGFiLmJhc2VsaW5lcy5saW5lYXJfZmVhdHVyZV9iYXNlbGluZQpMaW5lYXJGZWF0dXJlQmFzZWxpbmUKcTN1YlgKAAAAYmF0Y2hfc2l6ZXE0TaAPWAYAAABwb2xpY3lxNU5oK2gkWAUAAABuX2l0cnE2SwFYDgAAAG9wdGltaXplcl9hcmdzcTd9cTgoWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcTljdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcTpYEQAAAHRmX29wdGltaXplcl9hcmdzcTt9cTxYDQAAAGxlYXJuaW5nX3JhdGVxPUcAAAAAAAAAAHNYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXE+RwAAAAAAAAAAdVgPAAAAbWF4X3BhdGhfbGVuZ3RocT9LyHVoL2NzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnZwZwpWUEcKcUB1YlgFAAAAdHJhaW5xQSl9cUJ0cUN1Yi4='  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/oracle/goal3'[32musing seed 1[0m
+2019-05-09 02:08:33.817944 HKT | Setting seed to 4
+2019-05-09 02:08:33.817933 HKT | Setting seed to 1
+2019-05-09 02:08:33.817933 HKT | Setting seed to 2
+2019-05-09 02:08:33.818117 HKT | Setting seed to 3
+obs_dim  127
+idx 0
+idx 1
+idx 0
+idx 1
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 126)
+idx 0
+[32musing seed 1[0m
+2019-05-09 02:08:36.656215 HKT | Setting seed to 2
+2019-05-09 02:08:36.656186 HKT | Setting seed to 1
+2019-05-09 02:08:36.656730 HKT | Setting seed to 3
+2019-05-09 02:08:36.656953 HKT | Setting seed to 4
+obs_dim  127
+idx 0
+idx 1
+idx 0
+idx 1
+reccur  0
+[(8,), (8,)]
+[]
+shape  (?, 126)
+idx 0
+[32musing seed 1[0m
+[32musing seed 2[0m
+
+python /home/akvasov/repos/maml_rl/scripts/run_experiment_lite.py  --log_dir '/home/akvasov/repos/maml_rl/data/local/ant-test-posticml/test1/oracle/goal4'  --snapshot_mode 'all'  --n_parallel '4'  --args_data 'gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYCwAAAGxvYWRfcG9saWN5cQxYRQAAAGRhdGEvbG9jYWwvcG9zdGljbWwtdHJwby1tYW1sLWFudHBvcy0yMDAvb3JhY2xlZW52MTAwdHJhai9pdHJfNTUwLnBrbHENWAkAAAByZXNldF9hcmdxDmNudW1weS5jb3JlLm11bHRpYXJyYXkKc2NhbGFyCnEPY251bXB5CmR0eXBlCnEQWAIAAABmOHERSwBLAYdxElJxEyhLA1gBAAAAPHEUTk5OSv////9K/////0sAdHEVYkMI2oeqdVgt3D9xFoZxF1JxGFgIAAAAYmFzZWxpbmVxGWgGKYFxGn1xGyhoCSloCn1xHFgIAAAAZW52X3NwZWNxHWNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcR4pgXEffXEgKFgKAAAAX2F0dHJfbmFtZXEhWAQAAABzcGVjcSJYBAAAAF9vYmpxI2gGKYFxJH1xJShoCSloCn1xJlgLAAAAd3JhcHBlZF9lbnZxJ2gGKYFxKH1xKShoCSloCn1xKlgDAAAAZW52cStoBimBcSx9cS0oaAkpaAp9cS5YCwAAAHByb3h5X2NsYXNzcS9jcmxsYWIuZW52cy5tdWpvY28uYW50X2Vudl9vcmFjbGUKQW50RW52T3JhY2xlCnEwdWJzaC9jcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnExdWJzaC9jc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcTJ1YnVic2gvY3JsbGFiLmJhc2VsaW5lcy5saW5lYXJfZmVhdHVyZV9iYXNlbGluZQpMaW5lYXJGZWF0dXJlQmFzZWxpbmUKcTN1YlgKAAAAYmF0Y2hfc2l6ZXE0TaAPWAYAAABwb2xpY3lxNU5oK2gkWAUAAABuX2l0cnE2SwFYDgAAAG9wdGltaXplcl9hcmdzcTd9cTgoWBAAAAB0Zl9vcHRpbWl6ZXJfY2xzcTljdGVuc29yZmxvdy5weXRob24udHJhaW5pbmcuZ3JhZGllbnRfZGVzY2VudApHcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIKcTpYEQAAAHRmX29wdGltaXplcl9hcmdzcTt9cTxYDQAAAGxlYXJuaW5nX3JhdGVxPUcAAAAAAAAAAHNYEgAAAGluaXRfbGVhcm5pbmdfcmF0ZXE+RwAAAAAAAAAAdVgPAAAAbWF4X3BhdGhfbGVuZ3RocT9LyHVoL2NzYW5kYm94LnJvY2t5LnRmLmFsZ29zLnZwZwpWUEcKcUB1YlgFAAAAdHJhaW5xQSl9cUJ0cUN1Yi4='  --plot 'True'  --use_cloudpickle 'False'  --seed '1'  --exp_name 'test1/oracle/goal4'
+data/local/posticml-trpo-maml-antpos-200/maml1_fbs20_mbs20_flr_0.1_mlr0.01/itr_375.pkl
+[15.218347947824999]
+[133.5235070870202]
+None
+[-13.075935147947726]
+[83.50837756681074]
+data/local/posticml-trpo-maml-antpos-200/randenv100traj/itr_575.pkl
+[28.59893386677304]
+[114.50163582860331]

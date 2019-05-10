@@ -2,6 +2,7 @@
 from sandbox.rocky.tf.algos.trpo import TRPO
 from sandbox.rocky.tf.algos.vpg import VPG
 from sandbox.rocky.tf.policies.minimal_gauss_mlp_policy import GaussianMLPPolicy
+# from sandbox.rocky.tf.policies.categorical_mlp_policy import CategoricalMLPPolicy
 from sandbox.rocky.tf.envs.base import TfEnv
 from rllab.baselines.linear_feature_baseline import LinearFeatureBaseline
 from maml_examples.point_env_randgoal_oracle import PointEnvRandGoalOracle

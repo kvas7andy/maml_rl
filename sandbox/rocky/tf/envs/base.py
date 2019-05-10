@@ -33,7 +33,7 @@ class WrappedCls(object):
 class TfEnv(ProxyEnv):
     @cached_property
     def observation_space(self):
-        return to_tf_space(self.wrapped_env.observation_space)
+        return to_tf_space(self.wrapped_env.spec.observation_space)
 
     @cached_property
     def action_space(self):

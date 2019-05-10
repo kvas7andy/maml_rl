@@ -41,6 +41,7 @@ class VPG(BatchPolopt, Serializable):
     @overrides
     def init_opt(self):
         is_recurrent = int(self.policy.recurrent)
+        print('reccur ', is_recurrent)
 
         obs_var = self.env.observation_space.new_tensor_variable(
             'obs',
@@ -57,12 +58,14 @@ class VPG(BatchPolopt, Serializable):
         )
         dist = self.policy.distribution
 
+        print([shape for k,shape in dist.dist_info_specs])
         old_dist_info_vars = {
             k: tf.placeholder(tf.float32, shape=[None] * (1 + is_recurrent) + list(shape), name='old_%s' % k)
             for k, shape in dist.dist_info_specs
             }
         old_dist_info_vars_list = [old_dist_info_vars[k] for k in dist.dist_info_keys]
 
+        print([shape for k, shape in self.policy.state_info_specs])
         state_info_vars = {
             k: tf.placeholder(tf.float32, shape=[None] * (1 + is_recurrent) + list(shape), name=k)
             for k, shape in self.policy.state_info_specs
@@ -74,6 +77,7 @@ class VPG(BatchPolopt, Serializable):
         else:
             valid_var = None
 
+        print('shape ', obs_var.get_shape())
         dist_info_vars = self.policy.dist_info_sym(obs_var, state_info_vars)
         logli = dist.log_likelihood_sym(action_var, dist_info_vars)
         kl = dist.kl_sym(old_dist_info_vars, dist_info_vars)
